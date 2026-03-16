@@ -1,11 +1,7 @@
 // routes/search.js
 const express = require("express");
 const router = express.Router();
-const low = require("lowdb");
-const FileSync = require("lowdb/adapters/FileSync");
-
-const adapter = new FileSync("db.json");
-const db = low(adapter);
+const db = require("../utils/db");
 
 // GET /api/search?q=...
 router.get("/search", (req, res) => {
@@ -13,6 +9,7 @@ router.get("/search", (req, res) => {
   if (!q) return res.json([]);
 
   const query = q.toLowerCase();
+  db.read();
 
   const results = db
     .get("achievements")

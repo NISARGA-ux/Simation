@@ -1,20 +1,14 @@
 // backend/routes/leaderboard.js
 const express = require("express");
-const low = require("lowdb");
-const FileSync = require("lowdb/adapters/FileSync");
-
 const router = express.Router();
-const adapter = new FileSync("db.json");
-const db = low(adapter);
-
-// Ensure defaults exist
-db.defaults({ users: [] }).write();
+const db = require("../utils/db");
 
 // GET /api/leaderboard?department=CSE&branch=AI%20ML&year=2
 router.get("/", (req, res) => {
   try {
     const { department, branch, year } = req.query;
-    let users = db.get("users").value();
+    db.read();
+    let users = (db.get("users").value() || []).filter((u) => u.role === "student");
 
     // Apply filters
     if (department) users = users.filter((u) => u.department === department);
