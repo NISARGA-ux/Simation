@@ -302,7 +302,7 @@ function SkillDetail({ skill, onClose }) {
             <div className="bg-amber-50 rounded-xl p-4">
               <p className="text-sm text-amber-700">
                 <span className="font-semibold">Talent gap:</span> No students in your
-                college currently have this skill in their portfolio. This is an opportunity!
+                college currently have this skill in their portfolio. This is a skill gap worth exploring.
               </p>
             </div>
           )}

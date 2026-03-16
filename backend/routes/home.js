@@ -31,7 +31,7 @@ const suggestionSchema = {
 router.get("/", async (req, res) => {
   try {
     const query =
-      "latest student opportunities in AI ML cybersecurity open source hackathons GSoC ICPC internships";
+      "latest student tech skills AI ML cybersecurity open source learning resources GSoC ICPC career tips";
 
     const [tavilyResults, serpResults] = await Promise.all([
       searchTavily(query, Number(process.env.TAVILY_MAX_RESULTS || 5)),

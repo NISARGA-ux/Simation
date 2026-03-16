@@ -7,7 +7,6 @@ import MainLayout from "./layouts/MainLayout";
 // Student Pages
 import Home from "./pages/Home";
 import Leaderboard from "./pages/Leaderboard";
-import MentorHub from "./pages/MentorHub";
 import Profile from "./pages/Profile";
 import Quiz from "./pages/Quiz";
 import Resume from "./pages/Resume";
@@ -19,8 +18,6 @@ import RecProfile from "./pages/RecProfile";
 import RecJD from "./pages/RecJD";
 
 // Mentor Pages
-import MentorHome from "./pages/Mentorhome";
-import MentorOpportunities from "./pages/MentorOpportunities";
 import MentorProfile from "./pages/MentorProfile";
 
 function ProtectedRoute({ children }) {
@@ -43,7 +40,7 @@ function DashboardRedirect() {
   const role = user.role;
   if (role === "recruiter") return <Navigate to="/rechome" replace />;
   if (role === "student") return <Navigate to="/home" replace />;
-  if (role === "mentor" || role === "faculty") return <Navigate to="/mentorhub" replace />;
+  if (role === "mentor" || role === "faculty") return <Navigate to="/mentorprofile" replace />;
   return <Navigate to="/home" replace />;
 }
 
@@ -67,7 +64,6 @@ export default function App() {
             <Route path="/home" element={<RoleRoute allowedRoles={["student"]}><Home /></RoleRoute>} />
             <Route path="/resume" element={<RoleRoute allowedRoles={["student"]}><Resume /></RoleRoute>} />
             <Route path="/profile" element={<RoleRoute allowedRoles={["student"]}><Profile /></RoleRoute>} />
-            <Route path="/mentorhub" element={<RoleRoute allowedRoles={["student","mentor","faculty"]}><MentorHub /></RoleRoute>} />
             <Route path="/quiz" element={<RoleRoute allowedRoles={["student"]}><Quiz /></RoleRoute>} />
 
             {/* Recruiter routes */}
@@ -77,9 +73,7 @@ export default function App() {
             <Route path="/recprofile" element={<RoleRoute allowedRoles={["recruiter"]}><RecProfile /></RoleRoute>} />
 
             {/* Mentor routes */}
-            <Route path="/mentorhome" element={<RoleRoute allowedRoles={["mentor","faculty"]}><MentorHome /></RoleRoute>} />
             <Route path="/mentorprofile" element={<RoleRoute allowedRoles={["mentor","faculty"]}><MentorProfile /></RoleRoute>} />
-            <Route path="/mentoropportunities" element={<RoleRoute allowedRoles={["mentor","faculty"]}><MentorOpportunities /></RoleRoute>} />
 
             {/* Shared */}
             <Route path="/leaderboard" element={<ProtectedRoute><Leaderboard /></ProtectedRoute>} />

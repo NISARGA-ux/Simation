@@ -60,7 +60,6 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
             <li><Link to="/home" onClick={toggleSidebar}>📈 Skills Market</Link></li>
             <li><Link to="/resume" onClick={toggleSidebar}>📄 Resume Analyzer</Link></li>
             <li><Link to="/profile" onClick={toggleSidebar}>👤 Profile</Link></li>
-            <li><Link to="/mentorhub" onClick={toggleSidebar}>🎯 Opportunities</Link></li>
             <li><Link to="/quiz" onClick={toggleSidebar}>📝 Career Quiz</Link></li>
             <li><Link to="/leaderboard" onClick={toggleSidebar}>🏆 Leaderboard</Link></li>
           </>
@@ -80,9 +79,7 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
         {/* MENTOR/FACULTY MENU */}
         {(role === "mentor" || role === "faculty") && (
           <>
-            <li><Link to="/mentorhome" onClick={toggleSidebar}>🏠 Dashboard</Link></li>
             <li><Link to="/mentorprofile" onClick={toggleSidebar}>👤 Profile</Link></li>
-            <li><Link to="/mentoropportunities" onClick={toggleSidebar}>🎯 Post Opportunities</Link></li>
             <li><Link to="/leaderboard" onClick={toggleSidebar}>🏆 Leaderboard</Link></li>
           </>
         )}

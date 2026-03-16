@@ -13,7 +13,6 @@ db.defaults({
   mentors: [],
   achievements: [],
   notifications: [],
-  opportunities: [],
   students: [],
   skillsMarketCache: null,
 }).write();

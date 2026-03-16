@@ -12,7 +12,50 @@
       "department": "CSE",
       "branch": "AIML",
       "avatar": "dog.jpg",
-      "totalPoints": 50
+      "totalPoints": 135,
+      "githubUsername": "harpreet-2146",
+      "githubImportedAt": "2026-03-16T16:35:02.569Z",
+      "skillAssessment": {
+        "ratings": [
+          {
+            "skill": "React",
+            "rating": 3
+          },
+          {
+            "skill": "Node.js",
+            "rating": 4
+          },
+          {
+            "skill": "TypeScript",
+            "rating": 2
+          },
+          {
+            "skill": "SQL",
+            "rating": 1
+          },
+          {
+            "skill": "MongoDB",
+            "rating": 3
+          },
+          {
+            "skill": "Docker",
+            "rating": 3
+          },
+          {
+            "skill": "AWS",
+            "rating": 2
+          },
+          {
+            "skill": "Next.js",
+            "rating": 1
+          }
+        ],
+        "marketability": 77,
+        "topGaps": [
+          "AWS"
+        ],
+        "assessedAt": "2026-03-16T16:44:30.866Z"
+      }
     },
     {
       "id": 2,
@@ -1111,7 +1154,7 @@
       "id": 35,
       "studentId": 15,
       "title": "AI Course Mentor",
-      "description": "Mentored juniors in completing Andrew Ng\u2019s ML course.",
+      "description": "Mentored juniors in completing Andrew Ng’s ML course.",
       "domain": "Other",
       "proof": "mentor_certificate.pdf",
       "points": 21
@@ -2357,7 +2400,7 @@
     {
       "id": 243,
       "studentId": 10,
-      "title": "ANSYS Fluent CFD \u2013 Wing Analysis",
+      "title": "ANSYS Fluent CFD – Wing Analysis",
       "description": "Performed CFD analysis of a NACA 4412 wing section at various angles of attack in ANSYS Fluent, generating lift/drag polars and pressure coefficient plots.",
       "domain": "Project",
       "proof": "pooja_ansys_wing.pdf",
@@ -2391,7 +2434,7 @@
     {
       "id": 245,
       "studentId": 10,
-      "title": "ISRO Internship \u2013 Satellite Thermal",
+      "title": "ISRO Internship – Satellite Thermal",
       "description": "Interned at ISRO URSC working on thermal analysis of satellite panels using Thermal Desktop, documented heat dissipation models for LEO orbit.",
       "domain": "Internship",
       "proof": "linkedin.com/in/poojanair-isro",
@@ -2530,7 +2573,7 @@
       "id": 253,
       "studentId": 12,
       "title": "HTML/CSS/JS Responsive Website",
-      "description": "Built a fully responsive NGO website with CSS Grid, Flexbox, dark mode, and optimized Web Vitals scores \u2014 deployed on GitHub Pages.",
+      "description": "Built a fully responsive NGO website with CSS Grid, Flexbox, dark mode, and optimized Web Vitals scores — deployed on GitHub Pages.",
       "domain": "Project",
       "proof": "https://github.com/sanak/ngo-website",
       "points": 16,
@@ -3081,7 +3124,7 @@
     {
       "id": 285,
       "studentId": 19,
-      "title": "CAD Assembly \u2013 Quadcopter Frame",
+      "title": "CAD Assembly – Quadcopter Frame",
       "description": "Designed a complete quadcopter airframe assembly in CATIA V5 with tolerance stack-up analysis and Bill of Materials.",
       "domain": "Project",
       "proof": "adityar_quadcopter_cad.stp",
@@ -3287,7 +3330,7 @@
     {
       "id": 297,
       "studentId": 22,
-      "title": "Solidworks FEA \u2013 Robotic Gripper",
+      "title": "Solidworks FEA – Robotic Gripper",
       "description": "Designed a pneumatic robotic gripper in SolidWorks and ran FEA to validate structural integrity under 50N gripping force.",
       "domain": "Project",
       "proof": "anjalim_gripper_fea.pdf",
@@ -3375,7 +3418,7 @@
     {
       "id": 302,
       "studentId": 23,
-      "title": "Competitive Programming \u2013 Codeforces",
+      "title": "Competitive Programming – Codeforces",
       "description": "Achieved Codeforces rating of 1850 (Expert level) by solving 400+ problems in contest, specializing in graph algorithms and segment trees.",
       "domain": "Competition",
       "proof": "https://codeforces.com/raghavc",
@@ -3393,7 +3436,7 @@
     {
       "id": 303,
       "studentId": 23,
-      "title": "SDE Internship \u2013 Google",
+      "title": "SDE Internship – Google",
       "description": "Completed 12-week SDE internship at Google Bangalore working on Google Maps routing algorithm optimization, achieving 8% latency reduction.",
       "domain": "Internship",
       "proof": "linkedin.com/in/raghavc-google",
@@ -3428,7 +3471,7 @@
     {
       "id": 305,
       "studentId": 24,
-      "title": "C Programming \u2013 Embedded Systems",
+      "title": "C Programming – Embedded Systems",
       "description": "Completed an embedded C programming course with hands-on STM32 microcontroller projects including GPIO, UART, I2C, and SPI peripherals.",
       "domain": "Course",
       "proof": "nikitas_embedded_c.pdf",
@@ -4055,7 +4098,7 @@
     {
       "id": 341,
       "studentId": 33,
-      "title": "Physical Design \u2013 Cadence Innovus",
+      "title": "Physical Design – Cadence Innovus",
       "description": "Completed full physical design flow in Cadence Innovus for a RISC-V core: floorplan, placement, CTS, routing, and timing signoff.",
       "domain": "Project",
       "proof": "sakshij_innovus_pd.pdf",
@@ -4073,7 +4116,7 @@
     {
       "id": 342,
       "studentId": 33,
-      "title": "Semiconductor Internship \u2013 Texas Instruments",
+      "title": "Semiconductor Internship – Texas Instruments",
       "description": "Interned at Texas Instruments Bangalore in the analog design team, working on bandgap reference circuit design in 65nm CMOS.",
       "domain": "Internship",
       "proof": "linkedin.com/in/sakshij-ti",
@@ -4681,7 +4724,7 @@
     {
       "id": 377,
       "studentId": 41,
-      "title": "Adobe Internship \u2013 ML Platform",
+      "title": "Adobe Internship – ML Platform",
       "description": "Interned at Adobe Research Bangalore building automated feature extraction pipeline for Adobe Firefly generative AI models.",
       "domain": "Internship",
       "proof": "linkedin.com/in/ishitav-adobe",
@@ -4926,7 +4969,7 @@
     {
       "id": 391,
       "studentId": 45,
-      "title": "Network Security Internship \u2013 Cisco",
+      "title": "Network Security Internship – Cisco",
       "description": "Interned at Cisco Systems working on firewall policy analysis automation using Python and Cisco API, reducing review time by 65%.",
       "domain": "Internship",
       "proof": "linkedin.com/in/sanyam-cisco",
@@ -5120,7 +5163,7 @@
     {
       "id": 402,
       "studentId": 47,
-      "title": "Flipkart ML Hackathon \u2013 Top 5",
+      "title": "Flipkart ML Hackathon – Top 5",
       "description": "Achieved top 5 finish in Flipkart GRiD Machine Learning track by building a product category classifier with 97.3% accuracy using LLM embeddings.",
       "domain": "Competition",
       "proof": "flipkart_grid_anjalir.pdf",
@@ -5412,6 +5455,81 @@
       "proof": null,
       "points": 10,
       "createdAt": "2026-03-16T12:24:47.388Z"
+    },
+    {
+      "id": 1773678910843,
+      "userId": 1,
+      "studentId": 1,
+      "title": "Built a Distributed Intelligence Engine with JavaScript",
+      "description": "HIVEMIND is a real-time truth, reasoning, and insight engine built with JavaScript, demonstrating expertise in distributed systems and AI/ML concepts. The project showcases a complex system with potential applications in various domains.",
+      "domain": "AI/ML",
+      "skillTags": [
+        "JavaScript",
+        "Distributed Systems"
+      ],
+      "difficultyLevel": "Advanced",
+      "points": 30,
+      "proof": "https://github.com/harpreet-2146",
+      "source": "github-import",
+      "createdAt": "2026-03-16T16:35:02.503Z",
+      "enrichedAt": "2026-03-16T16:35:02.503Z"
+    },
+    {
+      "id": 1773678903638,
+      "userId": 1,
+      "studentId": 1,
+      "title": "Developed Multiple Web Applications with JavaScript and React",
+      "description": "Various repositories such as Shoe-Brand-Landing-Page-first-react-, todo, and green-cart demonstrate proficiency in building web applications using JavaScript and React, showcasing a strong foundation in front-end development.",
+      "domain": "Web Development",
+      "skillTags": [
+        "JavaScript",
+        "React",
+        "HTML",
+        "CSS"
+      ],
+      "difficultyLevel": "Intermediate",
+      "points": 20,
+      "proof": "https://github.com/harpreet-2146",
+      "source": "github-import",
+      "createdAt": "2026-03-16T16:35:02.523Z",
+      "enrichedAt": "2026-03-16T16:35:02.523Z"
+    },
+    {
+      "id": 1773678906887,
+      "userId": 1,
+      "studentId": 1,
+      "title": "Explored Blockchain and Decentralized Systems with Rust",
+      "description": "The Decentralized-freelance-platform- repository indicates an interest in blockchain and decentralized systems, with Rust as the programming language of choice, highlighting a willingness to explore emerging technologies.",
+      "domain": "Other",
+      "skillTags": [
+        "Rust",
+        "Blockchain",
+        "Decentralized Systems"
+      ],
+      "difficultyLevel": "Advanced",
+      "points": 25,
+      "proof": "https://github.com/harpreet-2146",
+      "source": "github-import",
+      "createdAt": "2026-03-16T16:35:02.538Z",
+      "enrichedAt": "2026-03-16T16:35:02.538Z"
+    },
+    {
+      "id": 1773678904600,
+      "userId": 1,
+      "studentId": 1,
+      "title": "Built Small-Scale Projects with Python and Java",
+      "description": "Repositories like oscode-pc-1 and eclipseX demonstrate familiarity with Python and Java, respectively, through small-scale projects, indicating a broad range of programming skills.",
+      "domain": "Other",
+      "skillTags": [
+        "Python",
+        "Java"
+      ],
+      "difficultyLevel": "Beginner",
+      "points": 10,
+      "proof": "https://github.com/harpreet-2146",
+      "source": "github-import",
+      "createdAt": "2026-03-16T16:35:02.554Z",
+      "enrichedAt": "2026-03-16T16:35:02.554Z"
     }
   ],
   "opportunities": [
@@ -5530,7 +5648,7 @@
           "sampleTitles": [
             "Software Engineer with Docker, Kubernetes - Only W2",
             "Docker MLOps Engineer",
-            "DevOps Engineer with Docker and Kubernetes \ud83c\udfc6",
+            "DevOps Engineer with Docker and Kubernetes 🏆",
             "Sr. Platform Engineer - Linux OS, Docker, Shell/Python Scripting"
           ],
           "locations": [
@@ -5606,12 +5724,12 @@
             {
               "title": "$50-$169/hr Docker Jobs (NOW HIRING) Mar 2026 - ZipRecruiter",
               "url": "https://www.ziprecruiter.com/Jobs/Docker",
-              "snippet": "Browse 60 DOCKER jobs ($50-$169/hr) hiring now\u2014entry-level to senior roles. Find job postings near you & 1-click apply to your next"
+              "snippet": "Browse 60 DOCKER jobs ($50-$169/hr) hiring now—entry-level to senior roles. Find job postings near you & 1-click apply to your next"
             },
             {
               "title": "2026 Job Market Shift: Skill-Stacking and Networking Key to Success",
               "url": "https://www.linkedin.com/posts/dockerstaebler_what-the-job-markets-freeze-means-for-activity-7432923031162900480-5MbQ",
-              "snippet": "The 2026 job market isn't slowing down. It's becoming performance-driven. In revenue cycle, coding, auditing, HIM, and CDI \u2014 hiring is no longer"
+              "snippet": "The 2026 job market isn't slowing down. It's becoming performance-driven. In revenue cycle, coding, auditing, HIM, and CDI — hiring is no longer"
             },
             {
               "title": "Docker: Average Salary & Pay Trends 2026 - Glassdoor",
@@ -5723,17 +5841,17 @@
             {
               "title": "Top 10 Azure Trends to Look Out for in 2026",
               "url": "https://learntube.ai/blog/information-technology/azure/top-10-azure-trends-to-look-out-for-in-2024/",
-              "snippet": "Azure is Microsoft\u2019s cloud computing platform, offering a wide range of services and tools for building, deploying, and managing applications. In 2026, we expect Azure Hybrid Cloud to become even more"
+              "snippet": "Azure is Microsoft’s cloud computing platform, offering a wide range of services and tools for building, deploying, and managing applications. In 2026, we expect Azure Hybrid Cloud to become even more"
             },
             {
               "title": "Top Azure Trends Every Business Needs to Know in 2026",
               "url": "https://www.bacancytechnology.com/blog/azure-trends",
-              "snippet": "***Stay ahead in 2026 by exploring the latest Azure trends, including AI, cloud security, edge computing, and more. And Microsoft isn\u2019t stopping there; it keeps investing more in Azure every year, imp"
+              "snippet": "***Stay ahead in 2026 by exploring the latest Azure trends, including AI, cloud security, edge computing, and more. And Microsoft isn’t stopping there; it keeps investing more in Azure every year, imp"
             },
             {
               "title": "Future Scope of Microsoft Azure [Top Trends in 2026]",
               "url": "https://www.knowledgehut.com/blog/cloud-computing/azure-future",
-              "snippet": "Azure Future: Top Azure Trends to Look in 2026 \u00b7 1. Use of Azure to Power Verticalized Strategies \u00b7 2. More Use of AI and Machine Learning Powered"
+              "snippet": "Azure Future: Top Azure Trends to Look in 2026 · 1. Use of Azure to Power Verticalized Strategies · 2. More Use of AI and Machine Learning Powered"
             }
           ],
           "articleCount": 3
@@ -5763,7 +5881,7 @@
           ],
           "sampleTitles": [
             "AI/ML Engineer - Drug Discovery",
-            "Lead AI/ML Developer ML, AI \ud83c\udfc6",
+            "Lead AI/ML Developer ML, AI 🏆",
             "Machine Learning Software Engineer",
             "Python/R Machine Learning Model Developer"
           ],
@@ -5962,7 +6080,7 @@
             {
               "title": "Staying ahead Construction Staffing Trends for 2026",
               "url": "https://k2staffinginc.com/the-year-ahead-emerging-construction-staffing-trends-contractors-must-know-in-2026/",
-              "snippet": "This guide is for construction contractors, project managers, and HR leaders who need to stay ahead of hiring challenges and build stronger teams. You\u2019ll also learn about flexible workforce models con"
+              "snippet": "This guide is for construction contractors, project managers, and HR leaders who need to stay ahead of hiring challenges and build stronger teams. You’ll also learn about flexible workforce models con"
             },
             {
               "title": "2026 Workforce Forecast: Where the Jobs Will Be",
@@ -6088,7 +6206,7 @@
             {
               "title": "AI Hiring in 2026: Talent, Pay & Readiness - Hunt Scanlon Media",
               "url": "https://huntscanlon.com/ai-hiring-in-2026-talent-pay-readiness/",
-              "snippet": "In many organizations, AI now not only influences but drives product roadmaps, capital allocation, and long-term planning, according to a recent report from Riviera Partners. \u201cReadiness has little to "
+              "snippet": "In many organizations, AI now not only influences but drives product roadmaps, capital allocation, and long-term planning, according to a recent report from Riviera Partners. “Readiness has little to "
             }
           ],
           "articleCount": 3
@@ -6212,7 +6330,7 @@
             {
               "title": "The Future of Python: Career Opportunities in 2026 and Beyond",
               "url": "https://www.linkedin.com/pulse/future-python-career-opportunities-2026-beyond-majid-basharat-d4idf",
-              "snippet": "1. The Rise of AI, ML, and Data Science \u00b7 2. Python in Automation and Cybersecurity \u00b7 3. Web Development and API Integration \u00b7 4. Emerging Areas:"
+              "snippet": "1. The Rise of AI, ML, and Data Science · 2. Python in Automation and Cybersecurity · 3. Web Development and API Integration · 4. Emerging Areas:"
             },
             {
               "title": "Belitsoft Explains How to Hire Top Dedicated Python Developers in ...",
@@ -6249,7 +6367,7 @@
             "appfigures.com"
           ],
           "sampleTitles": [
-            "Web App Developer (JavaScript, HTML) \ud83c\udfc6",
+            "Web App Developer (JavaScript, HTML) 🏆",
             "Remote JavaScript Developer (React) at Veeam Software Remote",
             "JavaScript Developer (100% remote)",
             "JavaScript Developer for Real-Time 3D Avatar Lip Sync (Web Audio + WebGL)"
@@ -6327,12 +6445,12 @@
             {
               "title": "2026 JavaScript Hiring Trends: Full-Stack Clarity, Seniority, AI ...",
               "url": "https://www.linkedin.com/posts/charliewitten_javascript-hiring-in-2026-a-few-things-i-activity-7424425097337405440-cWpr",
-              "snippet": "\ud83d\udcbb Full Stack Developers: Everyone Focuses on Skills - Top Candidates Focus Here \ud83d\udcbb \ud83d\ude13 You can code in React, Node.js, and Python, but your applications still get ignored. Over the past 2+ years, I sh"
+              "snippet": "💻 Full Stack Developers: Everyone Focuses on Skills - Top Candidates Focus Here 💻 😓 You can code in React, Node.js, and Python, but your applications still get ignored. Over the past 2+ years, I sh"
             },
             {
               "title": "JavaScript Trends to Watch in 2026 | by Yadav, Niteesh - Stackademic",
               "url": "https://blog.stackademic.com/javascript-trends-to-watch-in-2026-d9b09a694f67",
-              "snippet": "## JavaScript isn\u2019t just evolving \u2014 it\u2019s consolidating. If you\u2019re building serious web applications, these trends will directly impact how you write, ship, and scale JavaScript code. If you\u2019re new to "
+              "snippet": "## JavaScript isn’t just evolving — it’s consolidating. If you’re building serious web applications, these trends will directly impact how you write, ship, and scale JavaScript code. If you’re new to "
             },
             {
               "title": "Why TypeScript Is the #1 Skill Companies Must Hire for in 2026",
@@ -6451,12 +6569,12 @@
             {
               "title": "DevOps Engineering in 2026: Top Trends, In-Demand ...",
               "url": "https://www.refontelearning.com/blog/devops-engineering-in-2026-top-trends-in-demand-skills-and-career-strategies",
-              "snippet": "This comprehensive guide explores the **top DevOps trends in 2026**, the skills employers are looking for, and how you can build a future-proof career in DevOps. We\u2019ll also discuss why hands-on experi"
+              "snippet": "This comprehensive guide explores the **top DevOps trends in 2026**, the skills employers are looking for, and how you can build a future-proof career in DevOps. We’ll also discuss why hands-on experi"
             },
             {
               "title": "The New Frontier: 2026 DevOps Trends You Can't Ignore",
               "url": "https://dev.to/meena_nukala/the-new-frontier-2026-devops-trends-you-cant-ignore-5g8f",
-              "snippet": "## DEV Community. # The New Frontier: 2026 DevOps Trends You Can\u2019t Ignore. On DEV Community this month, the conversation has pivoted toward Strategic Value, Developer Experience (DevEx), and AI-Native"
+              "snippet": "## DEV Community. # The New Frontier: 2026 DevOps Trends You Can’t Ignore. On DEV Community this month, the conversation has pivoted toward Strategic Value, Developer Experience (DevEx), and AI-Native"
             }
           ],
           "articleCount": 3
@@ -6563,7 +6681,7 @@
             {
               "title": "Highest Paying Math Jobs | 2026 Rexzone Jobs - RemoExperts",
               "url": "https://www.rex.zone/blog/highest-paying-math-jobs-2026-rexzone-jobs",
-              "snippet": "Industry Deep Dives: Roles, Compensation, and Tooling Remote Pathway: Earn $25\u2013$45/hr Training AI on Rex.zone Skills Map: Core Math and Complementary Skills for Top Pay Earnings Benchmarks, Hourly Con"
+              "snippet": "Industry Deep Dives: Roles, Compensation, and Tooling Remote Pathway: Earn $25–$45/hr Training AI on Rex.zone Skills Map: Core Math and Complementary Skills for Top Pay Earnings Benchmarks, Hourly Con"
             },
             {
               "title": "Mathematics Careers: Opportunities and Trends in 2026",
@@ -6682,7 +6800,7 @@
             {
               "title": "Why Java Is Still a Smart Career Choice in 2026 (Even After 25+ ...",
               "url": "https://blog.stackademic.com/why-java-is-still-a-smart-career-choice-in-2026-even-after-25-years-f730a4de4e43",
-              "snippet": "4\ufe0f\u20e3 Job Market. Thousands of companies still hire Java developers. It may not trend on Instagram. But HR teams are still searching for \u201cJava"
+              "snippet": "4️⃣ Job Market. Thousands of companies still hire Java developers. It may not trend on Instagram. But HR teams are still searching for “Java"
             },
             {
               "title": "Java in 2026: The Hiring Data Says It Is Not Dying (It Is Consolidating)",
@@ -6692,7 +6810,7 @@
             {
               "title": "Java Developer Expectations in 2026: Cloud Deployments & More",
               "url": "https://www.linkedin.com/posts/narendra-sahoo-155b2a132_what-companies-actually-expect-from-a-java-activity-7416316367945039872--QSu",
-              "snippet": "What Companies Actually Expect from a Java Developer in 2026 Job descriptions today don\u2019t hire: \u274c Java coders \u2705 Java engineers They expect: \u2022 Cloud deployments \u2022 API security \u2022 Kafka-based async flows"
+              "snippet": "What Companies Actually Expect from a Java Developer in 2026 Job descriptions today don’t hire: ❌ Java coders ✅ Java engineers They expect: • Cloud deployments • API security • Kafka-based async flows"
             }
           ],
           "articleCount": 3
@@ -6920,17 +7038,17 @@
             {
               "title": "$53-$750/hr Splunk Jobs (NOW HIRING) Mar 2026 - ZipRecruiter",
               "url": "https://www.ziprecruiter.com/Jobs/Splunk",
-              "snippet": "Browse 60 SPLUNK jobs ($53-$750/hr) hiring now\u2014entry-level to senior roles. Find job postings near you & 1-click apply to your next"
+              "snippet": "Browse 60 SPLUNK jobs ($53-$750/hr) hiring now—entry-level to senior roles. Find job postings near you & 1-click apply to your next"
             },
             {
               "title": "Your 2026 IT and Technology Salary Guide: Tech Trends Driving the ...",
               "url": "https://www.splunk.com/en_us/blog/learn/it-salaries.html",
-              "snippet": "* **Overall IT salaries are shaped by a mixed market** where baseline roles face slow growth while specialized skills\u2014especially in AI, cloud, and cybersecurity\u2014drive higher compensation. * **Top IT r"
+              "snippet": "* **Overall IT salaries are shaped by a mixed market** where baseline roles face slow growth while specialized skills—especially in AI, cloud, and cybersecurity—drive higher compensation. * **Top IT r"
             },
             {
               "title": "756 splunk Jobs in Bethesda, MD, January 2026 | Glassdoor",
               "url": "https://www.glassdoor.com/Job/bethesda-md-splunk-jobs-SRCH_IL.0,11_IC1153817_KO12,18.htm",
-              "snippet": "756 Splunk jobs in Bethesda, MD ; Splunk Systems Engineer - TS/SCI w/Poly \u00b7 $102K - $138K (Employer provided) ; Cyber Incident Detector (SWING SHIFT) - TS/SCI with"
+              "snippet": "756 Splunk jobs in Bethesda, MD ; Splunk Systems Engineer - TS/SCI w/Poly · $102K - $138K (Employer provided) ; Cyber Incident Detector (SWING SHIFT) - TS/SCI with"
             }
           ],
           "articleCount": 3
@@ -7049,7 +7167,7 @@
             {
               "title": "React JS Development Trends 2026 | Future of React Development",
               "url": "http://www.codewraps.com/blogs-details/react-js-development-trends-in-2026",
-              "snippet": "React JS Development Trends in 2026. With major architectural shifts like Server Components, enhanced Suspense, and React Native\u2019s growing role in enterprise-grade apps, the ecosystem is evolving fast"
+              "snippet": "React JS Development Trends in 2026. With major architectural shifts like Server Components, enhanced Suspense, and React Native’s growing role in enterprise-grade apps, the ecosystem is evolving fast"
             }
           ],
           "articleCount": 3
@@ -7159,7 +7277,7 @@
             {
               "title": "Top 10 High-Paying AWS Jobs in 2025: Roles, Skills & AWS Salary ...",
               "url": "https://k21academy.com/aws-cloud/top-10-high-paying-aws-jobs-in-2026-aws-salary/",
-              "snippet": "AWS Solutions Architects are the \u201cblueprint creators\u201d of the cloud world. ### **2) AWS Cloud Engineer**. * Senior cloud data engineers: \u20b930\u201340 LPA. ### **5) AWS Security Engineer**. * Entry-level (SOC"
+              "snippet": "AWS Solutions Architects are the “blueprint creators” of the cloud world. ### **2) AWS Cloud Engineer**. * Senior cloud data engineers: ₹30–40 LPA. ### **5) AWS Security Engineer**. * Entry-level (SOC"
             },
             {
               "title": "AWS Careers in 2026: High-Demand Skills, Salary Trends, and the ...",
@@ -7169,7 +7287,7 @@
             {
               "title": "Which Job Is Best in AWS in 2026? High-Paying Roles & Career Path",
               "url": "https://www.fusion-institute.com/which-job-is-best-in-aws-in-2026-high-paying-roles-and-career-path",
-              "snippet": "Top High-Paying AWS Jobs in 2026 \u00b7 AWS Solutions Architect \u00b7 AWS DevOps Engineer \u00b7 AWS Cloud Engineer \u00b7 AWS Security Engineer \u00b7 AWS Data Engineer /"
+              "snippet": "Top High-Paying AWS Jobs in 2026 · AWS Solutions Architect · AWS DevOps Engineer · AWS Cloud Engineer · AWS Security Engineer · AWS Data Engineer /"
             }
           ],
           "articleCount": 3
@@ -7525,7 +7643,7 @@
             {
               "title": "IoT in 2026: Four trending topics | Saft | Batteries to energize the world",
               "url": "https://saft.com/en/energizing-iot/iot-2026-four-trending-topics",
-              "snippet": "IoT in 2026: Four trending topics \u00b7 1. Edge processing reaches a new level of maturity \u00b7 2. The Rise of predictive health and 'wellbeing' IoT \u00b7 3."
+              "snippet": "IoT in 2026: Four trending topics · 1. Edge processing reaches a new level of maturity · 2. The Rise of predictive health and 'wellbeing' IoT · 3."
             },
             {
               "title": "Iot Workers Market Size, Growth Drivers & ROI 2026-2033 - LinkedIn",
@@ -7654,7 +7772,7 @@
             {
               "title": "2026 Hiring Trends: An End-of-Year Outlook",
               "url": "https://www.symphonytalent.com/blog/symphonytalent-com-blog-2026-hiring-trends-end-of-year-outlook/",
-              "snippet": "*Summary: As 2025 comes to a close, talent acquisition leaders are preparing for a 2026 hiring landscape defined by balance \u2014 between innovation and human connection, technology and strategy. While hi"
+              "snippet": "*Summary: As 2025 comes to a close, talent acquisition leaders are preparing for a 2026 hiring landscape defined by balance — between innovation and human connection, technology and strategy. While hi"
             }
           ],
           "articleCount": 3
@@ -7691,7 +7809,7 @@
             "Cyber Data and Infrastructure Security Engineering Developer, Mid Level",
             "Full Stack Developer",
             "Software Developer - Security Code Review",
-            "Cyber Security Developer \u2013 Mid Level (3-5 yrs)"
+            "Cyber Security Developer – Mid Level (3-5 yrs)"
           ],
           "locations": [
             "Tampa, FL",
@@ -7943,9 +8061,9 @@
             "Boys And Girls Clubs Of King County"
           ],
           "sampleTitles": [
-            "Backend Developer \u2013 Associate",
+            "Backend Developer – Associate",
             "Club Development Representative - Dugout Sports",
-            "Salesforce Developer \u2013 Hybrid",
+            "Salesforce Developer – Hybrid",
             "WordPress Developer / Marketing"
           ],
           "locations": [
@@ -8019,7 +8137,7 @@
         "news": {
           "articles": [
             {
-              "title": "How Hiring Trends Are Changing in 2026\u2014And What They Mean for ...",
+              "title": "How Hiring Trends Are Changing in 2026—And What They Mean for ...",
               "url": "https://www.roberthalf.com/us/en/insights/landing-job/why-hiring-trends-may-be-better-than-they-appear",
               "snippet": "Search jobs now   Find the right job type for you   Explore how we help job seekers        Contract talent   Permanent talent   Learn how we work with you     Executive search     Finance and Accounti"
             },
@@ -8031,7 +8149,7 @@
             {
               "title": "5 hiring trends recruiters can expect in 2026 | HR Dive",
               "url": "https://www.hrdive.com/news/hiring-2026-trends-recruiting-acquisition-skills/810551/",
-              "snippet": "The job market may favor employers at the moment, but that doesn\u2019t mean recruitment has gotten easier, one expert told HR Dive. A job seeker speaks with a recruiter at a job fair on April 30, 2025, in"
+              "snippet": "The job market may favor employers at the moment, but that doesn’t mean recruitment has gotten easier, one expert told HR Dive. A job seeker speaks with a recruiter at a job fair on April 30, 2025, in"
             }
           ],
           "articleCount": 3
@@ -8140,7 +8258,7 @@
             {
               "title": "Data and analytics hiring in strong demand heading into 2026",
               "url": "https://www.spiceworks.com/it-careers/data-and-analytics-hiring-in-strong-demand-heading-into-2026/",
-              "snippet": "He says the highest demand for data management and analytics roles is when employers understand the relationship of AI with the data feeding it. \u201cAcross the workforce, we can see consistent hiring for"
+              "snippet": "He says the highest demand for data management and analytics roles is when employers understand the relationship of AI with the data feeding it. “Across the workforce, we can see consistent hiring for"
             },
             {
               "title": "Why Data Analytics Jobs Are Booming in 2026: Career Growth ...",
@@ -8257,10 +8375,10 @@
             {
               "title": "Top Predictions for Workforce Trends in Education (2026)",
               "url": "https://www.cornerstoneondemand.com/resources/article/education-workforce-trends/",
-              "snippet": "The new \u201c2026 Human + AI Workforce Predictions\u201d report highlights five major shifts that will redefine how organizations design work, develop talent, and deploy AI over the next few years. Here\u2019s how "
+              "snippet": "The new “2026 Human + AI Workforce Predictions” report highlights five major shifts that will redefine how organizations design work, develop talent, and deploy AI over the next few years. Here’s how "
             },
             {
-              "title": "5 Workforce Trends Reshaping Hiring Strategy in 2026\u2014And How ...",
+              "title": "5 Workforce Trends Reshaping Hiring Strategy in 2026—And How ...",
               "url": "https://www.generation.org/news/5-workforce-trends-reshaping-hiring-strategy-in-2026-and-how-to-get-ahead/",
               "snippet": "This creates a massive opportunity for employers who invest in skills-based training programs. According to our 2025 Global Alumni Survey, 79% of employed alumni are working in roles related to their "
             },
@@ -8378,7 +8496,7 @@
             {
               "title": "Cloud Computing Hiring Trends 2026: What to Watch Out For (For ...",
               "url": "https://cloudcomputingjobs.co.uk/career-advice/cloud-computing-hiring-trends-2026-what-to-watch-out-for-for-job-seekers-recruiters-",
-              "snippet": "Many organisations are tightening budgets, some are rationalising cloud spend, yet demand for strong cloud talent remains high \u2013 especially around multi-cloud, FinOps, cloud security, data platforms &"
+              "snippet": "Many organisations are tightening budgets, some are rationalising cloud spend, yet demand for strong cloud talent remains high – especially around multi-cloud, FinOps, cloud security, data platforms &"
             },
             {
               "title": "Which Cloud Jobs will survive in 2026",
@@ -8388,7 +8506,7 @@
             {
               "title": "The Best Cloud Careers to Choose in 2026 (Ranked From S Tier to ...",
               "url": "https://medium.com/@sovannaro/the-best-cloud-careers-to-choose-in-2026-ranked-from-s-tier-to-f-tier-f45d62c55796",
-              "snippet": "Why It's Growing: \u00b7 Strong compensation \u00b7 Increasing demand \u00b7 High visibility with leadership \u00b7 Direct impact on developer productivity."
+              "snippet": "Why It's Growing: · Strong compensation · Increasing demand · High visibility with leadership · Direct impact on developer productivity."
             }
           ],
           "articleCount": 3
@@ -8499,7 +8617,7 @@
             {
               "title": "Which Cloud Jobs will survive in 2026 - Neal Davis - Medium",
               "url": "https://neal-davis.medium.com/which-cloud-jobs-will-survive-in-2026-37e96a4b993e",
-              "snippet": "The three strongest cloud roles for 2026 \u00b7 Cloud architect \u00b7 Cloud engineer \u00b7 Cloud AI or ML engineer."
+              "snippet": "The three strongest cloud roles for 2026 · Cloud architect · Cloud engineer · Cloud AI or ML engineer."
             },
             {
               "title": "Is Google Cloud a Good Career Choice in 2026! - LinkedIn",
@@ -8611,7 +8729,7 @@
             {
               "title": "Hiring Trends 2026: The Aerospace & Defense Outlook - MKIS",
               "url": "https://mkis.us/hiring-trends-2026-the-aerospace-defense-outlook/",
-              "snippet": "This article cuts through the noise to show A&D employers what\u2019s working right now and why professional recruitment partners matter more than ever. **Hiring in 2026: The A&D Talent Market Today**. Aro"
+              "snippet": "This article cuts through the noise to show A&D employers what’s working right now and why professional recruitment partners matter more than ever. **Hiring in 2026: The A&D Talent Market Today**. Aro"
             },
             {
               "title": "Aerospace Industry Predictions for 2026 and What It Means for Jobs ...",
@@ -8743,9 +8861,9 @@
               "snippet": "* If hiring remains strong in healthcare, and job creation continues in line with rates observed in recent years, job openings could remain relatively high and unemployment could remain low, especiall"
             },
             {
-              "title": "Where The Jobs Are In 2026\u2014And How To Actually Land One",
+              "title": "Where The Jobs Are In 2026—And How To Actually Land One",
               "url": "https://www.forbes.com/sites/bryanrobinson/2026/01/18/where-the-jobs-are-in-2026-and-how-to-actually-land-one/",
-              "snippet": "Burnout, return-to-office mandates, leadership turnover and rapid AI disruption have created one of the most psychologically driven job markets in decades. Monster\u2019s 2026 Job Market Outlook, based on "
+              "snippet": "Burnout, return-to-office mandates, leadership turnover and rapid AI disruption have created one of the most psychologically driven job markets in decades. Monster’s 2026 Job Market Outlook, based on "
             }
           ],
           "articleCount": 3
@@ -8986,12 +9104,12 @@
             {
               "title": "20 Jobs That Will Be in Demand in 2026 and Beyond",
               "url": "https://www.aarp.org/work/job-search/in-demand-jobs-2026/",
-              "snippet": "Job Search Help from AARP and Indeed. AARP focused on roles that might appeal to older adults because the\ufeffy offer opportunities for part-time or remote work, flexible schedules or may not require exte"
+              "snippet": "Job Search Help from AARP and Indeed. AARP focused on roles that might appeal to older adults because the﻿y offer opportunities for part-time or remote work, flexible schedules or may not require exte"
             },
             {
               "title": "Where the Jobs Are in 2026 and How to Actually Get One",
               "url": "https://www.forbes.com/sites/bryanrobinson/2026/01/18/where-the-jobs-are-in-2026-and-how-to-actually-land-one/",
-              "snippet": "Burnout, return-to-office mandates, leadership turnover and rapid AI disruption have created one of the most psychologically driven job markets in decades. Monster\u2019s 2026 Job Market Outlook, based on "
+              "snippet": "Burnout, return-to-office mandates, leadership turnover and rapid AI disruption have created one of the most psychologically driven job markets in decades. Monster’s 2026 Job Market Outlook, based on "
             }
           ],
           "articleCount": 3
@@ -9082,7 +9200,7 @@
             {
               "title": "Crypto Hiring Slows in 2026; Solana Challenges Ethereum - Phemex",
               "url": "https://phemex.com/news/article/crypto-hiring-slows-in-2026-solana-challenges-ethereums-talent-lead-53926",
-              "snippet": "Trade with 0 Fee & Share Luxury Prize Pool. 450,000 USDT Phemex Astral Trading League \u00b7 Pisces. Explore futures events and earn generous rewards. Automate Your Trading, 24/7. Learn How to Trade with Z"
+              "snippet": "Trade with 0 Fee & Share Luxury Prize Pool. 450,000 USDT Phemex Astral Trading League · Pisces. Explore futures events and earn generous rewards. Automate Your Trading, 24/7. Learn How to Trade with Z"
             },
             {
               "title": "Web3 Hiring Trends in 2026: Tech, AI, and Leadership Roles ... - Bitget",
@@ -9092,7 +9210,7 @@
             {
               "title": "Crypto and blockchain jobs in 2026: salaries, compliance, and hiring ...",
               "url": "https://www.fintechcareers.com/blog/crypto-and-blockchain-jobs-in-2026-salaries-compliance-and-hiring-trends/",
-              "snippet": "# Crypto and blockchain jobs in 2026: salaries, compliance, and hiring trends. \u2022 The most in-demand crypto and blockchain roles. ## What are crypto and blockchain jobs in 2026? Crypto and blockchain j"
+              "snippet": "# Crypto and blockchain jobs in 2026: salaries, compliance, and hiring trends. • The most in-demand crypto and blockchain roles. ## What are crypto and blockchain jobs in 2026? Crypto and blockchain j"
             }
           ],
           "articleCount": 3
@@ -9438,9 +9556,9 @@
         "news": {
           "articles": [
             {
-              "title": "Where The Jobs Are In 2026\u2014And How To Actually Land One",
+              "title": "Where The Jobs Are In 2026—And How To Actually Land One",
               "url": "https://www.forbes.com/sites/bryanrobinson/2026/01/18/where-the-jobs-are-in-2026-and-how-to-actually-land-one/",
-              "snippet": "Burnout, return-to-office mandates, leadership turnover and rapid AI disruption have created one of the most psychologically driven job markets in decades. Monster\u2019s 2026 Job Market Outlook, based on "
+              "snippet": "Burnout, return-to-office mandates, leadership turnover and rapid AI disruption have created one of the most psychologically driven job markets in decades. Monster’s 2026 Job Market Outlook, based on "
             },
             {
               "title": "New 2026 Jobs & Hiring Trends Report: Stability and Complexity",
@@ -9479,7 +9597,7 @@
             "Virginia Farm Bureau Mutual"
           ],
           "sampleTitles": [
-            "Certified Mulesoft Developer \u2013 1966441",
+            "Certified Mulesoft Developer – 1966441",
             "Microsoft Power Platform Developer",
             "UiPath certified RPA Developer",
             "Enterprise Data Warehouse Developer - Remote- Epic Clarity Certification Required"
@@ -9562,12 +9680,12 @@
             {
               "title": "5 Certifications That Boost Careers in 2026 - Scale.jobs",
               "url": "https://scale.jobs/blog/certifications-boost-careers",
-              "snippet": "In this article, we\u2019ll explore five transformative certifications that open doors to lucrative career paths, offering remote opportunities, job security, and room for growth. Whether you\u2019re a recent g"
+              "snippet": "In this article, we’ll explore five transformative certifications that open doors to lucrative career paths, offering remote opportunities, job security, and room for growth. Whether you’re a recent g"
             },
             {
               "title": "The skills you need to get hired in 2026, according to Coursera CEO ...",
               "url": "https://fortune.com/2025/12/28/2026-microcredential-hiring-trend-coursera-greg-hart/",
-              "snippet": "According to Coursera\u2019s CEO, Greg Hart, the most popular programs on the site revolve around technology and, more specifically, AI. Looking ahead, generative AI will continue to be the expertise of th"
+              "snippet": "According to Coursera’s CEO, Greg Hart, the most popular programs on the site revolve around technology and, more specifically, AI. Looking ahead, generative AI will continue to be the expertise of th"
             }
           ],
           "articleCount": 3
@@ -9678,7 +9796,7 @@
             {
               "title": "$98k-$196k Nlp Jobs (NOW HIRING) Mar 2026 - ZipRecruiter",
               "url": "https://www.ziprecruiter.com/Jobs/Nlp",
-              "snippet": "Browse 60 NLP jobs ($98k-$196k) hiring now\u2014entry-level to senior roles. Find job postings near you & 1-click apply to your next opportunity"
+              "snippet": "Browse 60 NLP jobs ($98k-$196k) hiring now—entry-level to senior roles. Find job postings near you & 1-click apply to your next opportunity"
             },
             {
               "title": "Hiring an NLP Engineer in 2026: Skills to Look for | South",
@@ -9793,7 +9911,7 @@
             {
               "title": "$62k-$164k Mqtt Jobs (NOW HIRING) Mar 2026 - ZipRecruiter",
               "url": "https://www.ziprecruiter.com/Jobs/Mqtt",
-              "snippet": "Browse 60 MQTT jobs ($62k-$164k) hiring now\u2014entry-level to senior roles. Find job postings near you & 1-click apply to your next opportunity"
+              "snippet": "Browse 60 MQTT jobs ($62k-$164k) hiring now—entry-level to senior roles. Find job postings near you & 1-click apply to your next opportunity"
             },
             {
               "title": "$24-$115/hr Remote Mqtt Jobs (NOW HIRING) Mar 2026",
@@ -9905,7 +10023,7 @@
             {
               "title": "20 Jobs That Will Be in Demand in 2026 - AARP.org",
               "url": "https://www.aarp.org/work/job-search/in-demand-jobs-2026/",
-              "snippet": "Job Search Help from AARP and Indeed. AARP focused on roles that might appeal to older adults because the\ufeffy offer opportunities for part-time or remote work, flexible schedules or may not require exte"
+              "snippet": "Job Search Help from AARP and Indeed. AARP focused on roles that might appeal to older adults because the﻿y offer opportunities for part-time or remote work, flexible schedules or may not require exte"
             },
             {
               "title": "Hiring Trends by Age: What Job Seekers Want in 2026 | G&A Partners",
@@ -10022,12 +10140,12 @@
             {
               "title": "Which Cloud Jobs will survive in 2026",
               "url": "https://neal-davis.medium.com/which-cloud-jobs-will-survive-in-2026-37e96a4b993e",
-              "snippet": "The three strongest cloud roles for 2026 \u00b7 Cloud architect \u00b7 Cloud engineer \u00b7 Cloud AI or ML engineer."
+              "snippet": "The three strongest cloud roles for 2026 · Cloud architect · Cloud engineer · Cloud AI or ML engineer."
             },
             {
               "title": "Cloud Computing Hiring Trends 2026: What to Watch Out For (For ...",
               "url": "https://cloudcomputingjobs.co.uk/career-advice/cloud-computing-hiring-trends-2026-what-to-watch-out-for-for-job-seekers-recruiters-",
-              "snippet": "Many organisations are tightening budgets, some are rationalising cloud spend, yet demand for strong cloud talent remains high \u2013 especially around multi-cloud, FinOps, cloud security, data platforms &"
+              "snippet": "Many organisations are tightening budgets, some are rationalising cloud spend, yet demand for strong cloud talent remains high – especially around multi-cloud, FinOps, cloud security, data platforms &"
             }
           ],
           "articleCount": 3
@@ -10178,7 +10296,7 @@
             "Diverse Consulting Solutions (Pty) Ltd"
           ],
           "sampleTitles": [
-            "Mechatronics Engineer \u2014 Plc/Python & R&D Innovator",
+            "Mechatronics Engineer — Plc/Python & R&D Innovator",
             "Senior Mechatronics Engineer",
             "Mechatronics Project",
             "Mechatronic Engineer"
@@ -10501,7 +10619,7 @@
             {
               "title": "Indeed's 2026 US Jobs & Hiring Trends Report: How to find stability ...",
               "url": "https://www.washingtonpost.com/advertising/indeed/indeeds-2026-us-jobs-hiring-trends-report-how-to-find-stability-in-uncertainty/",
-              "snippet": "Our **2026 U.S. Jobs & Hiring Trends Report** looked at millions of real\u2011time job postings and combined them with professional forecasts and historical labor\u2011market relationships to build projected sc"
+              "snippet": "Our **2026 U.S. Jobs & Hiring Trends Report** looked at millions of real‑time job postings and combined them with professional forecasts and historical labor‑market relationships to build projected sc"
             }
           ],
           "articleCount": 3
@@ -10533,7 +10651,7 @@
             "JPMorgan Chase"
           ],
           "sampleTitles": [
-            "Software Developer (Open Source) \u2014 Belgium Relocation",
+            "Software Developer (Open Source) — Belgium Relocation",
             "Investigations Engineer - Source Code (C++, Java, Javascript, Python, SQL)",
             "Staff Engineer, Open Source & Agent Standards",
             "Open-Source Engineer"
@@ -10621,7 +10739,7 @@
             {
               "title": "5 hiring trends recruiters can expect in 2026 | HR Dive",
               "url": "https://www.hrdive.com/news/hiring-2026-trends-recruiting-acquisition-skills/810551/",
-              "snippet": "The job market may favor employers at the moment, but that doesn\u2019t mean recruitment has gotten easier, one expert told HR Dive. A job seeker speaks with a recruiter at a job fair on April 30, 2025, in"
+              "snippet": "The job market may favor employers at the moment, but that doesn’t mean recruitment has gotten easier, one expert told HR Dive. A job seeker speaks with a recruiter at a job fair on April 30, 2025, in"
             }
           ],
           "articleCount": 3
@@ -10727,7 +10845,7 @@
             {
               "title": "5 hiring trends recruiters can expect in 2026 | HR Dive",
               "url": "https://www.hrdive.com/news/hiring-2026-trends-recruiting-acquisition-skills/810551/",
-              "snippet": "The job market may favor employers at the moment, but that doesn\u2019t mean recruitment has gotten easier, one expert told HR Dive. A job seeker speaks with a recruiter at a job fair on April 30, 2025, in"
+              "snippet": "The job market may favor employers at the moment, but that doesn’t mean recruitment has gotten easier, one expert told HR Dive. A job seeker speaks with a recruiter at a job fair on April 30, 2025, in"
             },
             {
               "title": "Indeed's 2026 US Jobs & Hiring Trends Report: How to Find Stability ...",
@@ -10997,7 +11115,7 @@
           ],
           "sampleTitles": [
             "Software Developer Sr.",
-            "IT support engineer - Windows and networking \ud83c\udfc6"
+            "IT support engineer - Windows and networking 🏆"
           ],
           "locations": [
             "Ann Arbor, MI",
@@ -11074,12 +11192,12 @@
             {
               "title": "Hiring trends 2026: What job seekers should know - Boston.com",
               "url": "https://www.boston.com/news/job-doc/2026/01/22/job-hunting-trends-2026/",
-              "snippet": "## Hiring is slow, unemployment may inch up, and many workers are staying put \u2014 but job seekers still have chances in healthcare, construction, and skills-based roles. #### Why \u2018job hugging\u2019 is on the"
+              "snippet": "## Hiring is slow, unemployment may inch up, and many workers are staying put — but job seekers still have chances in healthcare, construction, and skills-based roles. #### Why ‘job hugging’ is on the"
             },
             {
               "title": "20 Jobs That Will Be in Demand in 2026 - AARP.org",
               "url": "https://www.aarp.org/work/job-search/in-demand-jobs-2026/",
-              "snippet": "Job Search Help from AARP and Indeed. AARP focused on roles that might appeal to older adults because the\ufeffy offer opportunities for part-time or remote work, flexible schedules or may not require exte"
+              "snippet": "Job Search Help from AARP and Indeed. AARP focused on roles that might appeal to older adults because the﻿y offer opportunities for part-time or remote work, flexible schedules or may not require exte"
             }
           ],
           "articleCount": 3
@@ -11226,7 +11344,7 @@
           ],
           "sampleTitles": [
             "Business Development Manager, Smart Home Solutions",
-            "Senior Backend Engineer \u2013 Smart Home APIs & Cloud",
+            "Senior Backend Engineer – Smart Home APIs & Cloud",
             "Senior Business Development Manager, Smart Home Solutions"
           ],
           "locations": [
@@ -11299,7 +11417,7 @@
             {
               "title": "Remote Hiring Trends 2026: What Companies Need To Know",
               "url": "https://thereistalent.com/remote-hiring-trends-2026/",
-              "snippet": "* Remote Hiring Trends 2026: How Smart Companies Are Building the Future Workforce. # Remote Hiring Trends 2026: How Smart Companies Are Building the Future Workforce. Remote hiring isn\u2019t slowing down"
+              "snippet": "* Remote Hiring Trends 2026: How Smart Companies Are Building the Future Workforce. # Remote Hiring Trends 2026: How Smart Companies Are Building the Future Workforce. Remote hiring isn’t slowing down"
             },
             {
               "title": "Remote Job Market 2026: Hiring Trends & Career Opportunities",
@@ -11309,7 +11427,7 @@
             {
               "title": "Best Companies Offering Work From Anywhere Jobs In 2026 - Forbes",
               "url": "https://www.forbes.com/sites/laurabegleybloom/2026/01/29/work-from-home-or-anywhere-best-companies-and-careers-for-remote-jobs-according-to-flexjobs/",
-              "snippet": "Work From Home Or Anywhere: Best Companies And Careers For Remote Jobs, According To FlexJobs. Work From Home Or Anywhere: Best Companies And Careers For Remote Jobs, According To FlexJobs. FlexJobs\u2019 "
+              "snippet": "Work From Home Or Anywhere: Best Companies And Careers For Remote Jobs, According To FlexJobs. Work From Home Or Anywhere: Best Companies And Careers For Remote Jobs, According To FlexJobs. FlexJobs’ "
             }
           ],
           "articleCount": 3
@@ -11423,7 +11541,7 @@
             {
               "title": "Navigating the 2026 Oracle Career Landscape: AI, Cloud, and ...",
               "url": "https://www.instagram.com/p/DUAbY36DFnl/",
-              "snippet": "\u2713 Massive demand in ERP & Cloud \u2013 Oracle Fusion, Financials, SCM, HCM \u2713 High-paying career paths \u2013 Functional Consultant | Technical Consultant"
+              "snippet": "✓ Massive demand in ERP & Cloud – Oracle Fusion, Financials, SCM, HCM ✓ High-paying career paths – Functional Consultant | Technical Consultant"
             },
             {
               "title": "Oracle Software Engineer: The Market Is F*cked! How to ... - YouTube",
@@ -11543,12 +11661,12 @@
             {
               "title": "Tech hiring trends in 2026: the 4 big shifts shaping the tech job market",
               "url": "https://ravio.com/blog/tech-hiring-trends",
-              "snippet": "[![Image 21: The hiring rate in 2025 is 28.6% \u2013 from Ravio's 2026 compensation trends report](https://images.prismic.io/ravio/aPJmMJ5xUNkB2GtD_hiringratesoverall.png?auto=format,compress)](https://rav"
+              "snippet": "[![Image 21: The hiring rate in 2025 is 28.6% – from Ravio's 2026 compensation trends report](https://images.prismic.io/ravio/aPJmMJ5xUNkB2GtD_hiringratesoverall.png?auto=format,compress)](https://rav"
             },
             {
               "title": "Tech Hiring in 2026: The Rise of the Specialist - The New Stack",
               "url": "https://thenewstack.io/tech-hiring-in-2026-the-rise-of-the-specialist/",
-              "snippet": "\u201cWe\u2019re dealing with the over-hiring in 2022 and I truly believe AI has a marketing problem,\u201d he said. A little more than half \u2014\u00a053% \u2014\u00a0of U.S. tech job postings in November required AI/ML skills, accor"
+              "snippet": "“We’re dealing with the over-hiring in 2022 and I truly believe AI has a marketing problem,” he said. A little more than half — 53% — of U.S. tech job postings in November required AI/ML skills, accor"
             }
           ],
           "articleCount": 3
@@ -11658,12 +11776,12 @@
             {
               "title": "What Are the Biggest Workplace and Hiring Trends for 2026? | gpac",
               "url": "https://gogpac.com/knowledge-center/workplace-and-hiring-trends",
-              "snippet": "Similar to last year, the labor market will remain stable; despite some sectors still experiencing labor shortage, employers and hiring specialists can rest easy knowing their best talent won\u2019t walk a"
+              "snippet": "Similar to last year, the labor market will remain stable; despite some sectors still experiencing labor shortage, employers and hiring specialists can rest easy knowing their best talent won’t walk a"
             },
             {
               "title": "20 Jobs That Will Be in Demand in 2026 - AARP.org",
               "url": "https://www.aarp.org/work/job-search/in-demand-jobs-2026/",
-              "snippet": "Job Search Help from AARP and Indeed. AARP focused on roles that might appeal to older adults because the\ufeffy offer opportunities for part-time or remote work, flexible schedules or may not require exte"
+              "snippet": "Job Search Help from AARP and Indeed. AARP focused on roles that might appeal to older adults because the﻿y offer opportunities for part-time or remote work, flexible schedules or may not require exte"
             },
             {
               "title": "The Best Jobs in the US for 2026, According to Indeed",
@@ -11768,7 +11886,7 @@
             {
               "title": "Top 5 Construction Hiring Trends for 2026 | Spaces Magazine",
               "url": "https://spaces-magazine.com/blog/top-5-construction-hiring-trends-for-2026/",
-              "snippet": "# Top 5 Construction Hiring Trends for 2026. ## Explore the top construction hiring trends for 2026 and the key roles driving the industry\u2019s growth. ### Construction Hiring Trends 2026 Trueline. Here "
+              "snippet": "# Top 5 Construction Hiring Trends for 2026. ## Explore the top construction hiring trends for 2026 and the key roles driving the industry’s growth. ### Construction Hiring Trends 2026 Trueline. Here "
             },
             {
               "title": "5 Trends That Will Shape the Future of Tech Work in 2026 | Built In",
@@ -11890,7 +12008,7 @@
             {
               "title": "Full-Stack Developer Hiring in 2026: The 10 Roles Where ...",
               "url": "https://taggd.in/blogs/full-stack-developer-hiring-india/",
-              "snippet": "# Full-Stack Developer Hiring in 2026: The 10 Roles Where Demand Is Highest in India. Hiring demand for full-stack engineers with 4\u20138 years of experience has grown sharply across Tier 1 cities, while "
+              "snippet": "# Full-Stack Developer Hiring in 2026: The 10 Roles Where Demand Is Highest in India. Hiring demand for full-stack engineers with 4–8 years of experience has grown sharply across Tier 1 cities, while "
             },
             {
               "title": "Full Stack Development Trends 2026",
@@ -11929,7 +12047,7 @@
             "WingXpand"
           ],
           "sampleTitles": [
-            "Software Development Engineer \u2013 Simulation Infrastructure & Platform, Industrial Robotics Group",
+            "Software Development Engineer – Simulation Infrastructure & Platform, Industrial Robotics Group",
             "Robotics Software Engineer",
             "Robotics - Software Engineer",
             "Robotics Software Engineer, Perception"
@@ -12017,7 +12135,7 @@
             {
               "title": "The 5 Robotics Trends In 2026 You Must Get Ready For Now - Forbes",
               "url": "https://www.forbes.com/sites/bernardmarr/2025/10/20/the-5-biggest-robotics-trends-in-2026-you-must-get-ready-for-now/",
-              "snippet": "1. Humanoid Robots \u00b7 2. Cobots In The Workplace And Home \u00b7 3. Robotaxis \u00b7 4. Robots In Construction And Engineering \u00b7 5. Robotic Warfare Heats Up."
+              "snippet": "1. Humanoid Robots · 2. Cobots In The Workplace And Home · 3. Robotaxis · 4. Robots In Construction And Engineering · 5. Robotic Warfare Heats Up."
             }
           ],
           "articleCount": 3
@@ -12117,14 +12235,14 @@
               "snippet": "* If hiring remains strong in healthcare, and job creation continues in line with rates observed in recent years, job openings could remain relatively high and unemployment could remain low, especiall"
             },
             {
-              "title": "5 Workforce Trends Reshaping Hiring Strategy in 2026\u2014And How ...",
+              "title": "5 Workforce Trends Reshaping Hiring Strategy in 2026—And How ...",
               "url": "https://www.generation.org/news/5-workforce-trends-reshaping-hiring-strategy-in-2026-and-how-to-get-ahead/",
               "snippet": "This creates a massive opportunity for employers who invest in skills-based training programs. According to our 2025 Global Alumni Survey, 79% of employed alumni are working in roles related to their "
             },
             {
               "title": "A Labor Market in Pause: What 2025 Tells Us About 2026 - Indeed",
               "url": "https://www.indeed.com/news/releases/hiringlab-2026-jobs-hiring-trends-report",
-              "snippet": "Our 2026 U.S. Jobs & Hiring Trends Report looked at millions of real\u2011time job postings and combined them with professional forecasts and historical labor\u2011market"
+              "snippet": "Our 2026 U.S. Jobs & Hiring Trends Report looked at millions of real‑time job postings and combined them with professional forecasts and historical labor‑market"
             }
           ],
           "articleCount": 3
@@ -12222,7 +12340,7 @@
             {
               "title": "The 7 Hiring Trends Defining the Job Market in 2026 - LinkedIn",
               "url": "https://www.linkedin.com/pulse/7-hiring-trends-defining-job-market-2026-melanie-mitchell-wexler-ct0cc",
-              "snippet": "1. Skills Are Becoming More Important Than Titles \u00b7 2. AI Literacy Is Quickly Becoming a Baseline Skill \u00b7 3. Hiring Is More Selective \u00b7 4. Real-"
+              "snippet": "1. Skills Are Becoming More Important Than Titles · 2. AI Literacy Is Quickly Becoming a Baseline Skill · 3. Hiring Is More Selective · 4. Real-"
             },
             {
               "title": "Indeed's 2026 US Jobs & Hiring Trends Report: How to Find Stability ...",
@@ -12544,7 +12662,7 @@
             {
               "title": "Jobs, Hiring, AI Trends & Market Insights | March 8, 2026 - YouTube",
               "url": "https://www.youtube.com/watch?v=_1zZKQRKFlQ",
-              "snippet": "Sunday Night Live \u2014 March 8, 2026 Host: Marc-Anthony Jackson, Talent & Client Coordinator This week on Sunday Night Live, we cover: U.S."
+              "snippet": "Sunday Night Live — March 8, 2026 Host: Marc-Anthony Jackson, Talent & Client Coordinator This week on Sunday Night Live, we cover: U.S."
             },
             {
               "title": "How 2026 Economic Trends Are Shaping the Workforce and Hiring",
@@ -12643,7 +12761,7 @@
             {
               "title": "Tensorflow Jobs - January 2026 - HNHIRING",
               "url": "https://hnhiring.com/technologies/tensorflow/months/january-2026",
-              "snippet": "# Tensorflow Jobs - January 2026. Immunera | Principal Machine Learning Engineer | NYC area (hybrid) | Full-time | immunera.ai. I\u2019m Maxim, cofounder/CEO of Immunera. We're building blood tests that us"
+              "snippet": "# Tensorflow Jobs - January 2026. Immunera | Principal Machine Learning Engineer | NYC area (hybrid) | Full-time | immunera.ai. I’m Maxim, cofounder/CEO of Immunera. We're building blood tests that us"
             },
             {
               "title": "$98k-$238k Tensorflow Jobs (NOW HIRING) Mar 2026 - ZipRecruiter",
@@ -12864,12 +12982,12 @@
             {
               "title": "20 Jobs That Will Be in Demand in 2026 - AARP.org",
               "url": "https://www.aarp.org/work/job-search/in-demand-jobs-2026/",
-              "snippet": "Job Search Help from AARP and Indeed. AARP focused on roles that might appeal to older adults because the\ufeffy offer opportunities for part-time or remote work, flexible schedules or may not require exte"
+              "snippet": "Job Search Help from AARP and Indeed. AARP focused on roles that might appeal to older adults because the﻿y offer opportunities for part-time or remote work, flexible schedules or may not require exte"
             },
             {
               "title": "The Best Jobs in the US for 2026, According to Indeed",
               "url": "https://www.indeed.com/career-advice/news/best-jobs-2026",
-              "snippet": "For job seekers in 2026, healthcare isn't just a top choice on Indeed's list \u2014 it is one of the most reliable foundations for a stable career."
+              "snippet": "For job seekers in 2026, healthcare isn't just a top choice on Indeed's list — it is one of the most reliable foundations for a stable career."
             }
           ],
           "articleCount": 3
@@ -13080,7 +13198,7 @@
             {
               "title": "Cybersecurity Job Market Shifts: 5 Key Trends for 2026 - LinkedIn",
               "url": "https://www.linkedin.com/posts/owenjobling_the-cybersecurity-rush-5-truths-about-the-activity-7424773132437135361-n450",
-              "snippet": "The Cybersecurity Rush: 5 Truths about the current cyber security job market in 2026. UK cyber security jobs have nearly\u00a0tripled\u00a0since 2021, but there\u2019s still a clear skills gap holding back business "
+              "snippet": "The Cybersecurity Rush: 5 Truths about the current cyber security job market in 2026. UK cyber security jobs have nearly tripled since 2021, but there’s still a clear skills gap holding back business "
             },
             {
               "title": "Cybersecurity Career Trends to Watch in 2026 - C4 Tech Services",
@@ -13090,7 +13208,7 @@
             {
               "title": "How to Fix Cybersecurity Hiring in 2026",
               "url": "https://www.hub-scale.com/insight-hub/cybersecurity-hiring-in-2026-the-talent-isnt-missing-the-clarity-is",
-              "snippet": "Yet organizations still struggle to fill cybersecurity roles - not because talent doesn\u2019t exist, but because many teams don\u2019t know *what they actually need*. For every 100 cybersecurity roles, 26 rema"
+              "snippet": "Yet organizations still struggle to fill cybersecurity roles - not because talent doesn’t exist, but because many teams don’t know *what they actually need*. For every 100 cybersecurity roles, 26 rema"
             }
           ],
           "articleCount": 3
@@ -13275,12 +13393,12 @@
             {
               "title": "How to Get a Design Job in 2026: The Complete Guide",
               "url": "https://authenticjobs.com/how-to-get-a-design-job-in-2026-the-complete-guide/",
-              "snippet": "# How to Get a Design Job in 2026: The Complete Guide. *Whether you\u2019re a recent graduate, career changer, or experienced designer looking for your next role, this guide breaks down exactly what works "
+              "snippet": "# How to Get a Design Job in 2026: The Complete Guide. *Whether you’re a recent graduate, career changer, or experienced designer looking for your next role, this guide breaks down exactly what works "
             },
             {
-              "title": "Why \u201cGood\u201d UX portfolios NEVER get Interviews in 2026 (11 Hiring ...",
+              "title": "Why “Good” UX portfolios NEVER get Interviews in 2026 (11 Hiring ...",
               "url": "https://uxplanet.org/why-good-ux-portfolios-never-get-interviews-in-2026-11-hiring-red-flags-6ea28fb2f9b3",
-              "snippet": "In this article, I\u2019m breaking down 11 hiring-grade reasons UX portfolios get ignored \u2014 based purely on how portfolios are actually scanned, filtered, and evaluated by hiring managers today. I\u2019ll point"
+              "snippet": "In this article, I’m breaking down 11 hiring-grade reasons UX portfolios get ignored — based purely on how portfolios are actually scanned, filtered, and evaluated by hiring managers today. I’ll point"
             }
           ],
           "articleCount": 3
@@ -13350,7 +13468,7 @@
             {
               "title": "Cloud Computing Hiring Trends 2026: What to Watch Out For (For ...",
               "url": "https://cloudcomputingjobs.co.uk/career-advice/cloud-computing-hiring-trends-2026-what-to-watch-out-for-for-job-seekers-recruiters-",
-              "snippet": "Many organisations are tightening budgets, some are rationalising cloud spend, yet demand for strong cloud talent remains high \u2013 especially around multi-cloud, FinOps, cloud security, data platforms &"
+              "snippet": "Many organisations are tightening budgets, some are rationalising cloud spend, yet demand for strong cloud talent remains high – especially around multi-cloud, FinOps, cloud security, data platforms &"
             }
           ],
           "articleCount": 3
@@ -13567,7 +13685,7 @@
             {
               "title": "The Future of Hiring: 11 Key Recruiting Trends for 2026 - HackerEarth",
               "url": "https://www.hackerearth.com/blog/recruiting-trends",
-              "snippet": "HackerEarth is an all-in-one coding assessment platform that allows hiring teams to assess candidates\u2019 coding abilities, problem-solving skills, and communication in real time. | **Candidate Experienc"
+              "snippet": "HackerEarth is an all-in-one coding assessment platform that allows hiring teams to assess candidates’ coding abilities, problem-solving skills, and communication in real time. | **Candidate Experienc"
             },
             {
               "title": "2026 Technology job market: In-demand roles and hiring trends",
@@ -13688,12 +13806,12 @@
             {
               "title": "The skills you need to get hired in 2026, according to Coursera CEO ...",
               "url": "https://fortune.com/2025/12/28/2026-microcredential-hiring-trend-coursera-greg-hart/",
-              "snippet": "According to Coursera\u2019s CEO, Greg Hart, the most popular programs on the site revolve around technology and, more specifically, AI. Looking ahead, generative AI will continue to be the expertise of th"
+              "snippet": "According to Coursera’s CEO, Greg Hart, the most popular programs on the site revolve around technology and, more specifically, AI. Looking ahead, generative AI will continue to be the expertise of th"
             },
             {
               "title": "Introducing Coursera's Job Skills Report 2026: The most critical ...",
               "url": "https://blog.coursera.org/job-skills-report-2026-the-most-critical-skills-the-worlds-learners-need-this-year/",
-              "snippet": "# Introducing Coursera\u2019s Job Skills Report 2026: The most critical skills the world\u2019s learners need this year. However, learners are aware that AI skills are most powerful when developed in combinatio"
+              "snippet": "# Introducing Coursera’s Job Skills Report 2026: The most critical skills the world’s learners need this year. However, learners are aware that AI skills are most powerful when developed in combinatio"
             }
           ],
           "articleCount": 3
@@ -13784,7 +13902,7 @@
             {
               "title": "Oracle Cloud Jobs in 2026: What's Coming Next? The demand for ...",
               "url": "https://www.facebook.com/100086511402698/posts/-oracle-cloud-jobs-in-2026-whats-coming-nextthe-demand-for-oracle-cloud-professi/893950620165310/",
-              "snippet": "Oracle Cloud Jobs in 2026: What's Coming Next? The demand for Oracle Cloud professionals isn't slowing down \u2014 it's accelerating."
+              "snippet": "Oracle Cloud Jobs in 2026: What's Coming Next? The demand for Oracle Cloud professionals isn't slowing down — it's accelerating."
             },
             {
               "title": "The Future of Oracle Cloud: Trends and Predictions for 2025-26",
@@ -13794,7 +13912,7 @@
             {
               "title": "Oracle EPM Jobs 2026 Salary, Top Companies & Career Roadmap",
               "url": "https://www.youtube.com/watch?v=JrAdkbLASr4",
-              "snippet": "Oracle EPM Jobs 2026 \ud83d\udd25 Salary, Top Companies & Career Roadmap | BISP Trainings - YouTube. [](https://www.youtube.com/watch?v=JrAdkbLASr4). [](https://www.youtube.com/watch?v=JrAdkbLASr4). [Oracle EPM"
+              "snippet": "Oracle EPM Jobs 2026 🔥 Salary, Top Companies & Career Roadmap | BISP Trainings - YouTube. [](https://www.youtube.com/watch?v=JrAdkbLASr4). [](https://www.youtube.com/watch?v=JrAdkbLASr4). [Oracle EPM"
             }
           ],
           "articleCount": 3
@@ -13903,7 +14021,7 @@
             {
               "title": "7 Communications Trends for 2026",
               "url": "https://www.comnetwork.org/blog/7-communications-trends-for-2026",
-              "snippet": "# 7 Communications Trends for 2026. They are **defending truth, reducing polarization, and building trust at human scale** \u2014 often in hostile or distorted information environments. Polarization & Brid"
+              "snippet": "# 7 Communications Trends for 2026. They are **defending truth, reducing polarization, and building trust at human scale** — often in hostile or distorted information environments. Polarization & Brid"
             },
             {
               "title": "Five Key Trends for Communications and Networking in 2026",
@@ -14157,7 +14275,7 @@
             {
               "title": "AI Hiring in 2026: Smarter Not Harder | Aaron Gustin posted on the ...",
               "url": "https://www.linkedin.com/posts/aaron-gustin-b1b5341aa_hiring-ai-ml-data-talent-in-2026-isnt-activity-7427019724628279296-Ury8",
-              "snippet": "Hiring AI, ML & Data talent in 2026 isn\u2019t about doing more - it\u2019s about doing it smarter. The AI hiring market going into 2026 isn\u2019t slowing down. There's a massive gap between what companies think th"
+              "snippet": "Hiring AI, ML & Data talent in 2026 isn’t about doing more - it’s about doing it smarter. The AI hiring market going into 2026 isn’t slowing down. There's a massive gap between what companies think th"
             },
             {
               "title": "AI and Data Scientist Job Market in 2026: Analysis, Trends ... - Medium",
@@ -14708,7 +14826,7 @@
             {
               "title": "Small Business Trends for 2026 - Springer Company",
               "url": "https://www.thespringercompany.com/post/small-business-trends-for-2026",
-              "snippet": "Small businesses are heading into 2026 with a mix of opportunity and pressure: consumers remain value-driven, compliance is shifting at the federal and state levels, and \u201cdo-more-with-less\u201d operating "
+              "snippet": "Small businesses are heading into 2026 with a mix of opportunity and pressure: consumers remain value-driven, compliance is shifting at the federal and state levels, and “do-more-with-less” operating "
             }
           ],
           "articleCount": 3
@@ -14804,7 +14922,7 @@
             {
               "title": "Why Power BI Skills are still a must-have in 2026 | Pearson Carter",
               "url": "https://www.pearsoncarter.com/2026/01/27/power-bi-developer-jobs/",
-              "snippet": "What this means for recruitment: if a company is serious about data\u2011driven growth, it almost certainly needs professionals who can design, build, and optimize Power\u202fBI reporting at scale. This demand "
+              "snippet": "What this means for recruitment: if a company is serious about data‑driven growth, it almost certainly needs professionals who can design, build, and optimize Power BI reporting at scale. This demand "
             },
             {
               "title": "Why Power BI Is the #1 Skill Every Analyst Needs in 2026 - Medium",
@@ -14910,7 +15028,7 @@
               "snippet": "# Software jobs are up 4.6% in the US so far in 2026. r/cscareers - Software jobs are up 4.6% in the US so far in 2026. It's of course still way down since the covid era where we had zero interest rat"
             },
             {
-              "title": "The 10 most in-demand tech jobs for 2026 \u2014 and how to hire for them",
+              "title": "The 10 most in-demand tech jobs for 2026 — and how to hire for them",
               "url": "https://www.cio.com/article/230935/hiring-the-most-in-demand-tech-jobs-for-2021.html",
               "snippet": "*   [About Us](https://www.cio.com/about-us/). *   [Data Analytics & AI](https://www.cio.com/analytics/). These professionals are expected to oversee the [AI systems](https://www.cio.com/article/41370"
             },
@@ -15138,7 +15256,7 @@
         "news": {
           "articles": [
             {
-              "title": "Fastest\u2011Growing Startups in the USA Hiring Students (2026) - Jobaaj",
+              "title": "Fastest‑Growing Startups in the USA Hiring Students (2026) - Jobaaj",
               "url": "https://www.jobaaj.com/blog/fastest-growing-startups-in-the-usa-hiring-students-2026",
               "snippet": "In the dynamic and competitive job market of 2026, startups have emerged as a powerful force for innovation and career opportunities, particularly for students and recent graduates. Here are some of t"
             },
@@ -15344,7 +15462,7 @@
             {
               "title": "5 hiring trends recruiters can expect in 2026 | HR Dive",
               "url": "https://www.hrdive.com/news/hiring-2026-trends-recruiting-acquisition-skills/810551/",
-              "snippet": "The job market may favor employers at the moment, but that doesn\u2019t mean recruitment has gotten easier, one expert told HR Dive. A job seeker speaks with a recruiter at a job fair on April 30, 2025, in"
+              "snippet": "The job market may favor employers at the moment, but that doesn’t mean recruitment has gotten easier, one expert told HR Dive. A job seeker speaks with a recruiter at a job fair on April 30, 2025, in"
             },
             {
               "title": "Indeed's 2026 US Jobs & Hiring Trends Report: How to Find Stability ...",
@@ -15381,7 +15499,7 @@
             "Upwork"
           ],
           "sampleTitles": [
-            "Freelance Technical Blogger \u2013 Machine Learning / Document AI (Ongoing)",
+            "Freelance Technical Blogger – Machine Learning / Document AI (Ongoing)",
             "Content Distribution Specialist for Tech Blog (Reddit, Quora & Beyond)"
           ],
           "locations": [
@@ -15458,7 +15576,7 @@
             {
               "title": "Tech Job Market 2026: Trends, Skills, and Opportunities - AnitaB.org",
               "url": "https://legacy.anitab.org/blog/resources/tech-job-market-2026/",
-              "snippet": "# Navigating the 2026 Tech Job Market: Trends, Skills, and Opportunities. * Navigating the 2026 Tech Job Market: Trends, Skills, and Opportunities. In fact, according to the CompTIA\u2019s 2025 \u201cState of t"
+              "snippet": "# Navigating the 2026 Tech Job Market: Trends, Skills, and Opportunities. * Navigating the 2026 Tech Job Market: Trends, Skills, and Opportunities. In fact, according to the CompTIA’s 2025 “State of t"
             },
             {
               "title": "5 Tech Work Trends That Will Shape Careers in 2026 - Talent500",
@@ -15666,9 +15784,9 @@
               "snippet": "In this article, we explore several key trends influencing the field of ECE and how they're making an impactful difference in the way educators approach"
             },
             {
-              "title": "The Future of ECE: 2025 Childcare Trends Shaping 2026\u200b - ChildPilot",
+              "title": "The Future of ECE: 2025 Childcare Trends Shaping 2026​ - ChildPilot",
               "url": "https://childpilot.com/the-future-of-ece-2025-childcare-trends-shaping-2026/",
-              "snippet": "Childcare directors and administrators across the country are rethinking what it means to run a thriving program \u2014 balancing innovation, flexibility, and connection to better serve today\u2019s families an"
+              "snippet": "Childcare directors and administrators across the country are rethinking what it means to run a thriving program — balancing innovation, flexibility, and connection to better serve today’s families an"
             },
             {
               "title": "National Early Care and Education Workforce Center - Child Trends",
@@ -15784,7 +15902,7 @@
             {
               "title": "Restaurant Server Job Outlook And Growth In The US [2026] - Zippia",
               "url": "https://www.zippia.com/restaurant-server-jobs/trends/",
-              "snippet": "The projected restaurant server job growth rate is 10% from 2018-2028. \u00b7 About 197,000 new jobs for restaurant servers are projected over the next decade."
+              "snippet": "The projected restaurant server job growth rate is 10% from 2018-2028. · About 197,000 new jobs for restaurant servers are projected over the next decade."
             },
             {
               "title": "Looking for server jobs for summer 2026 : r/Serverlife - Reddit",
@@ -15885,12 +16003,12 @@
             {
               "title": "What to Expect from the Tech Job Search in 2026 - Course Report",
               "url": "https://www.coursereport.com/blog/what-to-expect-from-the-tech-job-search-in-2026",
-              "snippet": "But 2026 isn\u2019t a bleak year for career changers \u2013 it\u2019s a year of recalibration and new openings, especially in fast-growing fields like AI, machine learning, cybersecurity, and tech-enabled industries"
+              "snippet": "But 2026 isn’t a bleak year for career changers – it’s a year of recalibration and new openings, especially in fast-growing fields like AI, machine learning, cybersecurity, and tech-enabled industries"
             },
             {
               "title": "Are Coding Bootcamps Even Worth It In 2026? - YouTube",
               "url": "https://www.youtube.com/watch?v=_p0rU9MjQZo",
-              "snippet": "Can a coding bootcamp get you a job? Coding bootcamp vs ... 5 Boring But Stable Remote IT Jobs (Hiring in 2026). NGT Academy\u202223K"
+              "snippet": "Can a coding bootcamp get you a job? Coding bootcamp vs ... 5 Boring But Stable Remote IT Jobs (Hiring in 2026). NGT Academy•23K"
             }
           ],
           "articleCount": 3
@@ -16084,12 +16202,12 @@
             {
               "title": "Web3 Hiring Trends You Need to Know in 2026 | by Syndika - Medium",
               "url": "https://medium.com/@Syndika_co/web3-hiring-trends-you-need-to-know-in-2026-ef535b6bbf9c",
-              "snippet": "I think that next year the key competencies for Web3 developers will be flexibility, the ability to combine technical expertise with AI tools, and rapid adaptation to new standards.\u201d. Blockchain is em"
+              "snippet": "I think that next year the key competencies for Web3 developers will be flexibility, the ability to combine technical expertise with AI tools, and rapid adaptation to new standards.”. Blockchain is em"
             },
             {
               "title": "Web3 Jobs to Grow Most in 2026: Top Hubs & Roles - LinkedIn",
               "url": "https://www.linkedin.com/posts/ankit-agarwal-endless-domains_web3-blockchainjobs-cryptocareers-activity-7416925612138856448-Doi_",
-              "snippet": "Top Global Web3 Job Hubs in 2026 - \ud83c\uddfa\ud83c\uddf8 United States \u2013 Largest number of Web3 jobs globally across infra, AI-crypto, DeFi, and enterprise blockchain \ud83c\uddf8\ud83c\uddec Singapore \u2013 Highest Web3 jobs per capita; str"
+              "snippet": "Top Global Web3 Job Hubs in 2026 - 🇺🇸 United States – Largest number of Web3 jobs globally across infra, AI-crypto, DeFi, and enterprise blockchain 🇸🇬 Singapore – Highest Web3 jobs per capita; str"
             },
             {
               "title": "Global Blockchain Talent Guide 2026: Hire & Retain Talents",
@@ -16185,7 +16303,7 @@
             {
               "title": "Using Hackathons as Recruiting Events in 2026: A Guide for Hiring ...",
               "url": "https://scaletwice.com/blog-post/hackathons-recruiting-events-2026-guide",
-              "snippet": "Discover how hiring managers can run hackathons to source, assess, and convert technical talent\u2014with step-by-step tactics, real data, and ScaleTwice"
+              "snippet": "Discover how hiring managers can run hackathons to source, assess, and convert technical talent—with step-by-step tactics, real data, and ScaleTwice"
             },
             {
               "title": "AI Hackathons 2026: How They Can Boost Your Career Opportunities",
@@ -16297,7 +16415,7 @@
             {
               "title": "Hiring Lab's Global Jobs & Hiring Trends Reports for 2026",
               "url": "https://www.hiringlab.org/2026/01/15/hiring-labs-global-jobs-hiring-trends-reports-for-2026/",
-              "snippet": "# Hiring Lab\u2019s Global Jobs & Hiring Trends Reports for 2026. Insights and expectations from the Indeed Hiring Lab's Global Jobs and Hiring Trends Reports for 2026. Job postings referencing AI are clim"
+              "snippet": "# Hiring Lab’s Global Jobs & Hiring Trends Reports for 2026. Insights and expectations from the Indeed Hiring Lab's Global Jobs and Hiring Trends Reports for 2026. Job postings referencing AI are clim"
             }
           ],
           "articleCount": 3
@@ -16393,7 +16511,7 @@
             {
               "title": "Hiring trends 2026: What job seekers should know - Boston.com",
               "url": "https://www.boston.com/news/job-doc/2026/01/22/job-hunting-trends-2026/",
-              "snippet": "## Hiring is slow, unemployment may inch up, and many workers are staying put \u2014 but job seekers still have chances in healthcare, construction, and skills-based roles. #### Why \u2018job hugging\u2019 is on the"
+              "snippet": "## Hiring is slow, unemployment may inch up, and many workers are staying put — but job seekers still have chances in healthcare, construction, and skills-based roles. #### Why ‘job hugging’ is on the"
             },
             {
               "title": "Indeed's 2026 US Jobs & Hiring Trends Report: How to Find Stability ...",
@@ -16443,7 +16561,7 @@
               "snippet": "[Sign in](https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flaura-dawson-ullrich_indeeds-2026-us-jobs-hiring-trends-report-activity-7397275568343289857-5l9z&"
             },
             {
-              "title": "5 Workforce Trends Reshaping Hiring Strategy in 2026\u2014And How ...",
+              "title": "5 Workforce Trends Reshaping Hiring Strategy in 2026—And How ...",
               "url": "https://www.generation.org/news/5-workforce-trends-reshaping-hiring-strategy-in-2026-and-how-to-get-ahead/",
               "snippet": "This creates a massive opportunity for employers who invest in skills-based training programs. According to our 2025 Global Alumni Survey, 79% of employed alumni are working in roles related to their "
             },
@@ -16502,7 +16620,7 @@
             {
               "title": "Oracle Layoffs 2026: Why Larry Ellison's US tech giant is cutting ...",
               "url": "https://m.economictimes.com/news/new-updates/oracle-layoffs-2026-why-larry-ellisons-us-tech-giant-is-cutting-thousands-of-jobs-again-after-300-billion-openai-bet-with-sam-altman/articleshow/129137156.cms",
-              "snippet": "# Oracle Layoffs 2026: Why Larry Ellison\u2019s US tech giant is cutting thousands of jobs again after $300 billion OpenAI bet with Sam Altman. Oracle Layoffs 2026: Why Larry Ellison\u2019s US tech giant is cut"
+              "snippet": "# Oracle Layoffs 2026: Why Larry Ellison’s US tech giant is cutting thousands of jobs again after $300 billion OpenAI bet with Sam Altman. Oracle Layoffs 2026: Why Larry Ellison’s US tech giant is cut"
             }
           ],
           "articleCount": 3
