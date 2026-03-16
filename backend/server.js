@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config({ path: require("path").join(__dirname, ".env") });
 const express = require("express");
 const cors = require("cors");
 const path = require("path");
@@ -13,6 +13,8 @@ const searchRoutes = require("./routes/search");
 const opportunitiesRoutes = require("./routes/opportunities");
 const recQuizRoutes = require("./routes/recquiz");
 const studentRoutes = require("./routes/students");
+const skillsMarketRoutes = require("./routes/skillsMarket");
+const authRoutes = require("./routes/auth");
 
 const app = express();
 
@@ -20,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
-app.use("/uploads", express.static(path.join(__dirname, "uploads"))); 
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 app.use("/api/resume", resumeRoutes);
 app.use("/api/quiz", quizRoutes);
@@ -31,6 +33,8 @@ app.use("/api/leaderboard", leaderboardRoutes);
 app.use("/api/opportunities", opportunitiesRoutes);
 app.use("/api", recQuizRoutes);
 app.use("/api/students", studentRoutes);
+app.use("/api/skills-market", skillsMarketRoutes);
+app.use("/api/auth", authRoutes);
 
 // Serve frontend build from /dist
 const frontendPath = path.join(__dirname, "dist");
