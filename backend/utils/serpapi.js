@@ -1,5 +1,5 @@
 const axios = require("axios");
-require("dotenv").config();
+require("dotenv").config({ path: require("path").join(__dirname, "../.env") });
 
 async function searchSerpApi(query, num = Number(process.env.TAVILY_MAX_RESULTS || 5)) {
   const apiKey = process.env.SERPAPI_API_KEY;

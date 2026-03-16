@@ -1,5 +1,5 @@
 const axios = require("axios");
-require("dotenv").config();
+require("dotenv").config({ path: require("path").join(__dirname, "../.env") });
 
 async function searchTavily(query, maxResults = Number(process.env.TAVILY_MAX_RESULTS || 5)) {
   const apiKey = process.env.TAVILY_API_KEY;
