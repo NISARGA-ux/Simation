@@ -1,4 +1,4 @@
-require("dotenv").config({ path: require("path").join(__dirname, ".env") });
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const path = require("path");
@@ -15,6 +15,7 @@ const recQuizRoutes = require("./routes/recquiz");
 const studentRoutes = require("./routes/students");
 const skillsMarketRoutes = require("./routes/skillsMarket");
 const authRoutes = require("./routes/auth");
+const jdRoutes = require("./routes/jd");
 
 const app = express();
 
@@ -35,6 +36,7 @@ app.use("/api", recQuizRoutes);
 app.use("/api/students", studentRoutes);
 app.use("/api/skills-market", skillsMarketRoutes);
 app.use("/api/auth", authRoutes);
+app.use("/api/jd", jdRoutes);
 
 // Serve frontend build from /dist
 const frontendPath = path.join(__dirname, "dist");
