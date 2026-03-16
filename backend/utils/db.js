@@ -8,11 +8,14 @@ const db = low(adapter);
 
 // initialize db with all collections
 db.defaults({
-  users: [],        // students
-  recruiters: [],   // recruiters
-  mentors: [],      // faculty/mentors
+  users: [],
+  recruiters: [],
+  mentors: [],
   achievements: [],
-  notifications: []
+  notifications: [],
+  opportunities: [],
+  students: [],
+  skillsMarketCache: null,
 }).write();
 
 module.exports = db;
