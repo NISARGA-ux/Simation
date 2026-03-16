@@ -1,0 +1,5108 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "srn": "2025CSE001",
+      "name": "Preeti Kapoor",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "CSE",
+      "branch": "Aiml",
+      "totalPoints": 50,
+      "achievements": [
+        {
+          "id": 1,
+          "title": "Todo List App",
+          "description": "Built a full-stack todo list web application using React and Node.js.",
+          "domain": "Project",
+          "proof": "https://github.com/student1/todo-app",
+          "points": 15,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 2,
+          "title": "Local Hackathon Winner",
+          "description": "Won 1st place in college-level hackathon developing AI-based chatbot.",
+          "domain": "Hackathon",
+          "proof": "certificate.jpeg",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 200,
+          "title": "Docker & Kubernetes Deployment",
+          "description": "Containerized a full-stack Node.js application using Docker, orchestrated with Kubernetes on a local cluster, implemented rolling updates and health checks.",
+          "domain": "Project",
+          "proof": "https://github.com/preetik/docker-k8s-demo",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Docker",
+            "Kubernetes",
+            "Node.js",
+            "DevOps",
+            "YAML"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 201,
+          "title": "AWS Certified Cloud Practitioner",
+          "description": "Earned AWS Cloud Practitioner certification demonstrating knowledge of core AWS services, security, architecture, and pricing.",
+          "domain": "Certification",
+          "proof": "Not Provided",
+          "points": 28,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 202,
+          "title": "LangChain RAG Chatbot",
+          "description": "Built a Retrieval-Augmented Generation chatbot using LangChain, FAISS vector store, and OpenAI embeddings to answer questions over custom PDF documents.",
+          "domain": "Project",
+          "proof": "https://github.com/preetik/rag-chatbot",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "LangChain",
+            "RAG",
+            "Embeddings",
+            "GenAI",
+            "FAISS"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 203,
+          "title": "FastAPI REST Backend",
+          "description": "Developed a production-ready REST API using FastAPI with JWT authentication, PostgreSQL integration, Alembic migrations, and automated tests with pytest.",
+          "domain": "Project",
+          "proof": "https://github.com/preetik/fastapi-backend",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "FastAPI",
+            "Python",
+            "PostgreSQL",
+            "JWT",
+            "REST API",
+            "pytest"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 204,
+          "title": "MLflow Experiment Tracking",
+          "description": "Integrated MLflow into a machine learning pipeline to track experiments, log metrics, register models, and compare runs across hyperparameter tuning sessions.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 25,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "MLflow",
+            "Python",
+            "Machine Learning",
+            "MLOps",
+            "scikit-learn"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 1757187586529,
+          "title": "",
+          "description": "Oracle offers the Oracle Cloud Infrastructure (OCI) Generative AI Professional certification, designed for technical professionals who want to demonstrate expertise in building and deploying generative AI solutions on the OCI platform.",
+          "domain": "Project",
+          "proof": "/uploads/1757187586512.jpg",
+          "points": 10,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": "2025-09-06T19:39:46.000Z"
+        },
+        {
+          "id": 1757199320312,
+          "title": "Ai sustainability",
+          "description": "Balancing AI's double-edged nature: AI can be both a solution and a challenge for sustainability. Workshops examine how to leverage AI's benefits while addressing its own environmental impact, such as the high energy consumption of training large models.\r\nAddressing the UN Sustainable Development Goals (SDGs): Many workshops focus on specific SDGs, with hands-on exercises and case studies on how AI can accelerate progress in areas like climate action, responsible production, quality education, and clean energy.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 10,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": "2025-09-06T22:55:20.000Z"
+        },
+        {
+          "id": 1758272663576,
+          "title": "codeathon",
+          "description": "quantum navigation",
+          "domain": "Project",
+          "proof": "/uploads/1758272663010.pptx",
+          "points": 10,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": "2025-09-19T09:04:23.000Z"
+        },
+        {
+          "id": 1758273001834,
+          "title": "soc analyst course",
+          "description": "and security incidents within an organization's IT infrastructure. Courses cover fundamental concepts of information security, threat intelligence, log management using SIEM (Security Information and Event Management) tools, incident response procedures, and hands-on experience with leading cybersecurity tools like Splunk and Wireshark.",
+          "domain": "Project",
+          "proof": "/uploads/1758273001827.png",
+          "points": 10,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": "2025-09-19T09:10:01.000Z"
+        },
+        {
+          "id": 1773663887388,
+          "title": "won hackathon",
+          "description": "won a state level hackathon",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 10,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": "2026-03-16T12:24:47.000Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "srn": "2025CSE002",
+      "name": "Alice Verma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "CSE",
+      "branch": "Iot",
+      "totalPoints": 35,
+      "achievements": [
+        {
+          "id": 3,
+          "title": "Portfolio Website",
+          "description": "Created a personal portfolio website deployed on Vercel.",
+          "domain": "Project",
+          "proof": "https://vercel.com/student2/portfolio",
+          "points": 20,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 4,
+          "title": "Internship at AI Startup",
+          "description": "Completed 2-month internship working on NLP pipelines.",
+          "domain": "Internship",
+          "proof": "LinkedIn.com/in/student2",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 205,
+          "title": "React + TypeScript Dashboard",
+          "description": "Built a real-time analytics dashboard using React 18, TypeScript, Recharts, and Tanstack Query with live data polling and responsive layout.",
+          "domain": "Project",
+          "proof": "https://github.com/alicev/react-ts-dashboard",
+          "points": 33,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "React",
+            "TypeScript",
+            "Recharts",
+            "REST API",
+            "Responsive Design"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 206,
+          "title": "Docker Compose Microservices",
+          "description": "Set up a multi-service application with Docker Compose including Node.js API, Redis cache, PostgreSQL, and Nginx reverse proxy.",
+          "domain": "Project",
+          "proof": "https://github.com/alicev/docker-compose-ms",
+          "points": 29,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Docker",
+            "Docker Compose",
+            "Redis",
+            "PostgreSQL",
+            "Nginx",
+            "Microservices"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 207,
+          "title": "IoT Smart Agriculture System",
+          "description": "Designed an IoT-based soil moisture and temperature monitoring system using ESP32, MQTT broker, InfluxDB, and a Grafana dashboard.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "IoT",
+            "ESP32",
+            "MQTT",
+            "InfluxDB",
+            "Grafana",
+            "Embedded Systems"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 208,
+          "title": "Google Cloud Associate Certification",
+          "description": "Completed Google Cloud Associate Cloud Engineer certification covering Compute Engine, GKE, Cloud Storage, IAM, and VPC networking.",
+          "domain": "Project",
+          "proof": "https://cloud.google.com/certification/verify/alicev",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Google Cloud",
+            "GKE",
+            "Compute Engine",
+            "IAM",
+            "Networking"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 209,
+          "title": "HackerRank 5-Star Python",
+          "description": "Achieved 5-star gold badge on HackerRank Python track by solving 80+ algorithmic challenges including data structures and OOP.",
+          "domain": "Competition",
+          "proof": "https://hackerrank.com/alicev",
+          "points": 18,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "Data Structures",
+            "Algorithms",
+            "OOP"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "srn": "2025ECE003",
+      "name": "Rahul Gupta",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "ECE",
+      "branch": "Communication Networks",
+      "totalPoints": 40,
+      "achievements": [
+        {
+          "id": 5,
+          "title": "Research Paper on IoT",
+          "description": "Published research paper on IoT sensor optimization in IEEE.",
+          "domain": "Project",
+          "proof": "https://ieeexplore.ieee.org/document/1234567",
+          "points": 40,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 210,
+          "title": "5G NR Protocol Stack Implementation",
+          "description": "Implemented a simplified 5G NR MAC layer scheduler in Python simulating HARQ retransmissions, CQI feedback, and resource block allocation.",
+          "domain": "Project",
+          "proof": "https://github.com/rahulg/5g-nr-mac",
+          "points": 37,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "5G",
+            "Python",
+            "Networking",
+            "Simulation",
+            "Signal Processing"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 211,
+          "title": "Wireshark Network Forensics Internship",
+          "description": "Interned at a network security firm analyzing packet captures with Wireshark, identifying anomalies, and documenting threat reports for 3 enterprise clients.",
+          "domain": "Internship",
+          "proof": "linkedin.com/in/rahulgupta-ece",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Wireshark",
+            "Networking",
+            "Security",
+            "Linux",
+            "Forensics"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 212,
+          "title": "MATLAB DSP Filter Bank",
+          "description": "Designed and simulated a multi-rate filter bank for audio signal processing in MATLAB, validated against reference implementations.",
+          "domain": "Project",
+          "proof": "https://github.com/rahulg/matlab-filterbank",
+          "points": 26,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "MATLAB",
+            "DSP",
+            "Signal Processing",
+            "Filter Design"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 213,
+          "title": "OpenWRT Router Customization",
+          "description": "Flashed OpenWRT on a TP-Link router, configured custom firewall rules, VPN tunneling, and bandwidth QoS policies using LuCI and shell scripting.",
+          "domain": "Project",
+          "proof": "https://github.com/rahulg/openwrt-config",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 214,
+          "title": "IEEE Paper: Beamforming MIMO",
+          "description": "Published research paper on adaptive beamforming techniques for MIMO antenna arrays in indoor environments at IEEE ANTS 2025 conference.",
+          "domain": "Research Paper",
+          "proof": "https://ieeexplore.ieee.org/document/rahulg-mimo",
+          "points": 42,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "MIMO",
+            "Beamforming",
+            "Signal Processing",
+            "Research",
+            "MATLAB"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "srn": "2025ME004",
+      "name": "Sneha Rao",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 1,
+      "department": "ME",
+      "branch": "Aerospace",
+      "totalPoints": 15,
+      "achievements": [
+        {
+          "id": 6,
+          "title": "Data Science Bootcamp",
+          "description": "Completed a 6-week intensive bootcamp on data science covering Python, Pandas, and basic ML models.",
+          "domain": "Course",
+          "proof": "Not Provided",
+          "points": 25,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 215,
+          "title": "Python for Aerospace Data Analysis",
+          "description": "Completed a 6-week course on using Python (NumPy, Pandas, Matplotlib) for aerodynamics data analysis and visualization.",
+          "domain": "Course",
+          "proof": "coursera.org/verify/sneharo-pyaero",
+          "points": 20,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Python",
+            "NumPy",
+            "Pandas",
+            "Matplotlib",
+            "Data Analysis"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 216,
+          "title": "OpenFOAM CFD Simulation",
+          "description": "Ran a basic CFD simulation of airflow over an NACA 0012 airfoil using OpenFOAM, post-processed with ParaView.",
+          "domain": "Project",
+          "proof": "https://github.com/sneharo/openfoam-naca",
+          "points": 24,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "CFD",
+            "OpenFOAM",
+            "Simulation",
+            "Aerospace",
+            "ParaView"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 217,
+          "title": "ANSYS Structural Analysis",
+          "description": "Performed finite element analysis of a truss structure under load using ANSYS Mechanical, validated results against hand calculations.",
+          "domain": "Project",
+          "proof": "sneharo_ansys_truss.pdf",
+          "points": 18,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "ANSYS",
+            "FEA",
+            "Structural Analysis",
+            "Mechanical Design"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 218,
+          "title": "Drone Assembly & Calibration",
+          "description": "Assembled a 250mm FPV racing drone from components, configured flight controller firmware (Betaflight), and tuned PID parameters for stable flight.",
+          "domain": "Project",
+          "proof": "https://github.com/sneharo/fpv-drone-build",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "srn": "2025CSE005",
+      "name": "Karan Singh",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 4,
+      "department": "CSE",
+      "branch": "Iot",
+      "totalPoints": 50,
+      "achievements": [
+        {
+          "id": 7,
+          "title": "Open Source Contributor",
+          "description": "Contributed bug fixes and documentation updates to a popular open-source Node.js project.",
+          "domain": "Project",
+          "proof": "https://github.com/student5/contributions",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 219,
+          "title": "Kubernetes Operator Development",
+          "description": "Developed a custom Kubernetes operator in Go using controller-runtime to manage lifecycle of a custom CRD for database provisioning.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 42,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Kubernetes",
+            "Go",
+            "Docker",
+            "DevOps",
+            "CRD",
+            "Cloud Native"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 220,
+          "title": "Terraform AWS Infrastructure",
+          "description": "Wrote Terraform modules to provision a complete AWS infrastructure: VPC, ECS cluster, RDS, ALB, Route53, and ACM certificates with remote state in S3.",
+          "domain": "Project",
+          "proof": "https://github.com/karans/terraform-aws-infra",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Terraform",
+            "AWS",
+            "IaC",
+            "DevOps",
+            "VPC",
+            "ECS",
+            "RDS"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 221,
+          "title": "Redis Caching Layer Implementation",
+          "description": "Added Redis caching to a high-traffic Express.js API, reducing average response time from 340ms to 45ms with cache invalidation strategies.",
+          "domain": "Project",
+          "proof": "https://github.com/karans/redis-caching",
+          "points": 28,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Redis",
+            "Node.js",
+            "Express",
+            "Performance",
+            "Backend"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 222,
+          "title": "GitHub Actions CI/CD Pipeline",
+          "description": "Built a complete CI/CD pipeline using GitHub Actions for a monorepo: parallel test runs, Docker build/push to ECR, and Kubernetes rolling deploy.",
+          "domain": "Project",
+          "proof": "https://github.com/karans/cicd-pipeline",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "GitHub Actions",
+            "CI/CD",
+            "Docker",
+            "Kubernetes",
+            "DevOps"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 223,
+          "title": "System Design Interview Prep",
+          "description": "Completed comprehensive system design study covering distributed systems, CAP theorem, consistent hashing, message queues, and designed Uber/Twitter clones.",
+          "domain": "Course",
+          "proof": "https://github.com/karans/system-design-notes",
+          "points": 20,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "srn": "2025ECE006",
+      "name": "Riya Mehta",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "ECE",
+      "branch": "Communication Networks",
+      "totalPoints": 25,
+      "achievements": [
+        {
+          "id": 8,
+          "title": "Math Olympiad Finalist",
+          "description": "Reached the national finals in the Indian Math Olympiad representing the state team.",
+          "domain": "Competition",
+          "proof": "math_olympiad_certificate.jpg",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 224,
+          "title": "Network Simulation with NS3",
+          "description": "Simulated a TCP/IP network topology with 50 nodes using NS3, analyzed throughput, latency, and packet loss under varying congestion scenarios.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 28,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "NS3",
+            "Networking",
+            "TCP/IP",
+            "Simulation",
+            "Python"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 225,
+          "title": "Cisco CCNA Certification",
+          "description": "Earned Cisco CCNA certification covering routing protocols (OSPF, EIGRP, BGP), VLANs, STP, NAT, and network security fundamentals.",
+          "domain": "Certification",
+          "proof": "Not Provided",
+          "points": 35,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Cisco",
+            "CCNA",
+            "Routing",
+            "Networking",
+            "VLANs",
+            "OSPF"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 226,
+          "title": "SDN Controller with Ryu",
+          "description": "Implemented a Software Defined Networking controller using Ryu framework to manage OpenFlow switches, with load balancing and dynamic flow rules.",
+          "domain": "Project",
+          "proof": "https://github.com/riyam/ryu-sdn-controller",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "SDN",
+            "OpenFlow",
+            "Python",
+            "Networking",
+            "Ryu"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 227,
+          "title": "LTE Network Performance Analysis",
+          "description": "Analyzed LTE downlink performance using MATLAB by simulating PDSCH channel with MIMO 2x2, OFDM, and adaptive modulation and coding.",
+          "domain": "Research",
+          "proof": "riyam_lte_analysis.pdf",
+          "points": 25,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "LTE",
+            "MATLAB",
+            "MIMO",
+            "OFDM",
+            "Signal Processing"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "srn": "",
+      "name": "Amit Kumar",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "ME",
+      "branch": "Aerospace",
+      "totalPoints": 30,
+      "achievements": [
+        {
+          "id": 9,
+          "title": "Robotics Workshop",
+          "description": "Built a line-following robot using Arduino and infrared sensors during a college robotics workshop.",
+          "domain": "Workshop",
+          "proof": "robotics_workshop_certificate.pdf",
+          "points": 20,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 18,
+          "title": "Blockchain Bootcamp",
+          "description": "Completed blockchain bootcamp building smart contracts on Ethereum.",
+          "domain": "Course",
+          "proof": "blockchain_bootcamp_certificate.pdf",
+          "points": 26,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 27,
+          "title": "AI Club Core Member",
+          "description": "Served as AI Club core team member organizing ML study jams.",
+          "domain": "Extra-Curricular",
+          "proof": "ai_club_certificate.pdf",
+          "points": 18,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 228,
+          "title": "ROS2 Navigation Stack",
+          "description": "Implemented autonomous navigation for a differential drive robot using ROS2 Nav2 stack, SLAM Toolbox for mapping, and AMCL for localization.",
+          "domain": "Project",
+          "proof": "https://github.com/amitk/ros2-nav-robot",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "ROS2",
+            "SLAM",
+            "Python",
+            "Robotics",
+            "Navigation",
+            "Computer Vision"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 229,
+          "title": "Python FastAPI Microservice",
+          "description": "Built a FastAPI microservice for telemetry data ingestion from IoT sensors, with Pydantic validation, async DB writes to TimescaleDB.",
+          "domain": "Project",
+          "proof": "https://github.com/amitk/telemetry-api",
+          "points": 28,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "FastAPI",
+            "Python",
+            "TimescaleDB",
+            "Async",
+            "REST API",
+            "IoT"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 230,
+          "title": "SolidWorks Rocket Fin Design",
+          "description": "Designed aerodynamic fin assembly for a model rocket in SolidWorks, ran FEA stress analysis and CFD drag coefficient estimation.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "SolidWorks",
+            "CFD",
+            "FEA",
+            "Aerospace",
+            "Mechanical Design"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 231,
+          "title": "",
+          "description": "Containerized a ROS2 application in Docker with X11 forwarding for GUI tools like RViz, enabling consistent dev environments across team.",
+          "domain": "Project",
+          "proof": "https://github.com/amitk/docker-ros2",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Docker",
+            "ROS2",
+            "Linux",
+            "DevOps",
+            "Robotics"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 232,
+          "title": "Kaggle Tabular Competitions",
+          "description": "Participated in 3 Kaggle tabular data competitions, achieving top 15% in all using XGBoost, feature engineering, and ensemble stacking.",
+          "domain": "Competition",
+          "proof": "https://kaggle.com/amitk",
+          "points": 26,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Python",
+            "XGBoost",
+            "Feature Engineering",
+            "Machine Learning",
+            "Pandas"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "srn": "2025CSE008",
+      "name": "Neha Jain",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "CSE",
+      "branch": "Iot",
+      "totalPoints": 10,
+      "achievements": [
+        {
+          "id": 10,
+          "title": "Cloud Fundamentals Certification",
+          "description": "Earned AWS Cloud Practitioner certification showcasing understanding of core AWS services.",
+          "domain": "Certification",
+          "proof": "https://aws.amazon.com/certification",
+          "points": 25,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 19,
+          "title": "ML Research Paper",
+          "description": "Co-authored research paper on supervised learning models published in Springer.",
+          "domain": "Research Paper",
+          "proof": "Not Provided",
+          "points": 40,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 28,
+          "title": "Research Paper on NLP",
+          "description": "Published paper on sentiment analysis in international conference proceedings.",
+          "domain": "Research Paper",
+          "proof": "https://icmlconf.com/student8-nlp",
+          "points": 42,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 233,
+          "title": "Arduino IoT Weather Station",
+          "description": "Built a complete IoT weather station using Arduino Uno, DHT22, BMP280 sensors, uploading data to ThingSpeak via WiFi module every 30 seconds.",
+          "domain": "Project",
+          "proof": "https://github.com/nehaj/iot-weather-station",
+          "points": 20,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Arduino",
+            "IoT",
+            "C++",
+            "Sensors",
+            "ThingSpeak"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 234,
+          "title": "Python Web Scraper",
+          "description": "Developed a Scrapy-based web scraper to collect and parse job listings from Naukri and LinkedIn, storing structured data to MongoDB.",
+          "domain": "Project",
+          "proof": "https://github.com/nehaj/job-scraper",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 235,
+          "title": "HTML/CSS/JS Portfolio Site",
+          "description": "Designed and deployed a responsive personal portfolio website with CSS animations, dark mode toggle, and contact form integration.",
+          "domain": "Project",
+          "proof": "https://nehaj.vercel.app",
+          "points": 14,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Responsive Design",
+            "Vercel"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 236,
+          "title": "NPTEL Python Programming",
+          "description": "Completed NPTEL 12-week Python programming course with Elite certificate scoring 87% in final exams covering data structures, file I/O, and OOP.",
+          "domain": "Certification",
+          "proof": "nptel.ac.in/verify/nehaj-python",
+          "points": 18,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Python",
+            "Data Structures",
+            "OOP",
+            "Algorithms"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 237,
+          "title": "Figma UI Prototype",
+          "description": "Designed a mobile app UI prototype for a campus food delivery app in Figma with 30+ screens, user flows, and interactive prototype links.",
+          "domain": "Project",
+          "proof": "https://figma.com/nehaj/campus-food-app",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Figma",
+            "UI/UX",
+            "Prototyping",
+            "Mobile Design"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "srn": "2025ECE009",
+      "name": "Vikram Patil",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 4,
+      "department": "ECE",
+      "branch": "Communication Networks",
+      "totalPoints": 45,
+      "achievements": [
+        {
+          "id": 11,
+          "title": "Hackathon Runner-up",
+          "description": "Secured 2nd place at state-level hackathon by creating a mental health chatbot.",
+          "domain": "Hackathon",
+          "proof": "hackathon_runnerup.pdf",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 20,
+          "title": "React Native App",
+          "description": "Developed a fitness tracker mobile app using React Native.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 29,
+          "title": "AWS Internship",
+          "description": "Interned at AWS partner company focusing on cloud migrations.",
+          "domain": "Internship",
+          "proof": "linkedin.com/in/student9",
+          "points": 36,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 238,
+          "title": "Kubernetes + Istio Service Mesh",
+          "description": "Deployed a microservices application on Kubernetes with Istio service mesh for traffic management, mutual TLS, and distributed tracing with Jaeger.",
+          "domain": "Project",
+          "proof": "https://github.com/vikramp/k8s-istio-demo",
+          "points": 42,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Kubernetes",
+            "Istio",
+            "Docker",
+            "Service Mesh",
+            "mTLS",
+            "Distributed Systems"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 239,
+          "title": "Prometheus + Grafana Monitoring Stack",
+          "description": "Set up full observability stack with Prometheus for metrics collection, Alertmanager for alerting, and Grafana dashboards for a production Kubernetes cluster.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 35,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Prometheus",
+            "Grafana",
+            "Kubernetes",
+            "Monitoring",
+            "DevOps",
+            "PromQL"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 240,
+          "title": "Go REST API with gRPC",
+          "description": "Built a high-performance backend in Go with both REST and gRPC interfaces, implementing protobuf schemas, interceptors, and streaming RPCs.",
+          "domain": "Project",
+          "proof": "https://github.com/vikramp/go-grpc-api",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Go",
+            "gRPC",
+            "protobuf",
+            "REST API",
+            "Backend",
+            "Performance"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 241,
+          "title": "Network Packet Analyzer Tool",
+          "description": "Developed a custom packet analyzer in Python using Scapy to capture, decode, and visualize network traffic with protocol breakdown and anomaly alerts.",
+          "domain": "Project",
+          "proof": "https://github.com/vikramp/packet-analyzer",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "Scapy",
+            "Networking",
+            "Security",
+            "Wireshark",
+            "Analysis"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 242,
+          "title": "CNCF Kubernetes Contributor",
+          "description": "Contributed documentation improvements and bug fixes to the official Kubernetes project, merged 3 PRs into the kubernetes/website repository.",
+          "domain": "Open Source",
+          "proof": "Not Provided",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Kubernetes",
+            "Open Source",
+            "Documentation",
+            "Go",
+            "Cloud Native"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "srn": "2025ME010",
+      "name": "Pooja Nair",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "ME",
+      "branch": "Aerospace",
+      "totalPoints": 20,
+      "achievements": [
+        {
+          "id": 12,
+          "title": "Cybersecurity Workshop",
+          "description": "Attended 3-day ethical hacking and cybersecurity awareness workshop.",
+          "domain": "Workshop",
+          "proof": "Not Provided",
+          "points": 18,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 21,
+          "title": "Cybersecurity Capture the Flag",
+          "description": "Ranked in top 5 teams in a national-level CTF competition.",
+          "domain": "Competition",
+          "proof": "Not Provided",
+          "points": 35,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 30,
+          "title": "Robotics National Finalist",
+          "description": "National finalist in robotics championship with autonomous navigation bot.",
+          "domain": "Competition",
+          "proof": "Not Provided",
+          "points": 45,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 243,
+          "title": "ANSYS Fluent CFD – Wing Analysis",
+          "description": "Performed CFD analysis of a NACA 4412 wing section at various angles of attack in ANSYS Fluent, generating lift/drag polars and pressure coefficient plots.",
+          "domain": "Project",
+          "proof": "pooja_ansys_wing.pdf",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "ANSYS",
+            "CFD",
+            "Aerospace",
+            "Simulation",
+            "FEA"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 244,
+          "title": "Python Flight Trajectory Simulator",
+          "description": "Built a 6-DOF flight trajectory simulator in Python using scipy ODE solver for a model rocket, including atmospheric drag and gravity turn.",
+          "domain": "Project",
+          "proof": "https://github.com/poojan/trajectory-sim",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "scipy",
+            "Simulation",
+            "Aerospace",
+            "NumPy"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 245,
+          "title": "ISRO Internship – Satellite Thermal",
+          "description": "Interned at ISRO URSC working on thermal analysis of satellite panels using Thermal Desktop, documented heat dissipation models for LEO orbit.",
+          "domain": "Internship",
+          "proof": "linkedin.com/in/poojanair-isro",
+          "points": 40,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Thermal Analysis",
+            "ISRO",
+            "Aerospace",
+            "Simulation",
+            "Documentation"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 246,
+          "title": "GD&T and Engineering Drawing",
+          "description": "Completed Geometric Dimensioning and Tolerancing certification, creating manufacturing drawings for complex assemblies per ASME Y14.5 standard.",
+          "domain": "Certification",
+          "proof": "gdnt_certificate_poojan.pdf",
+          "points": 20,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "GD&T",
+            "SolidWorks",
+            "Manufacturing",
+            "Mechanical Design"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "srn": "2025CSE011",
+      "name": "Arjun Reddy",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "CSE",
+      "branch": "Aids",
+      "totalPoints": 30,
+      "achievements": [
+        {
+          "id": 13,
+          "title": "Python Automation Project",
+          "description": "Developed a Python script to automate Excel reporting for college administration.",
+          "domain": "Project",
+          "proof": "https://github.com/student11/automation",
+          "points": 22,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 22,
+          "title": "IoT Smart Home Project",
+          "description": "Created IoT-based smart home automation project with Raspberry Pi and MQTT.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 31,
+          "title": "Portfolio Redesign",
+          "description": "Redesigned personal portfolio website with TailwindCSS and animations.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 19,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 247,
+          "title": "Apache Kafka Event Streaming",
+          "description": "Built a real-time event streaming pipeline using Apache Kafka with Python producers/consumers, schema registry, and Kafka Connect for database sync.",
+          "domain": "Project",
+          "proof": "https://github.com/arjunr/kafka-streaming",
+          "points": 35,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Kafka",
+            "Python",
+            "Event Streaming",
+            "Microservices",
+            "Docker"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 248,
+          "title": "PostgreSQL Performance Tuning",
+          "description": "Optimized a slow Django application's queries using EXPLAIN ANALYZE, created composite indexes, materialized views, and connection pooling with PgBouncer.",
+          "domain": "Project",
+          "proof": "https://github.com/arjunr/postgres-tuning",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "PostgreSQL",
+            "Django",
+            "Python",
+            "Database",
+            "Query Optimization"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 249,
+          "title": "Grafana + Loki Log Aggregation",
+          "description": "Deployed Grafana Loki for centralized log aggregation from multiple microservices, created Grafana dashboards with log-to-metric derived panels.",
+          "domain": "Project",
+          "proof": "https://github.com/arjunr/loki-logging",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 250,
+          "title": "Next.js Full Stack App",
+          "description": "Built a full-stack Next.js 14 application with App Router, server actions, Prisma ORM, NextAuth.js authentication, and Vercel deployment pipeline.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 32,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Prisma",
+            "PostgreSQL",
+            "Auth"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 251,
+          "title": "Terraform + Ansible Infrastructure",
+          "description": "",
+          "domain": "Project",
+          "proof": "https://github.com/arjunr/terraform-ansible",
+          "points": 26,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Terraform",
+            "Ansible",
+            "AWS",
+            "IaC",
+            "DevOps",
+            "Linux"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "srn": "",
+      "name": "Sana Khan",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 1,
+      "department": "ECE",
+      "branch": "Unknown",
+      "totalPoints": 15,
+      "achievements": [
+        {
+          "id": 14,
+          "title": "UI/UX Design Challenge Winner",
+          "description": "Won first place in UI/UX designathon by creating a mobile app prototype for e-learning.",
+          "domain": "Competition",
+          "proof": "designathon_certificate.pdf",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 23,
+          "title": "Hackathon Winner",
+          "description": "Won 1st place in regional hackathon building an AI-powered resume parser.",
+          "domain": "Hackathon",
+          "proof": "hackathon_winner_resumeparser.pdf",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 32,
+          "title": "Oracle Cloud Certification",
+          "description": "Achieved Oracle Cloud Infrastructure Foundations certification.",
+          "domain": "Certification",
+          "proof": "Not Provided",
+          "points": 24,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 252,
+          "title": "Figma Mobile App Design",
+          "description": "Designed a mental health companion mobile app in Figma with 45+ screens, design system, component library, and accessibility guidelines.",
+          "domain": "Project",
+          "proof": "https://figma.com/sanak/mindful-app",
+          "points": 20,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Figma",
+            "UI/UX",
+            "Mobile Design",
+            "Design System",
+            "Accessibility"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 253,
+          "title": "HTML/CSS/JS Responsive Website",
+          "description": "Built a fully responsive NGO website with CSS Grid, Flexbox, dark mode, and optimized Web Vitals scores — deployed on GitHub Pages.",
+          "domain": "Project",
+          "proof": "https://github.com/sanak/ngo-website",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Responsive Design",
+            "Web Performance"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 254,
+          "title": "",
+          "description": "Created interactive data visualizations using Plotly and Dash for analyzing Indian census data with choropleth maps and dynamic filters.",
+          "domain": "Project",
+          "proof": "https://github.com/sanak/census-viz",
+          "points": 22,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 255,
+          "title": "NPTEL Cloud Computing",
+          "description": "Completed NPTEL 8-week Cloud Computing course covering virtualization, AWS basics, Docker, and cloud security with 82% score.",
+          "domain": "Certification",
+          "proof": "nptel.ac.in/verify/sanak-cloud",
+          "points": 18,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Cloud Computing",
+            "AWS",
+            "Docker",
+            "Virtualization"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 256,
+          "title": "Postman API Testing",
+          "description": "Learned REST API testing with Postman, wrote 200+ automated tests for a public API, integrated Newman CLI with GitHub Actions for CI.",
+          "domain": "Project",
+          "proof": "https://github.com/sanak/api-tests",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Postman",
+            "API Testing",
+            "REST API",
+            "CI/CD",
+            "JavaScript"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "srn": "2025ME013",
+      "name": "Manish Sharma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "ME",
+      "branch": "Aerospace",
+      "totalPoints": 35,
+      "achievements": [
+        {
+          "id": 15,
+          "title": "AI Research Internship",
+          "description": "Interned at a research lab focusing on computer vision object detection models.",
+          "domain": "Internship",
+          "proof": "linkedin.com/in/student13",
+          "points": 35,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 24,
+          "title": "Deep Learning Course",
+          "description": "Completed Deep Learning specialization from Coursera.",
+          "domain": "Course",
+          "proof": "coursera_dl_certificate.pdf",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 33,
+          "title": "AI for Social Good Project",
+          "description": "Built AI model to classify plastic waste images for recycling drive.",
+          "domain": "Project",
+          "proof": "https://github.com/student13/ai-social-good",
+          "points": 37,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 257,
+          "title": "MLOps Pipeline with DVC",
+          "description": "Built an end-to-end MLOps pipeline using DVC for data versioning, MLflow for experiment tracking, and FastAPI for model serving with Docker.",
+          "domain": "Project",
+          "proof": "https://github.com/manishs/mlops-pipeline",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 258,
+          "title": "TensorFlow Object Detection",
+          "description": "Trained a custom object detection model using TensorFlow Object Detection API on a custom industrial defect dataset, deployed with TF Serving.",
+          "domain": "Project",
+          "proof": "https://github.com/manishs/object-detection",
+          "points": 36,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "TensorFlow",
+            "Computer Vision",
+            "Object Detection",
+            "Python",
+            "Docker"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 259,
+          "title": "AWS SageMaker Model Training",
+          "description": "Used AWS SageMaker to train, tune, and deploy an XGBoost model for predictive maintenance, with SageMaker Pipelines for CI/CD.",
+          "domain": "Project",
+          "proof": "https://github.com/manishs/sagemaker-demo",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "AWS",
+            "SageMaker",
+            "XGBoost",
+            "MLOps",
+            "Cloud"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 260,
+          "title": "Streamlit ML App Deployment",
+          "description": "Built and deployed an interactive ML application using Streamlit for visualizing model predictions and feature importance in real-time.",
+          "domain": "Project",
+          "proof": "https://github.com/manishs/streamlit-ml-app",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Streamlit",
+            "Python",
+            "Machine Learning",
+            "Data Visualization",
+            "Deployment"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 261,
+          "title": "Research: Attention Mechanisms Survey",
+          "description": "Wrote a comprehensive survey paper on attention mechanisms in deep learning, covering self-attention, multi-head attention, and cross-attention variants.",
+          "domain": "Research Paper",
+          "proof": "https://arxiv.org/abs/manishs-attention-survey",
+          "points": 40,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Deep Learning",
+            "Transformers",
+            "Research",
+            "NLP",
+            "Computer Vision"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "srn": "2025CSE014",
+      "name": "Divya Kapoor",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 4,
+      "department": "CSE",
+      "branch": "Aids",
+      "totalPoints": 50,
+      "achievements": [
+        {
+          "id": 16,
+          "title": "Kaggle Competition Participant",
+          "description": "Participated in Kaggle Titanic competition and achieved top 20% leaderboard rank.",
+          "domain": "Competition",
+          "proof": "https://kaggle.com/student14",
+          "points": 27,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 25,
+          "title": "Tech Blogger",
+          "description": "",
+          "domain": "Other",
+          "proof": "https://medium.com/@student14",
+          "points": 20,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 34,
+          "title": "Startup Pitch Winner",
+          "description": "Won college startup pitch competition presenting an EdTech idea.",
+          "domain": "Competition",
+          "proof": "Not Provided",
+          "points": 29,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 262,
+          "title": "LLM Fine-tuning with LoRA",
+          "description": "Fine-tuned Llama 2 7B on a custom Q&A dataset using LoRA/PEFT with 4-bit quantization on a single GPU, achieving 89% accuracy on test set.",
+          "domain": "Project",
+          "proof": "https://github.com/divyak/llm-finetune-lora",
+          "points": 44,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "LLM",
+            "LoRA",
+            "PEFT",
+            "Python",
+            "GenAI",
+            "Transformers",
+            "HuggingFace"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 263,
+          "title": "Vector Database with Pinecone",
+          "description": "Built a semantic search engine using Pinecone vector database, OpenAI embeddings, and FastAPI, enabling sub-100ms similarity search over 1M documents.",
+          "domain": "Project",
+          "proof": "https://github.com/divyak/semantic-search",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Pinecone",
+            "Vector Database",
+            "Embeddings",
+            "FastAPI",
+            "Python",
+            "GenAI"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 264,
+          "title": "GraphQL API with Apollo",
+          "description": "Designed and implemented a GraphQL API using Apollo Server with DataLoader for N+1 prevention, subscriptions for real-time updates, and schema federation.",
+          "domain": "Project",
+          "proof": "https://github.com/divyak/graphql-api",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "GraphQL",
+            "Apollo",
+            "Node.js",
+            "TypeScript",
+            "Backend",
+            "API Design"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 265,
+          "title": "React Native Expo App",
+          "description": "Built a cross-platform fitness app using React Native with Expo, integrating device sensors, push notifications, and AsyncStorage.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "React Native",
+            "Expo",
+            "TypeScript",
+            "Mobile",
+            "Push Notifications"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 266,
+          "title": "Google Summer of Code 2025",
+          "description": "Selected for GSoC 2025 with the HuggingFace organization, contributed LLM evaluation benchmarks and improved documentation for the transformers library.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 48,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Open Source",
+            "Python",
+            "LLM",
+            "HuggingFace",
+            "Transformers",
+            "GenAI"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "srn": "2025ECE015",
+      "name": "Rohit Verma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "ECE",
+      "branch": "Communication Networks",
+      "totalPoints": 25,
+      "achievements": [
+        {
+          "id": 17,
+          "title": "Flutter Mobile App",
+          "description": "Built a cross-platform mobile app for expense tracking using Flutter and Firebase.",
+          "domain": "Project",
+          "proof": "https://github.com/student15/flutter-expense-app",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 26,
+          "title": "Startup Internship",
+          "description": "Worked as frontend intern at a fintech startup for 3 months.",
+          "domain": "Internship",
+          "proof": "linkedin.com/in/student15",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 35,
+          "title": "AI Course Mentor",
+          "description": "Mentored juniors in completing Andrew Ng’s ML course.",
+          "domain": "Other",
+          "proof": "mentor_certificate.pdf",
+          "points": 21,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 267,
+          "title": "Flutter + Firebase App",
+          "description": "Built a real-time collaborative notes app using Flutter with Firebase Firestore, Authentication, Cloud Functions, and FCM push notifications.",
+          "domain": "Project",
+          "proof": "https://github.com/rohitv/flutter-notes",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Flutter",
+            "Firebase",
+            "Dart",
+            "Mobile",
+            "Cloud Functions"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 268,
+          "title": "Ansible Automation Playbooks",
+          "description": "Wrote Ansible playbooks to automate server provisioning, package installation, user management, and deployment across 20+ cloud VMs.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 26,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Ansible",
+            "Linux",
+            "DevOps",
+            "Automation",
+            "Shell Scripting"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 269,
+          "title": "",
+          "description": "Migrated a legacy JavaScript Express API to TypeScript with strict mode, added Zod runtime validation, Jest test suite achieving 92% coverage.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 28,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 270,
+          "title": "Supabase Backend Integration",
+          "description": "Integrated Supabase as backend-as-a-service for a SaaS project: row-level security policies, realtime subscriptions, and edge functions.",
+          "domain": "Project",
+          "proof": "https://github.com/rohitv/supabase-saas",
+          "points": 24,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Supabase",
+            "PostgreSQL",
+            "JavaScript",
+            "Backend",
+            "Auth",
+            "Realtime"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 271,
+          "title": "LeetCode 300+ Problems",
+          "description": "",
+          "domain": "Competition",
+          "proof": "https://leetcode.com/rohitv",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Algorithms",
+            "Data Structures",
+            "Dynamic Programming",
+            "Graphs",
+            "Python"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "srn": "2025ME016",
+      "name": "Meera Joshi",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 1,
+      "department": "ME",
+      "branch": "Aerospace",
+      "totalPoints": 10,
+      "achievements": [
+        {
+          "id": 36,
+          "title": "CAD Design Sprint",
+          "description": "Designed a lightweight drone chassis in SolidWorks and validated basic stress conditions for a first-year aerospace design sprint.",
+          "domain": "Project",
+          "proof": "cad_design_sprint.pdf",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 272,
+          "title": "MATLAB Aerospace Toolbox Basics",
+          "description": "Completed hands-on exercises with MATLAB Aerospace Toolbox covering coordinate transformations, atmosphere models, and trajectory calculations.",
+          "domain": "Course",
+          "proof": "meera_matlab_aero.pdf",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 273,
+          "title": "3D Printing FDM Parts",
+          "description": "Designed and 3D printed custom mechanical parts in PLA using FDM printer, iterated on designs based on stress analysis feedback.",
+          "domain": "Project",
+          "proof": "meera_3dprint_parts.jpg",
+          "points": 14,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "3D Printing",
+            "CAD",
+            "SolidWorks",
+            "Mechanical Design"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 274,
+          "title": "Python Basics for Engineers",
+          "description": "Completed Python programming course tailored for engineering students, covering numerical methods, plotting with Matplotlib, and file I/O.",
+          "domain": "Course",
+          "proof": "https://coursera.org/verify/meera-pyeng",
+          "points": 14,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Python",
+            "NumPy",
+            "Matplotlib",
+            "Mathematics"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "srn": "2025CSE017",
+      "name": "Aakash Bansal",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "CSE",
+      "branch": "Aids",
+      "totalPoints": 40,
+      "achievements": [
+        {
+          "id": 37,
+          "title": "Clinical Notes Classifier",
+          "description": "Built a multi-label NLP pipeline using Python, scikit-learn, and FastAPI to classify anonymized clinical notes for a healthcare analytics mini project.",
+          "domain": "Project",
+          "proof": "https://github.com/student17/clinical-notes-classifier",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "NLP",
+            "scikit-learn",
+            "FastAPI",
+            "Machine Learning"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 275,
+          "title": "Hugging Face Transformers NLP",
+          "description": "Fine-tuned BERT for a multi-class medical text classification task using HuggingFace Transformers and Trainer API, achieving F1 of 0.91 on test set.",
+          "domain": "Project",
+          "proof": "https://github.com/aakashb/bert-medical-nlp",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "NLP",
+            "BERT",
+            "HuggingFace",
+            "Python",
+            "Fine-tuning",
+            "Transformers"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 276,
+          "title": "Apache Airflow Data Pipeline",
+          "description": "Built automated ETL pipelines using Apache Airflow with custom operators for data ingestion from REST APIs, transformation, and loading to BigQuery.",
+          "domain": "Project",
+          "proof": "https://github.com/aakashb/airflow-etl",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 277,
+          "title": "Spark Structured Streaming",
+          "description": "Processed real-time clickstream data using Apache Spark Structured Streaming with Kafka source, windowed aggregations, and Delta Lake sink.",
+          "domain": "Project",
+          "proof": "https://github.com/aakashb/spark-streaming",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Apache Spark",
+            "Kafka",
+            "Python",
+            "Data Engineering",
+            "Delta Lake"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 278,
+          "title": "dbt Data Transformation",
+          "description": "Used dbt (data build tool) to transform raw data in Snowflake with modular SQL models, tests, documentation, and CI/CD integration.",
+          "domain": "Project",
+          "proof": "https://github.com/aakashb/dbt-snowflake",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "dbt",
+            "Snowflake",
+            "SQL",
+            "Data Engineering",
+            "Analytics Engineering"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 279,
+          "title": "",
+          "description": "Earned Google Cloud Professional Data Engineer certification covering BigQuery, Dataflow, Pub/Sub, Cloud Composer, and ML APIs.",
+          "domain": "Certification",
+          "proof": "Not Provided",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Google Cloud",
+            "BigQuery",
+            "Dataflow",
+            "Data Engineering",
+            "GCP"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "srn": "2025ECE018",
+      "name": "Isha Malhotra",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 4,
+      "department": "ECE",
+      "branch": "Communication Networks",
+      "totalPoints": 45,
+      "achievements": [
+        {
+          "id": 38,
+          "title": "5G Link Budget Study",
+          "description": "Completed a capstone analysis on 5G small-cell coverage planning with MATLAB simulations, RF link budgets, and optimization of signal quality.",
+          "domain": "Research",
+          "proof": "Not Provided",
+          "points": 31,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "MATLAB",
+            "5G",
+            "RF",
+            "Signal Processing",
+            "Telecom"
+          ],
+          "createdAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": 280,
+          "title": "OpenRAN vRAN Implementation",
+          "description": "Implemented a virtual Radio Access Network using OpenRAN architecture on COTS hardware with O-DU and O-CU functional split, tested with UE emulators.",
+          "domain": "Project",
+          "proof": "isha_openran_impl.pdf",
+          "points": 42,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "5G",
+            "OpenRAN",
+            "Networking",
+            "Telecom",
+            "Linux",
+            "Virtualization"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 281,
+          "title": "Python Network Automation",
+          "description": "Automated network device configuration using Netmiko and NAPALM for multi-vendor routers, reducing provisioning time by 80%.",
+          "domain": "Project",
+          "proof": "https://github.com/isham/network-automation",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "Netmiko",
+            "NAPALM",
+            "Networking",
+            "Automation",
+            "DevOps"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 282,
+          "title": "Satellite Communication Internship",
+          "description": "Interned at Hughes Network Systems working on DVB-S2X modulation schemes and link budget calculations for broadband satellite services.",
+          "domain": "Internship",
+          "proof": "linkedin.com/in/ishamalhotra-hughes",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Satellite Communication",
+            "DVB-S2X",
+            "Telecom",
+            "Signal Processing",
+            "MATLAB"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 283,
+          "title": "AWS Advanced Networking Specialty",
+          "description": "Earned AWS Advanced Networking Specialty certification covering VPC design, Transit Gateway, Direct Connect, CloudFront, and Route53 advanced routing.",
+          "domain": "Certification",
+          "proof": "aws.amazon.com/verify/isham-ans",
+          "points": 40,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": "2026-03-16T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "srn": "2025ME019",
+      "name": "Aditya Rao",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "ME",
+      "branch": "Aerospace",
+      "totalPoints": 0,
+      "achievements": [
+        {
+          "id": 39,
+          "title": "Mini Formula SAE Suspension Model",
+          "description": "Modeled a double-wishbone suspension setup and documented trade-offs in ride comfort and stability for a student motorsport challenge.",
+          "domain": "Competition",
+          "proof": "Not Provided",
+          "points": 20,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 284,
+          "title": "Electric Vehicle Powertrain Simulation",
+          "description": "Simulated an EV powertrain in MATLAB/Simulink including PMSM motor model, battery SOC estimation, and regenerative braking control.",
+          "domain": "Project",
+          "proof": "https://github.com/adityar/ev-powertrain-sim",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 285,
+          "title": "CAD Assembly – Quadcopter Frame",
+          "description": "Designed a complete quadcopter airframe assembly in CATIA V5 with tolerance stack-up analysis and Bill of Materials.",
+          "domain": "Project",
+          "proof": "adityar_quadcopter_cad.stp",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "CATIA",
+            "CAD",
+            "Aerospace",
+            "Mechanical Design",
+            "Assembly"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 286,
+          "title": "Python Controls Library",
+          "description": "Contributed to the python-control library on GitHub by fixing bugs in Bode plot generation and adding Nichols chart functionality.",
+          "domain": "Open Source",
+          "proof": "https://github.com/python-control/python-control/pulls?q=adityar",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Python",
+            "Control Systems",
+            "Open Source",
+            "Mathematics",
+            "MATLAB"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "srn": "2025CSE020",
+      "name": "Simran Kaur",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 1,
+      "department": "CSE",
+      "branch": "Aids",
+      "totalPoints": 15,
+      "achievements": [
+        {
+          "id": 40,
+          "title": "Campus Helpdesk Bot",
+          "description": "Created a beginner-friendly chatbot using Python, Flask, and intent matching to answer common campus queries with a simple admin dashboard.",
+          "domain": "Project",
+          "proof": "https://github.com/student20/campus-helpdesk-bot",
+          "points": 19,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Python",
+            "Flask",
+            "Chatbot",
+            "HTML",
+            "JavaScript"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 287,
+          "title": "Machine Learning Foundations Course",
+          "description": "Completed Andrew Ng's Machine Learning Specialization on Coursera covering supervised learning, unsupervised learning, and recommender systems.",
+          "domain": "Course",
+          "proof": "https://coursera.org/verify/simrank-ml",
+          "points": 22,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Machine Learning",
+            "Python",
+            "scikit-learn",
+            "Neural Networks",
+            "Mathematics"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 288,
+          "title": "React Todo App with TypeScript",
+          "description": "Built a feature-complete Todo application in React with TypeScript, Context API for state management, and localStorage persistence.",
+          "domain": "Project",
+          "proof": "https://github.com/simrank/react-todo-ts",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 289,
+          "title": "SQL Database Design",
+          "description": "Designed and normalized a hospital management database schema in PostgreSQL with complex queries, stored procedures, and indexing strategies.",
+          "domain": "Project",
+          "proof": "https://github.com/simrank/hospital-db",
+          "points": 18,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "SQL",
+            "PostgreSQL",
+            "Database Design",
+            "Normalization"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 290,
+          "title": "Google Data Analytics Certificate",
+          "description": "Completed the Google Data Analytics Professional Certificate on Coursera covering data cleaning, SQL, Tableau, and R programming.",
+          "domain": "Certification",
+          "proof": "https://coursera.org/verify/simrank-gda",
+          "points": 20,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "SQL",
+            "Tableau",
+            "R",
+            "Data Analysis",
+            "Google Sheets"
+          ],
+          "createdAt": "2026-03-16T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "srn": "2025ECE021",
+      "name": "Kabir Singh",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "ECE",
+      "branch": "Vlsi Designing",
+      "totalPoints": 30,
+      "achievements": [
+        {
+          "id": 41,
+          "title": "ASIC Verification Internship",
+          "description": "Worked on UVM-based verification flows for low-power digital IP blocks and created coverage reports for regression test cases.",
+          "domain": "Internship",
+          "proof": "asic_verification_internship.pdf",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Verilog",
+            "SystemVerilog",
+            "UVM",
+            "ASIC",
+            "Verification"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 291,
+          "title": "SystemVerilog UVM Testbench",
+          "description": "Developed a complete UVM testbench for a custom AXI4-Lite slave IP, including sequences, agents, scoreboards, and functional coverage groups.",
+          "domain": "Project",
+          "proof": "https://github.com/kabirs/uvm-axi4-tb",
+          "points": 40,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "SystemVerilog",
+            "UVM",
+            "ASIC",
+            "Verification",
+            "AXI",
+            "Functional Coverage"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 292,
+          "title": "RISC-V Processor Design",
+          "description": "Implemented a 5-stage pipelined RISC-V RV32I processor in SystemVerilog with hazard detection, forwarding logic, and verified on FPGA.",
+          "domain": "Project",
+          "proof": "https://github.com/kabirs/riscv-core",
+          "points": 44,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "RISC-V",
+            "SystemVerilog",
+            "FPGA",
+            "Digital Design",
+            "Computer Architecture"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 293,
+          "title": "Cadence Virtuoso Layout",
+          "description": "Completed CMOS VLSI layout using Cadence Virtuoso for a 4-bit ripple carry adder in 180nm technology with DRC/LVS clean.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Cadence Virtuoso",
+            "CMOS",
+            "VLSI",
+            "Layout",
+            "DRC/LVS",
+            "180nm"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 294,
+          "title": "Python Chip Verification Automation",
+          "description": "Wrote Python scripts using PyUVM to automate regression runs, parse coverage reports, and generate HTML dashboards for ASIC verification.",
+          "domain": "Project",
+          "proof": "https://github.com/kabirs/chip-verification-automation",
+          "points": 26,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "PyUVM",
+            "Automation",
+            "ASIC",
+            "Verification",
+            "Scripting"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "srn": "2025ME022",
+      "name": "Anjali Mishra",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "ME",
+      "branch": "Mechatronics",
+      "totalPoints": 25,
+      "achievements": [
+        {
+          "id": 42,
+          "title": "Autonomous Sorting Arm Prototype",
+          "description": "Built a color-sorting robotic arm using Arduino, servo control, and sensor feedback for a mechatronics lab demonstration.",
+          "domain": "Project",
+          "proof": "https://github.com/student22/sorting-arm",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Arduino",
+            "Sensors",
+            "Embedded Systems",
+            "Robotics",
+            "Mechatronics"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 295,
+          "title": "ROS Manipulation with MoveIt",
+          "description": "Programmed a 6-DOF robotic arm for pick-and-place using ROS MoveIt motion planning framework with collision avoidance.",
+          "domain": "Project",
+          "proof": "https://github.com/anjalim/moveit-arm",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 296,
+          "title": "PLC Ladder Logic Programming",
+          "description": "Programmed a Siemens S7-1200 PLC in ladder logic for a conveyor belt sorting system, tested on physical hardware in lab.",
+          "domain": "Project",
+          "proof": "anjalim_plc_ladder.pdf",
+          "points": 26,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "PLC",
+            "Siemens",
+            "Automation",
+            "Ladder Logic",
+            "Mechatronics"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 297,
+          "title": "Solidworks FEA – Robotic Gripper",
+          "description": "Designed a pneumatic robotic gripper in SolidWorks and ran FEA to validate structural integrity under 50N gripping force.",
+          "domain": "Project",
+          "proof": "anjalim_gripper_fea.pdf",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 298,
+          "title": "OpenCV Computer Vision Pipeline",
+          "description": "Built a real-time computer vision pipeline using OpenCV and Python to detect colored objects on a conveyor belt and trigger sorting actuators.",
+          "domain": "Project",
+          "proof": "https://github.com/anjalim/cv-conveyor-sorting",
+          "points": 28,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Python",
+            "OpenCV",
+            "Computer Vision",
+            "Robotics",
+            "Mechatronics"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "srn": "2025CSE023",
+      "name": "Raghav Choudhary",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 4,
+      "department": "CSE",
+      "branch": "Unknown",
+      "totalPoints": 50,
+      "achievements": [
+        {
+          "id": 43,
+          "title": "Distributed Placement Portal",
+          "description": "",
+          "domain": "Project",
+          "proof": "https://github.com/student23/placement-portal",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "React",
+            "Node.js",
+            "PostgreSQL",
+            "Redis",
+            "REST API",
+            "Authentication"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 299,
+          "title": "Distributed Cache System",
+          "description": "Built a distributed in-memory cache in Go with consistent hashing, LRU eviction, replication factor 3, and a simple Raft-inspired consensus for leader election.",
+          "domain": "Project",
+          "proof": "https://github.com/raghavc/distributed-cache",
+          "points": 46,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Go",
+            "Distributed Systems",
+            "Consistent Hashing",
+            "Raft",
+            "Backend",
+            "System Design"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 300,
+          "title": "Kafka + Spark Streaming Analytics",
+          "description": "Built a real-time user analytics pipeline: Kafka for event ingestion, Spark Structured Streaming for processing, Delta Lake for storage, Superset for dashboards.",
+          "domain": "Project",
+          "proof": "https://github.com/raghavc/realtime-analytics",
+          "points": 42,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Kafka",
+            "Apache Spark",
+            "Delta Lake",
+            "Data Engineering",
+            "Python",
+            "Docker"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 301,
+          "title": "OpenAI Assistants API Integration",
+          "description": "Built a multi-tenant AI assistant platform using OpenAI Assistants API with thread management, file uploads, function calling, and streaming responses.",
+          "domain": "Project",
+          "proof": "https://github.com/raghavc/ai-assistant-platform",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "GenAI",
+            "OpenAI",
+            "Python",
+            "FastAPI",
+            "TypeScript",
+            "React"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 302,
+          "title": "Competitive Programming – Codeforces",
+          "description": "Achieved Codeforces rating of 1850 (Expert level) by solving 400+ problems in contest, specializing in graph algorithms and segment trees.",
+          "domain": "Competition",
+          "proof": "https://codeforces.com/raghavc",
+          "points": 35,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Algorithms",
+            "Data Structures",
+            "Competitive Programming",
+            "C++",
+            "Graphs",
+            "Mathematics"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 303,
+          "title": "SDE Internship – Google",
+          "description": "",
+          "domain": "Internship",
+          "proof": "Not Provided",
+          "points": 50,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Algorithms",
+            "C++",
+            "Distributed Systems",
+            "Google",
+            "Backend",
+            "Performance"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "srn": "2025ECE024",
+      "name": "Nikita Sharma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 1,
+      "department": "ECE",
+      "branch": "Vlsi Designing",
+      "totalPoints": 10,
+      "achievements": [
+        {
+          "id": 44,
+          "title": "VLSI Basics Certification",
+          "description": "Completed an NPTEL certification covering CMOS basics, logic design, timing concepts, and introductory chip layout workflows.",
+          "domain": "Certification",
+          "proof": "nptel_vlsi_basics_certificate.pdf",
+          "points": 17,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "VLSI",
+            "CMOS",
+            "Digital Design",
+            "Semiconductors"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 304,
+          "title": "Digital Logic Design with Vivado",
+          "description": "Implemented combinational and sequential circuits in Verilog using Xilinx Vivado, verified on Nexys A7 FPGA development board.",
+          "domain": "Project",
+          "proof": "https://github.com/nikitas/vivado-labs",
+          "points": 18,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Verilog",
+            "FPGA",
+            "Xilinx",
+            "Digital Design",
+            "Embedded Systems"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 305,
+          "title": "C Programming – Embedded Systems",
+          "description": "Completed an embedded C programming course with hands-on STM32 microcontroller projects including GPIO, UART, I2C, and SPI peripherals.",
+          "domain": "Project",
+          "proof": "nikitas_embedded_c.pdf",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "C",
+            "Embedded Systems",
+            "STM32",
+            "Microcontroller",
+            "UART",
+            "I2C"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 306,
+          "title": "KiCad PCB Design Basics",
+          "description": "Designed a simple Arduino shield PCB in KiCad with schematic capture, layout, DRC verification, and ordered from JLCPCB.",
+          "domain": "Project",
+          "proof": "https://github.com/nikitas/arduino-shield-pcb",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "KiCad",
+            "PCB Design",
+            "Electronics",
+            "Hardware Design"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "srn": "2025ME025",
+      "name": "Vivek Joshi",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "ME",
+      "branch": "Mechatronics",
+      "totalPoints": 35,
+      "achievements": [
+        {
+          "id": 45,
+          "title": "Predictive Maintenance Dashboard",
+          "description": "Developed a dashboard for machine health monitoring using Python, Streamlit, and anomaly detection on sensor vibration data.",
+          "domain": "Project",
+          "proof": "https://github.com/student25/predictive-maintenance-dashboard",
+          "points": 29,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "Streamlit",
+            "Data Analysis",
+            "Anomaly Detection",
+            "IoT"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 307,
+          "title": "SCADA System Development",
+          "description": "Developed a SCADA system using Python and MQTT to monitor and control industrial sensors with a web-based dashboard built in Node-RED.",
+          "domain": "Project",
+          "proof": "https://github.com/vivekj/scada-system",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 308,
+          "title": "Machine Vision Defect Detection",
+          "description": "Built a machine vision system using YOLO v8 to detect surface defects on manufactured parts, achieving 96% precision on test dataset.",
+          "domain": "Project",
+          "proof": "https://github.com/vivekj/defect-detection",
+          "points": 36,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "YOLO",
+            "Computer Vision",
+            "OpenCV",
+            "Machine Learning",
+            "Quality Control"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 309,
+          "title": "Digital Twin with Unity",
+          "description": "Created a digital twin of a conveyor system in Unity3D synchronized with real PLC sensor data via OPC-UA protocol.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Unity3D",
+            "OPC-UA",
+            "Digital Twin",
+            "PLC",
+            "Mechatronics",
+            "C#"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 310,
+          "title": "AWS IoT Core Integration",
+          "description": "Connected industrial IoT devices to AWS IoT Core using MQTT, implemented device shadows, rules engine, and time-series storage in Timestream.",
+          "domain": "Project",
+          "proof": "https://github.com/vivekj/aws-iot-industrial",
+          "points": 28,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "srn": "2025CSE026",
+      "name": "Aarav Singh",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "CSE",
+      "branch": "Cse",
+      "totalPoints": 25,
+      "achievements": [
+        {
+          "id": 46,
+          "title": "Open Source Issue Triage",
+          "description": "Contributed test fixes, bug reports, and documentation improvements to a TypeScript-based developer tools repository.",
+          "domain": "Open Source",
+          "proof": "Not Provided",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "TypeScript",
+            "Git",
+            "Testing",
+            "Documentation"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 311,
+          "title": "Vue.js + Pinia SPA",
+          "description": "Built a single-page application for project management using Vue 3 with Composition API, Pinia state management, and Vue Router.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Vue.js",
+            "JavaScript",
+            "Pinia",
+            "TypeScript",
+            "Frontend"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 312,
+          "title": "Docker Multi-Stage Builds",
+          "description": "Optimized Docker images for production using multi-stage builds, reducing final image sizes by 70% across 4 different application types.",
+          "domain": "Project",
+          "proof": "https://github.com/aaravs/docker-optimized",
+          "points": 22,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 313,
+          "title": "Redis Pub/Sub Notification System",
+          "description": "Implemented real-time push notifications using Redis Pub/Sub in a Node.js backend with Socket.IO forwarding to React frontend.",
+          "domain": "Project",
+          "proof": "https://github.com/aaravs/redis-pubsub-notifications",
+          "points": 26,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 314,
+          "title": "Jest + Supertest API Testing",
+          "description": "Wrote comprehensive integration tests for a REST API using Jest and Supertest with database seeding, mocking, and 95% coverage.",
+          "domain": "Project",
+          "proof": "https://github.com/aaravs/api-integration-tests",
+          "points": 20,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Jest",
+            "Node.js",
+            "Testing",
+            "REST API",
+            "TypeScript",
+            "CI/CD"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 315,
+          "title": "MongoDB Atlas + Mongoose",
+          "description": "Built a blog platform backend with MongoDB Atlas, Mongoose ODM, aggregation pipelines for analytics, and text search functionality.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "MongoDB",
+            "Mongoose",
+            "Node.js",
+            "Express",
+            "REST API",
+            "Atlas"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "srn": "2025ECE027",
+      "name": "Megha Reddy",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "ECE",
+      "branch": "Vlsi Designing",
+      "totalPoints": 40,
+      "achievements": [
+        {
+          "id": 47,
+          "title": "FPGA Signal Processing Lab",
+          "description": "Implemented FIR filter logic on FPGA using Verilog and verified performance against MATLAB reference outputs.",
+          "domain": "Lab Project",
+          "proof": "fpga_signal_processing_lab.pdf",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "FPGA",
+            "Verilog",
+            "MATLAB",
+            "Digital Signal Processing"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 316,
+          "title": "ARM Cortex-M4 Bare Metal Driver",
+          "description": "Wrote bare-metal drivers in C for ARM Cortex-M4 (STM32F4) covering DMA, TIM, EXTI, and USART peripherals without HAL library.",
+          "domain": "Project",
+          "proof": "https://github.com/meghar/stm32-bare-metal",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "C",
+            "ARM",
+            "STM32",
+            "Embedded Systems",
+            "DMA",
+            "UART",
+            "Bare Metal"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 317,
+          "title": "Memory Compiler Design",
+          "description": "Studied and implemented a simplified SRAM memory compiler generating layouts for different array sizes using Python scripting with Magic VLSI.",
+          "domain": "Project",
+          "proof": "https://github.com/meghar/memory-compiler",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "VLSI",
+            "Python",
+            "SRAM",
+            "Memory Design",
+            "Magic",
+            "Scripting"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 318,
+          "title": "Synopsys Design Compiler",
+          "description": "Used Synopsys Design Compiler to synthesize an RTL design targeting a 45nm standard cell library, analyzed timing and area reports.",
+          "domain": "Project",
+          "proof": "meghar_synopsys_synthesis.pdf",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 319,
+          "title": "Signal Integrity Analysis",
+          "description": "Performed signal integrity analysis on a high-speed DDR4 PCB design using Cadence Sigrity, identifying and fixing crosstalk and impedance mismatch issues.",
+          "domain": "Project",
+          "proof": "meghar_si_analysis.pdf",
+          "points": 26,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Signal Integrity",
+            "PCB Design",
+            "Cadence",
+            "DDR4",
+            "Hardware Design"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "srn": "2025ME028",
+      "name": "Siddharth Kumar",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 1,
+      "department": "ME",
+      "branch": "Mechatronics",
+      "totalPoints": 15,
+      "achievements": [
+        {
+          "id": 48,
+          "title": "Warehouse AGV Simulation",
+          "description": "Simulated an automated guided vehicle workflow for warehouse logistics using ROS basics and path planning in a college robotics event.",
+          "domain": "Workshop",
+          "proof": "warehouse_agv_simulation.mp4",
+          "points": 18,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 320,
+          "title": "Arduino Servo Motor Control",
+          "description": "Programmed servo motor control with Arduino for a robotic arm prototype, implementing position control via potentiometer and serial commands.",
+          "domain": "Project",
+          "proof": "https://github.com/siddharthk/servo-arm",
+          "points": 14,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Arduino",
+            "C++",
+            "Robotics",
+            "Servo",
+            "Embedded Systems"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 321,
+          "title": "Python Automation Script",
+          "description": "Wrote Python scripts to automate repetitive data entry tasks using Selenium WebDriver, saving 3 hours of manual work per week.",
+          "domain": "Project",
+          "proof": "https://github.com/siddharthk/automation-scripts",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Python",
+            "Selenium",
+            "Automation",
+            "Web Scraping"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 322,
+          "title": "SolidWorks Certified Associate",
+          "description": "Earned SOLIDWORKS Certified Associate (CSWA) certification demonstrating competency in 3D modeling, assemblies, and drawings.",
+          "domain": "Project",
+          "proof": "solidworks.com/verify/siddharthk",
+          "points": 18,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "SolidWorks",
+            "CAD",
+            "Mechanical Design",
+            "3D Modeling"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "srn": "2025CSE029",
+      "name": "Tanya Kapoor",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 4,
+      "department": "CSE",
+      "branch": "Cse",
+      "totalPoints": 50,
+      "achievements": [
+        {
+          "id": 49,
+          "title": "MERN Alumni Network",
+          "description": "Built and deployed an alumni networking platform with React, Express, MongoDB, JWT auth, and responsive dashboards.",
+          "domain": "Project",
+          "proof": "https://github.com/student29/alumni-network",
+          "points": 36,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "React",
+            "Express",
+            "MongoDB",
+            "JWT",
+            "JavaScript",
+            "REST API"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 323,
+          "title": "Microservices with gRPC",
+          "description": "Architected a microservices system with 6 services communicating via gRPC, using protobuf for schema definitions and envoy as API gateway.",
+          "domain": "Project",
+          "proof": "https://github.com/tanyak/grpc-microservices",
+          "points": 42,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "gRPC",
+            "protobuf",
+            "Microservices",
+            "Docker",
+            "Kubernetes",
+            "Go"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 324,
+          "title": "Elasticsearch Full-Text Search",
+          "description": "Integrated Elasticsearch into a product catalog service with custom analyzers, relevance tuning, faceted search, and autocomplete.",
+          "domain": "Project",
+          "proof": "https://github.com/tanyak/elastic-product-search",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Elasticsearch",
+            "Node.js",
+            "Search",
+            "Backend",
+            "DevOps"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 325,
+          "title": "React + Redux Toolkit",
+          "description": "Migrated a large React application from legacy Redux to Redux Toolkit with RTK Query for API caching, reducing boilerplate by 60%.",
+          "domain": "Project",
+          "proof": "https://github.com/tanyak/redux-toolkit-migration",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "React",
+            "Redux Toolkit",
+            "TypeScript",
+            "Frontend",
+            "RTK Query"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 326,
+          "title": "Open Source: Prisma Contributions",
+          "description": "Contributed 5 PRs to the Prisma ORM project fixing bugs in the query engine and improving TypeScript type generation for complex schemas.",
+          "domain": "Open Source",
+          "proof": "https://github.com/prisma/prisma/pulls?q=tanyak",
+          "points": 36,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Open Source",
+            "TypeScript",
+            "Prisma",
+            "PostgreSQL",
+            "Node.js"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 327,
+          "title": "Microsoft SDE Internship",
+          "description": "Completed 10-week internship at Microsoft IDC Hyderabad working on Azure DevOps pipelines feature, shipped feature to production.",
+          "domain": "Internship",
+          "proof": "linkedin.com/in/tanyak-microsoft",
+          "points": 48,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Azure",
+            "DevOps",
+            "TypeScript",
+            "C#",
+            "Distributed Systems",
+            "Microservices"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "srn": "2025ECE030",
+      "name": "Rajat Mehra",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "ECE",
+      "branch": "Vlsi Designing",
+      "totalPoints": 30,
+      "achievements": [
+        {
+          "id": 50,
+          "title": "PCB Design Mini Project",
+          "description": "Designed and fabricated a two-layer PCB for a sensor acquisition module using KiCad and validated continuity and power regulation.",
+          "domain": "Project",
+          "proof": "pcb_design_mini_project.pdf",
+          "points": 23,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 328,
+          "title": "Embedded Linux on Raspberry Pi",
+          "description": "Set up custom embedded Linux (Buildroot) on Raspberry Pi 4, built kernel from source, added custom device drivers for I2C sensors.",
+          "domain": "Project",
+          "proof": "https://github.com/rajatm/embedded-linux-rpi",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 329,
+          "title": "UART/SPI/I2C Protocol Implementation",
+          "description": "Implemented UART, SPI, and I2C communication protocols from scratch on STM32 in bare-metal C, verified with logic analyzer.",
+          "domain": "Project",
+          "proof": "https://github.com/rajatm/protocol-implementations",
+          "points": 26,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "C",
+            "STM32",
+            "UART",
+            "SPI",
+            "I2C",
+            "Embedded Systems",
+            "Protocols"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 330,
+          "title": "Verilog ALU Design and Verification",
+          "description": "Designed a 32-bit ALU in Verilog with full operator support, wrote self-checking testbench with 100% statement coverage.",
+          "domain": "Project",
+          "proof": "https://github.com/rajatm/verilog-alu",
+          "points": 24,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Verilog",
+            "VLSI",
+            "ALU",
+            "Digital Design",
+            "Verification",
+            "Testbench"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 331,
+          "title": "FPGA Image Processing",
+          "description": "Implemented real-time edge detection on FPGA using Sobel filter in VHDL, processing 720p video at 60fps from camera input.",
+          "domain": "Project",
+          "proof": "https://github.com/rajatm/fpga-edge-detection",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "FPGA",
+            "VHDL",
+            "Image Processing",
+            "Digital Design",
+            "Xilinx"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "srn": "2025ME031",
+      "name": "Ananya Sharma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "ME",
+      "branch": "Mechatronics",
+      "totalPoints": 35,
+      "achievements": [
+        {
+          "id": 51,
+          "title": "Factory Line Digital Twin",
+          "description": "Created a mechatronics-focused digital twin prototype for a bottling line using PLC simulation, sensor states, and performance logging.",
+          "domain": "Project",
+          "proof": "factory_line_digital_twin.pdf",
+          "points": 27,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 332,
+          "title": "MATLAB Simulink Control Design",
+          "description": "Designed PID, LQR, and MPC controllers in MATLAB Simulink for a cart-pendulum system, compared stability margins and transient response.",
+          "domain": "Project",
+          "proof": "https://github.com/ananyash/matlab-control-design",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 333,
+          "title": "ROS Industrial Package",
+          "description": "Contributed to ros-industrial package by adding support for a new robot arm model, including URDF, MoveIt config, and driver integration.",
+          "domain": "Open Source",
+          "proof": "https://github.com/ros-industrial/ros_industrial/pulls?q=ananyash",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "ROS",
+            "Python",
+            "Robotics",
+            "Open Source",
+            "MoveIt",
+            "URDF"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 334,
+          "title": "Hydraulic System Simulation",
+          "description": "Simulated a hydraulic press system in MATLAB SimHydraulics, designed pressure relief valve, and analyzed dynamic response.",
+          "domain": "Project",
+          "proof": "ananyash_hydraulic_sim.pdf",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "MATLAB",
+            "Hydraulics",
+            "Simulation",
+            "Mechatronics",
+            "Control Systems"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 335,
+          "title": "Industry 4.0 Workshop Speaker",
+          "description": "Delivered a technical talk at BITS Pilani Industry 4.0 symposium on digital twin applications in smart manufacturing.",
+          "domain": "Extra-Curricular",
+          "proof": "ananyash_bits_talk.pdf",
+          "points": 26,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Digital Twin",
+            "Industry 4.0",
+            "Public Speaking",
+            "Smart Manufacturing",
+            "Mechatronics"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "srn": "2025CSE032",
+      "name": "Rohan Gupta",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 1,
+      "department": "CSE",
+      "branch": "Cse",
+      "totalPoints": 10,
+      "achievements": [
+        {
+          "id": 52,
+          "title": "Responsive Event Website",
+          "description": "Built a responsive event registration website with HTML, CSS, JavaScript, and form validation for a college cultural fest.",
+          "domain": "Project",
+          "proof": "https://github.com/student32/event-website",
+          "points": 15,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 336,
+          "title": "Python Flask REST API",
+          "description": "Built a CRUD REST API using Flask with SQLAlchemy ORM, JWT authentication, and unit tests, deployed on Heroku.",
+          "domain": "Project",
+          "proof": "https://github.com/rohang/flask-crud-api",
+          "points": 16,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "Flask",
+            "SQLAlchemy",
+            "REST API",
+            "JWT",
+            "Testing"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 337,
+          "title": "CSS Grid Layout Mastery",
+          "description": "Created 10 different complex layouts using CSS Grid and Flexbox, including a magazine layout, dashboard, and card grids.",
+          "domain": "Project",
+          "proof": "https://github.com/rohang/css-layouts",
+          "points": 12,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "HTML",
+            "CSS",
+            "Responsive Design",
+            "Frontend"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 338,
+          "title": "Git & GitHub Fundamentals",
+          "description": "Completed a comprehensive Git course covering branching strategies, rebasing, cherry-pick, GitHub Actions basics, and open source contribution workflow.",
+          "domain": "Course",
+          "proof": "https://github.com/rohang/git-practice",
+          "points": 12,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Git",
+            "GitHub",
+            "Version Control",
+            "CI/CD"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 339,
+          "title": "DSA Foundations Course",
+          "description": "Completed 100+ problems on Arrays, Strings, Linked Lists, Stacks, and Queues on LeetCode with detailed solution notes in Python.",
+          "domain": "Course",
+          "proof": "Not Provided",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Python",
+            "Data Structures",
+            "Algorithms",
+            "Problem Solving"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "srn": "2025ECE033",
+      "name": "Sakshi Jain",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 4,
+      "department": "ECE",
+      "branch": "Vlsi Designing",
+      "totalPoints": 45,
+      "achievements": [
+        {
+          "id": 53,
+          "title": "Low-Power VLSI Research Poster",
+          "description": "Presented a poster on low-power adder architectures comparing area, delay, and power trade-offs across simulation runs.",
+          "domain": "Research",
+          "proof": "low_power_vlsi_poster.pdf",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 340,
+          "title": "Formal Verification with JasperGold",
+          "description": "Used Cadence JasperGold for formal property verification of a USB 3.0 controller, proving 15 critical safety properties.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Formal Verification",
+            "JasperGold",
+            "SystemVerilog",
+            "VLSI",
+            "Assertions",
+            "SVA"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 341,
+          "title": "Physical Design – Cadence Innovus",
+          "description": "Completed full physical design flow in Cadence Innovus for a RISC-V core: floorplan, placement, CTS, routing, and timing signoff.",
+          "domain": "Project",
+          "proof": "sakshij_innovus_pd.pdf",
+          "points": 42,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Cadence Innovus",
+            "Physical Design",
+            "VLSI",
+            "CTS",
+            "Timing Signoff",
+            "Floorplanning"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 342,
+          "title": "Semiconductor Internship – Texas Instruments",
+          "description": "Interned at Texas Instruments Bangalore in the analog design team, working on bandgap reference circuit design in 65nm CMOS.",
+          "domain": "Internship",
+          "proof": "linkedin.com/in/sakshij-ti",
+          "points": 44,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Analog Design",
+            "CMOS",
+            "Texas Instruments",
+            "Cadence",
+            "65nm",
+            "Circuit Design"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 343,
+          "title": "VLSI Design Contest Winner",
+          "description": "Won 1st place at VLSI Society of India (VSI) design contest for a power-efficient 16-bit multiplier design using Booth encoding.",
+          "domain": "Competition",
+          "proof": "vsi_contest_winner_sakshij.pdf",
+          "points": 40,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "VLSI",
+            "Digital Design",
+            "Power Optimization",
+            "Booth Encoding",
+            "Competition"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "srn": "2025ME034",
+      "name": "Pranav Reddy",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "ME",
+      "branch": "Unknown",
+      "totalPoints": 20,
+      "achievements": [
+        {
+          "id": 54,
+          "title": "Line Follower Robot",
+          "description": "Built and tuned a line follower robot with PID-based motor control for an inter-department robotics challenge.",
+          "domain": "Competition",
+          "proof": "https://github.com/student34/line-follower-robot",
+          "points": 21,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 344,
+          "title": "Simulink Vehicle Dynamics Model",
+          "description": "Built a full vehicle dynamics model in Simulink with suspension, tire (Pacejka), and powertrain submodels, validated against real car data.",
+          "domain": "Project",
+          "proof": "https://github.com/pranavr/vehicle-dynamics-sim",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 345,
+          "title": "CAN Bus Protocol Implementation",
+          "description": "Implemented CAN bus communication between two STM32 microcontrollers for automotive sensor data sharing, using HAL library and message filtering.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "CAN Bus",
+            "STM32",
+            "Embedded Systems",
+            "Automotive",
+            "C"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 346,
+          "title": "Formula SAE Suspension Design",
+          "description": "Designed double-wishbone suspension geometry for Formula Student car using OptimumK software, achieving desired Ackermann steering and camber curves.",
+          "domain": "Competition",
+          "proof": "pranavr_fsae_suspension.pdf",
+          "points": 26,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 347,
+          "title": "Python CAN Analyzer",
+          "description": "Wrote a Python tool using python-can library to log, decode, and analyze CAN bus messages from vehicle ECUs with DBC file parsing.",
+          "domain": "Project",
+          "proof": "https://github.com/pranavr/can-analyzer",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Python",
+            "CAN Bus",
+            "Automotive",
+            "Data Analysis",
+            "Reverse Engineering"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "srn": "2025CSE035",
+      "name": "Anika Verma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "CSE",
+      "branch": "Cse",
+      "totalPoints": 40,
+      "achievements": [
+        {
+          "id": 55,
+          "title": "GenAI Resume Screener",
+          "description": "Built a prototype resume screening assistant using Python, embeddings, prompt engineering, and a React dashboard for recruiters.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 35,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "LLM",
+            "Embeddings",
+            "React",
+            "Prompt Engineering",
+            "FastAPI"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 348,
+          "title": "",
+          "description": "Built a production LLM application with structured output parsing, prompt templating, retry logic, cost tracking, and A/B testing of prompts.",
+          "domain": "Project",
+          "proof": "https://github.com/anikav/llm-ops-platform",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 349,
+          "title": "Vector Search with Qdrant",
+          "description": "Implemented semantic document search using Qdrant vector database with hybrid search (dense + sparse), payload filtering, and batch upserts.",
+          "domain": "Project",
+          "proof": "https://github.com/anikav/qdrant-semantic-search",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Vector Database",
+            "Qdrant",
+            "Python",
+            "Embeddings",
+            "Search",
+            "GenAI"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 350,
+          "title": "Kubernetes Helm Chart Development",
+          "description": "Created Helm charts for deploying a complex microservices application on Kubernetes with configurable values, hooks, and automated tests.",
+          "domain": "Project",
+          "proof": "https://github.com/anikav/helm-charts",
+          "points": 28,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Kubernetes",
+            "Helm",
+            "Docker",
+            "DevOps",
+            "YAML",
+            "Cloud Native"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 351,
+          "title": "AWS Lambda Serverless Backend",
+          "description": "Built a serverless backend using AWS Lambda, API Gateway, DynamoDB, and S3 with infrastructure as code in AWS CDK.",
+          "domain": "Project",
+          "proof": "https://github.com/anikav/serverless-backend",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "AWS Lambda",
+            "Serverless",
+            "DynamoDB",
+            "API Gateway",
+            "CDK",
+            "Python"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 352,
+          "title": "Open Source: LangChain Community",
+          "description": "Active contributor to LangChain community package with 8 merged PRs adding new document loaders and retriever implementations.",
+          "domain": "Open Source",
+          "proof": "https://github.com/langchain-ai/langchain/pulls?q=anikav",
+          "points": 40,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "srn": "2025ECE036",
+      "name": "Aryan Sharma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 1,
+      "department": "ECE",
+      "branch": "Vlsi Designing",
+      "totalPoints": 15,
+      "achievements": [
+        {
+          "id": 56,
+          "title": "Digital Logic Mentor Sessions",
+          "description": "Volunteered as a peer mentor for first-year digital logic labs and created concise notes on combinational circuit design.",
+          "domain": "Other",
+          "proof": "peer_mentor_logic_sessions.pdf",
+          "points": 14,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Digital Logic",
+            "Boolean Algebra",
+            "Mentoring"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 353,
+          "title": "Verilog 4-bit ALU",
+          "description": "Designed a 4-bit ALU in Verilog supporting add, subtract, AND, OR, XOR with carry propagation, simulated in ModelSim.",
+          "domain": "Project",
+          "proof": "https://github.com/aryans/verilog-alu-basic",
+          "points": 14,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Verilog",
+            "Digital Design",
+            "ALU",
+            "ModelSim",
+            "VLSI"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 354,
+          "title": "Electronic Circuit Simulation",
+          "description": "Simulated basic analog circuits (op-amp filters, RC networks, transistor amplifiers) in LTspice and compared with theoretical analysis.",
+          "domain": "Project",
+          "proof": "https://github.com/aryans/ltspice-circuits",
+          "points": 14,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "LTspice",
+            "Electronics",
+            "Analog Design",
+            "Circuit Simulation"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 355,
+          "title": "NPTEL Digital Circuits",
+          "description": "",
+          "domain": "Certification",
+          "proof": "nptel.ac.in/verify/aryans-digital",
+          "points": 14,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Digital Design",
+            "Boolean Algebra",
+            "Karnaugh Maps",
+            "Sequential Logic"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "srn": "2025ME037",
+      "name": "Nivedita Rao",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 4,
+      "department": "ME",
+      "branch": "Robotics",
+      "totalPoints": 50,
+      "achievements": [
+        {
+          "id": 57,
+          "title": "ROS Pick-and-Place Bot",
+          "description": "Developed a ROS-based pick-and-place robot demo with inverse kinematics, camera calibration, and object detection integration.",
+          "domain": "Project",
+          "proof": "https://github.com/student37/pick-place-bot",
+          "points": 37,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "ROS",
+            "Computer Vision",
+            "Robotics",
+            "Python",
+            "OpenCV"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 356,
+          "title": "Boston Dynamics-style Gait Control",
+          "description": "Implemented a trot gait controller for a quadruped robot using MPC-based footstep planning in Python/PyBullet simulation.",
+          "domain": "Project",
+          "proof": "https://github.com/nivedit/quadruped-gait",
+          "points": 44,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Robotics",
+            "Python",
+            "MPC",
+            "PyBullet",
+            "Control Systems",
+            "Simulation"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 357,
+          "title": "Deep RL Robot Locomotion",
+          "description": "Trained a quadruped robot to walk using Proximal Policy Optimization (PPO) in Isaac Gym simulation, achieving sim-to-real transfer.",
+          "domain": "Project",
+          "proof": "https://github.com/nivedit/rl-locomotion",
+          "points": 46,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Deep Learning",
+            "Reinforcement Learning",
+            "Robotics",
+            "Python",
+            "Isaac Gym",
+            "PPO"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 358,
+          "title": "ROS2 + Gazebo Simulation",
+          "description": "Built a complete mobile robot simulation in ROS2 and Gazebo with SLAM, obstacle avoidance, and integration with Nav2 planner.",
+          "domain": "Project",
+          "proof": "https://github.com/nivedit/ros2-gazebo-robot",
+          "points": 36,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "ROS2",
+            "Gazebo",
+            "SLAM",
+            "Python",
+            "Robotics",
+            "Nav2"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 359,
+          "title": "IICR Best Robotics Paper Award",
+          "description": "Received best paper award at International Integrative Conference on Robotics 2025 for research on vision-based manipulation.",
+          "domain": "Research Paper",
+          "proof": "Not Provided",
+          "points": 48,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Robotics",
+            "Computer Vision",
+            "Research",
+            "Manipulation",
+            "Deep Learning"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 360,
+          "title": "Postman API Testing Advanced",
+          "description": "Earned Postman Student Expert certification, building advanced test suites for robotics APIs with mock servers and automated CI integration.",
+          "domain": "Certification",
+          "proof": "postman.com/verify/nivedit",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "srn": "2025CSE038",
+      "name": "Kunal Singh",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "CSE",
+      "branch": "Aiml",
+      "totalPoints": 25,
+      "achievements": [
+        {
+          "id": 58,
+          "title": "Student Performance Predictor",
+          "description": "Trained and evaluated regression and tree-based models to predict student outcomes using cleaned academic datasets and feature engineering.",
+          "domain": "Project",
+          "proof": "https://github.com/student38/performance-predictor",
+          "points": 26,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 361,
+          "title": "PyTorch Custom Training Loop",
+          "description": "Built a custom training loop in PyTorch for image classification with mixed precision training, gradient accumulation, and learning rate scheduling.",
+          "domain": "Project",
+          "proof": "https://github.com/kunals/pytorch-training",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "PyTorch",
+            "Python",
+            "Deep Learning",
+            "Computer Vision",
+            "GPU Training"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 362,
+          "title": "Weights & Biases Experiment Tracking",
+          "description": "Integrated W&B into ML training pipelines for experiment tracking, hyperparameter sweeps, model registry, and collaborative reporting.",
+          "domain": "Project",
+          "proof": "https://github.com/kunals/wandb-ml-tracking",
+          "points": 24,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Weights & Biases",
+            "MLOps",
+            "Python",
+            "Machine Learning",
+            "Experiment Tracking"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 363,
+          "title": "FastAPI + Celery Task Queue",
+          "description": "Built an async task processing system using FastAPI for the API layer and Celery with Redis broker for background ML inference jobs.",
+          "domain": "Project",
+          "proof": "https://github.com/kunals/fastapi-celery",
+          "points": 28,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "FastAPI",
+            "Celery",
+            "Redis",
+            "Python",
+            "Async",
+            "Backend",
+            "MLOps"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 364,
+          "title": "Pandas Data Cleaning Pipeline",
+          "description": "Built a robust data cleaning pipeline using Pandas and Great Expectations for data quality validation on a 5M row dataset.",
+          "domain": "Project",
+          "proof": "https://github.com/kunals/data-cleaning-pipeline",
+          "points": 22,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Pandas",
+            "Python",
+            "Data Engineering",
+            "Great Expectations",
+            "Data Quality"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 365,
+          "title": "Hugging Face Model Deployment",
+          "description": "Deployed a fine-tuned BERT model on Hugging Face Inference Endpoints with optimum quantization, achieving 4x latency improvement.",
+          "domain": "Project",
+          "proof": "https://github.com/kunals/hf-model-deploy",
+          "points": 26,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "HuggingFace",
+            "NLP",
+            "Python",
+            "MLOps",
+            "Model Optimization",
+            "Deployment"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "srn": "2025ECE039",
+      "name": "Shreya Mehta",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "ECE",
+      "branch": "Vlsi Designing",
+      "totalPoints": 30,
+      "achievements": [
+        {
+          "id": 59,
+          "title": "Verilog UART Controller",
+          "description": "Implemented and tested a UART controller in Verilog with waveform validation and synthesis-ready modules.",
+          "domain": "Lab Project",
+          "proof": "verilog_uart_controller.zip",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Verilog",
+            "UART",
+            "Digital Design",
+            "VLSI"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 366,
+          "title": "Low Power Design Techniques",
+          "description": "Implemented power gating, clock gating, and multi-Vt cell assignment in a digital SoC design using Synopsys PrimeTime PX for analysis.",
+          "domain": "Project",
+          "proof": "shreya_low_power_design.pdf",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "VLSI",
+            "Low Power Design",
+            "Synopsys",
+            "Clock Gating",
+            "Power Analysis",
+            "SoC"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 367,
+          "title": "Python RTL Linting Tool",
+          "description": "Developed a Python tool to lint Verilog/SystemVerilog RTL code for naming conventions, common coding guidelines, and potential simulation issues.",
+          "domain": "Project",
+          "proof": "https://github.com/shreyam/rtl-linting-tool",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "Verilog",
+            "SystemVerilog",
+            "VLSI",
+            "Tool Development",
+            "Automation"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 368,
+          "title": "Mixed-Signal Design Fundamentals",
+          "description": "Completed a course on mixed-signal IC design covering ADC/DAC architectures, phase-locked loops, and comparator design.",
+          "domain": "Course",
+          "proof": "Not Provided",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Analog Design",
+            "ADC",
+            "DAC",
+            "PLL",
+            "Mixed Signal",
+            "VLSI"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 369,
+          "title": "VLSI Conference Reviewer",
+          "description": "Served as student reviewer for 5 papers at VLSI Design 2025 conference, providing detailed technical feedback on submissions.",
+          "domain": "Extra-Curricular",
+          "proof": "vlsi2025_reviewer_shreyam.pdf",
+          "points": 20,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "VLSI",
+            "Research",
+            "Peer Review",
+            "Digital Design"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "srn": "2025ME040",
+      "name": "Aditya Sharma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 1,
+      "department": "ME",
+      "branch": "Robotics",
+      "totalPoints": 15,
+      "achievements": [
+        {
+          "id": 60,
+          "title": "Robot Soccer Starter Challenge",
+          "description": "Built a basic robot soccer prototype using motor drivers, Bluetooth control, and obstacle sensing for a freshman challenge.",
+          "domain": "Competition",
+          "proof": "robot_soccer_starter_challenge.pdf",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Robotics",
+            "Arduino",
+            "Bluetooth",
+            "Sensors"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 370,
+          "title": "Arduino Obstacle Avoidance Robot",
+          "description": "Built an autonomous obstacle-avoiding robot using Arduino, HC-SR04 ultrasonic sensor, and L298N motor driver with bang-bang control.",
+          "domain": "Project",
+          "proof": "https://github.com/adityash/obstacle-robot",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Arduino",
+            "C++",
+            "Robotics",
+            "Sensors",
+            "Embedded Systems"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 371,
+          "title": "Python Turtle Graphics",
+          "description": "Created geometric pattern generators and a simple game using Python Turtle graphics as part of an introductory programming module.",
+          "domain": "Project",
+          "proof": "https://github.com/adityash/python-turtle",
+          "points": 10,
+          "difficultyLevel": "Beginner",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 372,
+          "title": "NPTEL Robotics Fundamentals",
+          "description": "Completed NPTEL Introduction to Robotics course covering forward/inverse kinematics, workspace analysis, and basic path planning.",
+          "domain": "Certification",
+          "proof": "nptel.ac.in/verify/adityash-robotics",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Robotics",
+            "Kinematics",
+            "Mathematics",
+            "Path Planning"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "srn": "2025CSE041",
+      "name": "Ishita Verma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 4,
+      "department": "CSE",
+      "branch": "Aiml",
+      "totalPoints": 50,
+      "achievements": [
+        {
+          "id": 61,
+          "title": "MLOps Credit Risk Pipeline",
+          "description": "Built an end-to-end credit risk workflow with feature stores, model versioning, and Dockerized deployment for batch scoring.",
+          "domain": "Project",
+          "proof": "https://github.com/student41/mlops-credit-risk",
+          "points": 39,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "MLOps",
+            "Docker",
+            "Machine Learning",
+            "MLflow",
+            "FastAPI"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 373,
+          "title": "Temporal Graph Neural Network",
+          "description": "Researched and implemented a Temporal Graph Convolutional Network for traffic flow prediction, published at ICML Workshop 2025.",
+          "domain": "Research Paper",
+          "proof": "https://arxiv.org/abs/ishitav-tgcn",
+          "points": 46,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Graph Neural Networks",
+            "Deep Learning",
+            "Python",
+            "PyTorch",
+            "Research",
+            "Time Series"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 374,
+          "title": "Kubernetes GPU Scheduling",
+          "description": "Configured GPU-enabled Kubernetes cluster with NVIDIA device plugin, time-slicing, and custom scheduler for ML workload prioritization.",
+          "domain": "Project",
+          "proof": "https://github.com/ishitav/k8s-gpu-scheduling",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Kubernetes",
+            "GPU",
+            "DevOps",
+            "Machine Learning",
+            "NVIDIA",
+            "Cloud"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 375,
+          "title": "Ray Distributed Training",
+          "description": "Used Ray Tune and Ray Train for distributed hyperparameter search and multi-GPU training, reducing experiment time by 5x.",
+          "domain": "Project",
+          "proof": "https://github.com/ishitav/ray-distributed-ml",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Ray",
+            "Distributed Computing",
+            "Python",
+            "Machine Learning",
+            "GPU",
+            "MLOps"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 376,
+          "title": "ONNX Model Optimization",
+          "description": "Converted PyTorch models to ONNX, applied quantization and graph optimizations with ONNX Runtime, achieving 3x inference speedup.",
+          "domain": "Project",
+          "proof": "https://github.com/ishitav/onnx-optimization",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "ONNX",
+            "PyTorch",
+            "Model Optimization",
+            "Python",
+            "Inference",
+            "MLOps"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 377,
+          "title": "Adobe Internship – ML Platform",
+          "description": "Interned at Adobe Research Bangalore building automated feature extraction pipeline for Adobe Firefly generative AI models.",
+          "domain": "Internship",
+          "proof": "linkedin.com/in/ishitav-adobe",
+          "points": 48,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "GenAI",
+            "Python",
+            "MLOps",
+            "Computer Vision",
+            "Adobe",
+            "Deep Learning"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "srn": "",
+      "name": "Raghav Sharma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "ECE",
+      "branch": "Communication Networks",
+      "totalPoints": 25,
+      "achievements": [
+        {
+          "id": 62,
+          "title": "Campus Mesh Network Study",
+          "description": "Evaluated routing reliability in a campus mesh network setup and documented latency behavior under simulated node failures.",
+          "domain": "Research",
+          "proof": "campus_mesh_network_study.pdf",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 378,
+          "title": "SDR with GNU Radio",
+          "description": "Built a software-defined radio receiver for FM and ADS-B (aircraft transponder) signals using RTL-SDR dongle and GNU Radio Companion.",
+          "domain": "Project",
+          "proof": "https://github.com/raghavshar/sdr-gnuradio",
+          "points": 26,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "SDR",
+            "GNU Radio",
+            "Signal Processing",
+            "Python",
+            "Radio",
+            "Networking"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 379,
+          "title": "",
+          "description": "Studied and implemented Calico CNI plugin on a bare-metal Kubernetes cluster, configured network policies for pod-to-pod isolation.",
+          "domain": "Project",
+          "proof": "https://github.com/raghavshar/k8s-calico-cni",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Kubernetes",
+            "Networking",
+            "Calico",
+            "CNI",
+            "DevOps",
+            "Linux"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 380,
+          "title": "TCP/IP Stack from Scratch",
+          "description": "Implemented a minimal TCP/IP stack in C with Ethernet framing, ARP, IP, ICMP ping, and basic TCP 3-way handshake.",
+          "domain": "Project",
+          "proof": "https://github.com/raghavshar/tcp-ip-from-scratch",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "C",
+            "Networking",
+            "TCP/IP",
+            "Protocols",
+            "Linux",
+            "Systems Programming"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 381,
+          "title": "",
+          "description": "Organized and led a 15-student CCNA study group for 3 months, creating study materials and practice labs using Cisco Packet Tracer.",
+          "domain": "Extra-Curricular",
+          "proof": "raghavshar_ccna_studygroup.pdf",
+          "points": 18,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Networking",
+            "Cisco",
+            "Leadership",
+            "CCNA",
+            "Teaching"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "srn": "2025ME043",
+      "name": "Priya Nair",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "ME",
+      "branch": "Unknown",
+      "totalPoints": 35,
+      "achievements": [
+        {
+          "id": 63,
+          "title": "Warehouse Robot PLC Integration",
+          "description": "",
+          "domain": "Internship",
+          "proof": "warehouse_robot_plc_integration.pdf",
+          "points": 31,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 382,
+          "title": "Autonomous Drone Navigation",
+          "description": "Implemented autonomous drone navigation using ArduPilot, LIDAR-based obstacle avoidance, and GPS waypoint following with Raspberry Pi companion computer.",
+          "domain": "Project",
+          "proof": "https://github.com/priyan/autonomous-drone",
+          "points": 40,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Drone",
+            "ArduPilot",
+            "Python",
+            "ROS",
+            "LIDAR",
+            "Autonomous Navigation"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 383,
+          "title": "Human-Robot Interaction Research",
+          "description": "Conducted user study on HRI with 30 participants evaluating natural language commands for robot task execution, presented at HRI 2025 workshop.",
+          "domain": "Research Paper",
+          "proof": "https://hri2025.priyan-hri-workshop.pdf",
+          "points": 38,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Human-Robot Interaction",
+            "Research",
+            "ROS",
+            "NLP",
+            "User Study"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 384,
+          "title": "OpenCV + PyTorch Vision Pipeline",
+          "description": "Built a modular computer vision pipeline combining OpenCV preprocessing with PyTorch inference for real-time object detection and tracking.",
+          "domain": "Project",
+          "proof": "https://github.com/priyan/cv-pipeline",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 385,
+          "title": "ROS Industrial Training Certificate",
+          "description": "Completed ROS Industrial training covering ROS-I architecture, MoveIt integration, and industrial robot programming with UR5 simulation.",
+          "domain": "Certification",
+          "proof": "Not Provided",
+          "points": 26,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "ROS",
+            "ROS Industrial",
+            "MoveIt",
+            "Robotics",
+            "UR5"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "srn": "2025CSE044",
+      "name": "Rohan Kapoor",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 1,
+      "department": "CSE",
+      "branch": "Aiml",
+      "totalPoints": 10,
+      "achievements": [
+        {
+          "id": 64,
+          "title": "Image Captioning Prototype",
+          "description": "Built a small image captioning demo using pretrained vision-language models and a simple React interface for testing outputs.",
+          "domain": "Project",
+          "proof": "https://github.com/student44/image-captioning-prototype",
+          "points": 18,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Python",
+            "Deep Learning",
+            "Computer Vision",
+            "React",
+            "Transformers"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 386,
+          "title": "Stable Diffusion Fine-tuning",
+          "description": "Fine-tuned Stable Diffusion XL on a custom character dataset using DreamBooth technique, generated consistent character images for a game project.",
+          "domain": "Project",
+          "proof": "https://github.com/rohank/sdxl-dreambooth",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "GenAI",
+            "Stable Diffusion",
+            "Python",
+            "HuggingFace",
+            "Image Generation",
+            "Fine-tuning"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 387,
+          "title": "JavaScript Algorithms Practice",
+          "description": "Solved 150+ algorithm problems in JavaScript on LeetCode covering hash maps, two pointers, BFS/DFS, and dynamic programming basics.",
+          "domain": "Competition",
+          "proof": "https://leetcode.com/rohank",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "JavaScript",
+            "Algorithms",
+            "Data Structures",
+            "Problem Solving"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 388,
+          "title": "React Hooks Deep Dive",
+          "description": "Built 10 custom React hooks for common patterns: useDebounce, usePagination, useInfiniteScroll, useLocalStorage, and useWebSocket.",
+          "domain": "Project",
+          "proof": "https://github.com/rohank/custom-react-hooks",
+          "points": 18,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "React",
+            "JavaScript",
+            "TypeScript",
+            "Hooks",
+            "Frontend"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 389,
+          "title": "OpenAI API Integration Project",
+          "description": "Built a coding assistant web app using OpenAI GPT-4o API with streaming responses, conversation history, and code highlighting.",
+          "domain": "Project",
+          "proof": "https://github.com/rohank/coding-assistant",
+          "points": 20,
+          "difficultyLevel": "Beginner",
+          "skillTags": [],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "srn": "2025ECE045",
+      "name": "Sanya Mehta",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 4,
+      "department": "ECE",
+      "branch": "Communication Networks",
+      "totalPoints": 50,
+      "achievements": [
+        {
+          "id": 65,
+          "title": "Network Monitoring Internship",
+          "description": "Assisted with network monitoring dashboards, log correlation, and troubleshooting of campus backbone incidents during a telecom internship.",
+          "domain": "Internship",
+          "proof": "network_monitoring_internship.pdf",
+          "points": 33,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Networking",
+            "Monitoring",
+            "Wireshark",
+            "Linux",
+            "Telecom"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 390,
+          "title": "5G Core Network Simulation",
+          "description": "Simulated a 5G standalone core network using Open5GS with gNB emulation, UE authentication, and end-to-end data plane testing.",
+          "domain": "Project",
+          "proof": "https://github.com/sanyam/open5gs-simulation",
+          "points": 42,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "5G",
+            "Open5GS",
+            "Networking",
+            "Linux",
+            "Telecom",
+            "Core Network"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 391,
+          "title": "Network Security Internship – Cisco",
+          "description": "Interned at Cisco Systems working on firewall policy analysis automation using Python and Cisco API, reducing review time by 65%.",
+          "domain": "Internship",
+          "proof": "linkedin.com/in/sanyam-cisco",
+          "points": 44,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 392,
+          "title": "Kubernetes Network Policies",
+          "description": "Implemented zero-trust network architecture in Kubernetes using Calico network policies, tested with comprehensive traffic flow validation.",
+          "domain": "Project",
+          "proof": "https://github.com/sanyam/k8s-zero-trust",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Kubernetes",
+            "Networking",
+            "Security",
+            "Calico",
+            "DevOps",
+            "Zero Trust"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 393,
+          "title": "Research: Edge Computing Latency",
+          "description": "Published research paper comparing edge computing vs cloud latency for IoT applications across different network conditions at IEEE Edge 2025.",
+          "domain": "Research Paper",
+          "proof": "https://ieeexplore.ieee.org/sanyam-edge",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Edge Computing",
+            "IoT",
+            "Research",
+            "Networking",
+            "5G",
+            "Latency"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 393,
+          "title": "Research: Edge Computing Latency",
+          "description": "Published research paper comparing edge computing vs cloud latency for IoT applications across different network conditions at IEEE Edge 2025.",
+          "domain": "Research Paper",
+          "proof": "https://ieeexplore.ieee.org/sanyam-edge",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Edge Computing",
+            "IoT",
+            "Research",
+            "Networking",
+            "5G",
+            "Latency"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "srn": "2025ME046",
+      "name": "Kartik Sharma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "ME",
+      "branch": "Robotics",
+      "totalPoints": 20,
+      "achievements": [
+        {
+          "id": 394,
+          "title": "Gazebo Custom World Simulation",
+          "description": "Created custom Gazebo worlds with physics-accurate obstacles, lighting, and custom robot models for autonomous navigation testing.",
+          "domain": "Project",
+          "proof": "https://github.com/kartiks/gazebo-worlds",
+          "points": 24,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Gazebo",
+            "ROS",
+            "Simulation",
+            "Python",
+            "Robotics"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 395,
+          "title": "Arduino + Python Robot Teleoperation",
+          "description": "Built a robot teleoperation system with Arduino for hardware control and Python GUI (PyQt5) for operator interface with joystick support.",
+          "domain": "Project",
+          "proof": "https://github.com/kartiks/robot-teleoperation",
+          "points": 22,
+          "difficultyLevel": "Intermediate",
+          "skillTags": [
+            "Arduino",
+            "Python",
+            "PyQt5",
+            "Robotics",
+            "GUI",
+            "Embedded Systems"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 396,
+          "title": "NPTEL Machine Learning",
+          "description": "Completed NPTEL Machine Learning course by Prof. S Sarkar with 78% score, covering regression, classification, SVM, and neural networks.",
+          "domain": "Certification",
+          "proof": "nptel.ac.in/verify/kartiks-ml",
+          "points": 20,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Machine Learning",
+            "Python",
+            "scikit-learn",
+            "SVM",
+            "Neural Networks"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 397,
+          "title": "Robot Operating System Workshop",
+          "description": "Attended 3-day hands-on ROS workshop at IIT Madras, built a simulated mobile robot with mapping, localization, and navigation capabilities.",
+          "domain": "Workshop",
+          "proof": "ros_workshop_kartiks.pdf",
+          "points": 18,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "ROS",
+            "Python",
+            "Robotics",
+            "SLAM",
+            "Navigation"
+          ],
+          "createdAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": 397,
+          "title": "Robot Operating System Workshop",
+          "description": "Attended 3-day hands-on ROS workshop at IIT Madras, built a simulated mobile robot with mapping, localization, and navigation capabilities.",
+          "domain": "Workshop",
+          "proof": "ros_workshop_kartiks.pdf",
+          "points": 18,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "ROS",
+            "Python",
+            "Robotics",
+            "SLAM",
+            "Navigation"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "srn": "2025CSE047",
+      "name": "Anjali Reddy",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 3,
+      "department": "CSE",
+      "branch": "Aiml",
+      "totalPoints": 40,
+      "achievements": [
+        {
+          "id": 398,
+          "title": "Multi-Agent LLM System",
+          "description": "Built a multi-agent LLM system using CrewAI framework with specialized agents for research, coding, and review, orchestrated via LangGraph.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 40,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "GenAI",
+            "LLM",
+            "CrewAI",
+            "LangGraph",
+            "Python",
+            "Multi-Agent"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 399,
+          "title": "MLflow + Kubernetes Model Serving",
+          "description": "Deployed ML models using MLflow's model registry with Kubernetes-based serving infrastructure and A/B testing for model versions.",
+          "domain": "Project",
+          "proof": "Not Provided",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "MLflow",
+            "Kubernetes",
+            "MLOps",
+            "Docker",
+            "Python",
+            "Model Serving"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 400,
+          "title": "Time Series Forecasting",
+          "description": "Built an ensemble time series forecasting system combining ARIMA, Prophet, and LSTM models with automatic model selection based on data characteristics.",
+          "domain": "Project",
+          "proof": "https://github.com/anjalir/time-series-ensemble",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "Time Series",
+            "LSTM",
+            "Prophet",
+            "ARIMA",
+            "Machine Learning"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 401,
+          "title": "Databricks Certified ML Associate",
+          "description": "Earned Databricks Certified Machine Learning Associate certification covering MLflow, feature stores, AutoML, and distributed training on Spark.",
+          "domain": "Certification",
+          "proof": "Not Provided",
+          "points": 36,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Databricks",
+            "MLflow",
+            "Spark",
+            "Machine Learning",
+            "MLOps"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 402,
+          "title": "Flipkart ML Hackathon – Top 5",
+          "description": "Achieved top 5 finish in Flipkart GRiD Machine Learning track by building a product category classifier with 97.3% accuracy using LLM embeddings.",
+          "domain": "Competition",
+          "proof": "flipkart_grid_anjalir.pdf",
+          "points": 44,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Machine Learning",
+            "LLM",
+            "Python",
+            "Competition",
+            "NLP",
+            "Classification"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "srn": "2025ECE048",
+      "name": "Aditya Verma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 1,
+      "department": "ECE",
+      "branch": "Communication Networks",
+      "totalPoints": 15,
+      "achievements": [
+        {
+          "id": 403,
+          "title": "Raspberry Pi Home Automation",
+          "description": "Built a home automation system using Raspberry Pi 4, Python Flask server, MQTT broker, and mobile app to control lights and fans.",
+          "domain": "Project",
+          "proof": "https://github.com/adityav/pi-home-automation",
+          "points": 18,
+          "difficultyLevel": "Beginner",
+          "skillTags": [],
+          "createdAt": null
+        },
+        {
+          "id": 404,
+          "title": "Cisco Packet Tracer Network Labs",
+          "description": "Completed 20 network simulation labs in Cisco Packet Tracer covering VLAN, OSPF, EIGRP, NAT, and ACL configurations.",
+          "domain": "Course",
+          "proof": "adityav_packet_tracer_labs.pdf",
+          "points": 14,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Networking",
+            "Cisco",
+            "VLAN",
+            "OSPF",
+            "Routing",
+            "Packet Tracer"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 405,
+          "title": "Python Networking Scripts",
+          "description": "Wrote Python scripts for network automation tasks: port scanning with socket, ping sweep, basic packet sniffing using Scapy.",
+          "domain": "Project",
+          "proof": "https://github.com/adityav/python-network-tools",
+          "points": 16,
+          "difficultyLevel": "Beginner",
+          "skillTags": [
+            "Python",
+            "Networking",
+            "Scapy",
+            "Automation",
+            "Security"
+          ],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "srn": "2025ME049",
+      "name": "Ritika Sharma",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 4,
+      "department": "ME",
+      "branch": "Robotics",
+      "totalPoints": 50,
+      "achievements": [
+        {
+          "id": 406,
+          "title": "Reinforcement Learning for Manipulation",
+          "description": "Applied Deep Q-Network and SAC algorithms to robotic manipulation tasks in PyBullet simulation, achieving 91% task success rate.",
+          "domain": "Project",
+          "proof": "https://github.com/ritikas/rl-manipulation",
+          "points": 44,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Reinforcement Learning",
+            "Python",
+            "PyBullet",
+            "Robotics",
+            "Deep Learning",
+            "SAC"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 407,
+          "title": "ROS2 + Docker Production Deploy",
+          "description": "Packaged and deployed a complete ROS2 robotics stack in Docker containers with automated testing, CI/CD via GitHub Actions.",
+          "domain": "Project",
+          "proof": "https://github.com/ritikas/ros2-docker-ci",
+          "points": 34,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "ROS2",
+            "Docker",
+            "CI/CD",
+            "GitHub Actions",
+            "DevOps",
+            "Robotics"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 408,
+          "title": "Point Cloud Processing with Open3D",
+          "description": "Built a 3D mapping pipeline using LIDAR point clouds processed with Open3D for surface reconstruction, object segmentation, and ICP registration.",
+          "domain": "Project",
+          "proof": "https://github.com/ritikas/point-cloud-mapping",
+          "points": 36,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Python",
+            "Open3D",
+            "Point Cloud",
+            "LIDAR",
+            "Computer Vision",
+            "3D Mapping"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 409,
+          "title": "Bosch India Robotics Internship",
+          "description": "Interned at Bosch India's AI/Robotics team developing perception algorithms for autonomous mobile robots in warehouse environments.",
+          "domain": "Internship",
+          "proof": "linkedin.com/in/ritikas-bosch",
+          "points": 46,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Robotics",
+            "Python",
+            "Computer Vision",
+            "AWS",
+            "Docker",
+            "Autonomous Systems"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 410,
+          "title": "ICRA 2025 Paper Acceptance",
+          "description": "Paper on sim-to-real transfer for robotic grasping accepted at ICRA 2025, one of the top robotics conferences globally.",
+          "domain": "Research Paper",
+          "proof": "https://ieeexplore.ieee.org/ritikas-icra",
+          "points": 50,
+          "difficultyLevel": "Advanced",
+          "skillTags": [],
+          "createdAt": null
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "srn": "2025CSE050",
+      "name": "Aarav Mehta",
+      "role": "student",
+      "class": "B.Tech",
+      "year": 2,
+      "department": "CSE",
+      "branch": "Unknown",
+      "totalPoints": 30,
+      "achievements": [
+        {
+          "id": 411,
+          "title": "ESP32 + AWS IoT Greenhouse",
+          "description": "Built a smart greenhouse monitoring system with ESP32 sensors (temperature, humidity, CO2, light), AWS IoT Core, DynamoDB, and React dashboard.",
+          "domain": "Project",
+          "proof": "https://github.com/aaravm/smart-greenhouse",
+          "points": 32,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "ESP32",
+            "AWS IoT",
+            "MQTT",
+            "React",
+            "DynamoDB",
+            "IoT"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 412,
+          "title": "Kubernetes Operator for IoT Devices",
+          "description": "Developed a custom Kubernetes operator that manages IoT device fleet configurations, firmware OTA updates, and health monitoring.",
+          "domain": "Project",
+          "proof": "https://github.com/aaravm/iot-k8s-operator",
+          "points": 36,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "Kubernetes",
+            "Go",
+            "IoT",
+            "DevOps",
+            "CRD",
+            "Cloud Native"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 413,
+          "title": "MQTT Broker Cluster with EMQX",
+          "description": "Set up a production-grade MQTT broker cluster using EMQX with load balancing, authentication plugins, and Prometheus monitoring.",
+          "domain": "Project",
+          "proof": "https://github.com/aaravm/emqx-cluster",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "MQTT",
+            "EMQX",
+            "IoT",
+            "Docker",
+            "Kubernetes",
+            "Monitoring"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 414,
+          "title": "Edge ML with TensorFlow Lite",
+          "description": "",
+          "domain": "Project",
+          "proof": "https://github.com/aaravm/tflite-esp32",
+          "points": 30,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "TensorFlow Lite",
+            "Edge ML",
+            "ESP32",
+            "Embedded ML",
+            "C++",
+            "IoT"
+          ],
+          "createdAt": null
+        },
+        {
+          "id": 415,
+          "title": "IoT Security Research",
+          "description": "Identified and documented 3 common IoT security vulnerabilities (insecure MQTT auth, unencrypted OTA, hardcoded credentials) in popular open-source firmware.",
+          "domain": "Research",
+          "proof": "https://github.com/aaravm/iot-security-research",
+          "points": 28,
+          "difficultyLevel": "Advanced",
+          "skillTags": [
+            "IoT",
+            "Security",
+            "MQTT",
+            "Research",
+            "Cybersecurity",
+            "Vulnerability"
+          ],
+          "createdAt": null
+        }
+      ]
+    }
+  ]
+}

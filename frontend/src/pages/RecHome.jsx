@@ -17,24 +17,6 @@ export default function RecHome() {
       buttonText: "Analyze a JD",
       primary: true,
     },
-    {
-      title: "Recruiter Quiz Filter",
-      description: "Select departments, roles, and year preferences to browse matching students with their achievement portfolios.",
-      icon: "📝",
-      color: "from-blue-50 to-blue-100 border-blue-200",
-      iconBg: "bg-blue-100",
-      action: () => navigate("/recquiz"),
-      buttonText: "Take Quiz",
-    },
-    {
-      title: "Skills Leaderboard",
-      description: "View the top-performing students filtered by department, branch, and year. See who's leading in points.",
-      icon: "🏆",
-      color: "from-amber-50 to-amber-100 border-amber-200",
-      iconBg: "bg-amber-100",
-      action: () => navigate("/leaderboard"),
-      buttonText: "View Leaderboard",
-    },
   ];
 
   return (
@@ -54,7 +36,7 @@ export default function RecHome() {
 
       <div className="max-w-5xl mx-auto px-6 py-8">
         {/* Feature cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {features.map((f, i) => (
             <div
               key={i}

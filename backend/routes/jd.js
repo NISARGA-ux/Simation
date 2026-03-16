@@ -249,11 +249,13 @@ Rules:
       });
     }
 
-    // Step 2: Match against all students
+    // Step 2: Match against students (Year 3-4 by default, Year 2+ if internship toggle)
+    const { includeInternships } = req.body;
     db.read();
     const users = db.get("users").value() || [];
     const achievements = db.get("achievements").value() || [];
-    const students = users.filter((u) => u.role === "student");
+    const minYear = includeInternships ? 2 : 3;
+    const students = users.filter((u) => u.role === "student" && (u.year || 0) >= minYear);
 
     const matches = [];
 

@@ -44,7 +44,7 @@ export default function Login() {
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-pink-100 via-yellow-100 to-green-100">
       <div className="w-full max-w-md bg-white p-8 rounded-xl shadow-lg">
         <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
-          Zenith Cortex Login
+          Simation Login
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-5">

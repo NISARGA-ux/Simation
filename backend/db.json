@@ -19,15 +19,15 @@
         "ratings": [
           {
             "skill": "React",
-            "rating": 3
+            "rating": 5
           },
           {
             "skill": "Node.js",
-            "rating": 4
+            "rating": 5
           },
           {
             "skill": "TypeScript",
-            "rating": 2
+            "rating": 1
           },
           {
             "skill": "SQL",
@@ -47,14 +47,14 @@
           },
           {
             "skill": "Next.js",
-            "rating": 1
+            "rating": 2
           }
         ],
-        "marketability": 77,
+        "marketability": 89,
         "topGaps": [
           "AWS"
         ],
-        "assessedAt": "2026-03-16T16:44:30.866Z"
+        "assessedAt": "2026-03-16T20:27:24.172Z"
       }
     },
     {
@@ -5623,7 +5623,52 @@
       "mentorId": 1
     }
   ],
-  "notifications": [],
+  "notifications": [
+    {
+      "id": 1773694189138,
+      "type": "shortlisted",
+      "studentId": 41,
+      "recruiterId": 1,
+      "recruiterName": "Pankaj Tripati",
+      "company": "TechCorp",
+      "jobTitle": "Machine Learning Engineer",
+      "matchPercent": 58,
+      "skillsMatched": [
+        "Python",
+        "PyTorch",
+        "Computer Vision"
+      ],
+      "skillsMissing": [
+        "TensorFlow",
+        "NLP",
+        "SQL"
+      ],
+      "read": false,
+      "createdAt": "2026-03-16T20:49:48.407Z"
+    },
+    {
+      "id": 1773694206574,
+      "type": "shortlisted",
+      "studentId": 5,
+      "recruiterId": 1,
+      "recruiterName": "Pankaj Tripati",
+      "company": "TechCorp",
+      "jobTitle": "Machine Learning Engineer",
+      "matchPercent": 27,
+      "skillsMatched": [
+        "Computer Vision"
+      ],
+      "skillsMissing": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "NLP",
+        "SQL"
+      ],
+      "read": true,
+      "createdAt": "2026-03-16T20:50:06.223Z"
+    }
+  ],
   "students": [],
   "skillsMarketCache": {
     "skills": [

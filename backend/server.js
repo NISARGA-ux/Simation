@@ -4,19 +4,16 @@ const cors = require("cors");
 const path = require("path");
 const bodyParser = require("body-parser");
 
-const resumeRoutes = require("./routes/resume");
 const quizRoutes = require("./routes/quiz");
 const homeRoutes = require("./routes/home");
 const achievementsRoutes = require("./routes/achievements");
-const leaderboardRoutes = require("./routes/leaderboard");
-const searchRoutes = require("./routes/search");
-const recQuizRoutes = require("./routes/recquiz");
 const studentRoutes = require("./routes/students");
 const skillsMarketRoutes = require("./routes/skillsMarket");
 const authRoutes = require("./routes/auth");
 const jdRoutes = require("./routes/jd");
 const githubRoutes = require("./routes/github");
 const coursesRoutes = require("./routes/courses");
+const notificationsRoutes = require("./routes/notifications");
 
 const app = express();
 
@@ -26,19 +23,16 @@ app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
-app.use("/api/resume", resumeRoutes);
 app.use("/api/quiz", quizRoutes);
 app.use("/api/home", homeRoutes);
-app.use("/api", searchRoutes);
 app.use("/api/achievements", achievementsRoutes);
-app.use("/api/leaderboard", leaderboardRoutes);
-app.use("/api", recQuizRoutes);
 app.use("/api/students", studentRoutes);
 app.use("/api/skills-market", skillsMarketRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/jd", jdRoutes);
 app.use("/api/github", githubRoutes);
 app.use("/api/courses", coursesRoutes);
+app.use("/api/notifications", notificationsRoutes);
 
 // Serve frontend build from /dist
 const frontendPath = path.join(__dirname, "dist");
