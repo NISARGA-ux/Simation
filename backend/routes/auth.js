@@ -14,11 +14,6 @@ router.post("/login", (req, res) => {
     user = db.get("recruiters").find({ username, password }).value();
   }
 
-  // if not found, check in mentors
-  if (!user) {
-    user = db.get("mentors").find({ username, password }).value();
-  }
-
   if (!user) {
     return res.status(401).json({ message: "Invalid credentials" });
   }
@@ -27,7 +22,7 @@ router.post("/login", (req, res) => {
   res.json({
     id: user.id,
     username: user.username,
-    role: user.role,  // "student", "recruiter", "faculty"
+    role: user.role,  // "student", "recruiter"
     name: user.name,
     srn: user.srn || null,
     class: user.class || null,

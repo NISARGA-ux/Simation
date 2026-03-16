@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import { useAuth } from "../context/AuthContext";
 import {
   RadarChart,
   Radar,
@@ -268,12 +269,14 @@ function CandidateCard({ student, rank, onShortlist }) {
 // MAIN COMPONENT
 // ═══════════════════════════════════════════
 export default function RecJD() {
+  const { user } = useAuth();
   const [jdText, setJdText] = useState("");
   const [loading, setLoading] = useState(false);
-  const [phase, setPhase] = useState("input"); // input | extracting | results
+  const [phase, setPhase] = useState("input");
   const [result, setResult] = useState(null);
   const [error, setError] = useState(null);
   const [shortlisted, setShortlisted] = useState([]);
+  const [includeInternships, setIncludeInternships] = useState(false);
   const textareaRef = useRef(null);
 
   const handleAnalyze = async () => {
@@ -291,11 +294,10 @@ export default function RecJD() {
       const res = await fetch("/api/jd/analyze", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ jdText }),
+        body: JSON.stringify({ jdText, includeInternships }),
       });
 
       const data = await res.json();
-
       if (!res.ok) throw new Error(data.error || "Analysis failed");
 
       setResult(data);
@@ -308,9 +310,28 @@ export default function RecJD() {
     }
   };
 
-  const handleShortlist = (student) => {
-    if (!shortlisted.find((s) => s.id === student.id)) {
-      setShortlisted((prev) => [...prev, student]);
+  const handleShortlist = async (student) => {
+    if (shortlisted.find((s) => s.id === student.id)) return;
+    setShortlisted((prev) => [...prev, student]);
+
+    // Send real notification to student
+    try {
+      await fetch("/api/notifications/shortlist", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          studentId: student.id,
+          recruiterId: user?.id,
+          recruiterName: user?.name || "A recruiter",
+          company: user?.company || "A company",
+          jobTitle: result?.extraction?.jobTitle || "Open Role",
+          matchPercent: student.matchPercent,
+          mustHaveMatched: student.mustHaveMatched,
+          mustHaveMissed: student.mustHaveMissed,
+        }),
+      });
+    } catch (err) {
+      console.error("Failed to notify student:", err);
     }
   };
 
@@ -346,7 +367,7 @@ export default function RecJD() {
             </p>
             <p className="flex items-center justify-center gap-2">
               <span className="w-2 h-2 bg-violet-400 rounded-full animate-pulse" style={{animationDelay: '0.3s'}} />
-              Scanning student profiles...
+              Scanning {50} student profiles...
             </p>
             <p className="flex items-center justify-center gap-2">
               <span className="w-2 h-2 bg-blue-400 rounded-full animate-pulse" style={{animationDelay: '0.6s'}} />
@@ -601,9 +622,20 @@ export default function RecJD() {
             className="w-full h-64 p-5 text-sm text-gray-800 placeholder-gray-400 resize-none focus:outline-none"
           />
           <div className="border-t border-gray-100 px-5 py-3 flex items-center justify-between bg-gray-50">
-            <span className="text-xs text-gray-400">
-              {jdText.length > 0 ? `${jdText.length} characters` : "Supports any format — just paste the raw text"}
-            </span>
+            <div className="flex items-center gap-4">
+              <span className="text-xs text-gray-400">
+                {jdText.length > 0 ? `${jdText.length} characters` : "Paste raw JD text"}
+              </span>
+              <label className="flex items-center gap-2 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={includeInternships}
+                  onChange={(e) => setIncludeInternships(e.target.checked)}
+                  className="w-3.5 h-3.5 rounded accent-violet-600"
+                />
+                <span className="text-xs text-gray-500">Include Year 2 (internships)</span>
+              </label>
+            </div>
             <button
               onClick={handleAnalyze}
               disabled={loading || jdText.trim().length < 20}

@@ -11,7 +11,7 @@ const achievements = [
     id: 2,
     name: "Riya Sharma",
     year: 2,
-    project: "AI Resume Analyzer",
+    project: "AI Skills Snapshot",
     points: 90,
     date: "2025-07-25T14:00:00Z"
   },

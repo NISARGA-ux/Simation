@@ -49,6 +49,7 @@ router.post("/add", upload.single("proofFile"), (req, res) => {
     const achievement = {
       id: Date.now(),
       userId: uid,
+      studentId: uid,
       title: title || "",
       description: description || "",
       proof: proofUrl,
@@ -84,7 +85,10 @@ router.get("/:userId", (req, res) => {
     const user = db.get("users").find({ id: uid }).value();
     if (!user) return res.status(404).json({ message: "User not found" });
 
-    const userAchievements = db.get("achievements").filter({ userId: uid }).value();
+    const userAchievements = db
+      .get("achievements")
+      .filter((a) => a.userId === uid || a.studentId === uid)
+      .value();
     return res.json(userAchievements);
   } catch (err) {
     console.error("achievements.get error:", err);

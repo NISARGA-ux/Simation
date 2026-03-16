@@ -10,7 +10,6 @@ const db = low(adapter);
 db.defaults({
   users: [],
   recruiters: [],
-  mentors: [],
   achievements: [],
   notifications: [],
   students: [],
