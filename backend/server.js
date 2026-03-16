@@ -10,12 +10,13 @@ const homeRoutes = require("./routes/home");
 const achievementsRoutes = require("./routes/achievements");
 const leaderboardRoutes = require("./routes/leaderboard");
 const searchRoutes = require("./routes/search");
-const opportunitiesRoutes = require("./routes/opportunities");
 const recQuizRoutes = require("./routes/recquiz");
 const studentRoutes = require("./routes/students");
 const skillsMarketRoutes = require("./routes/skillsMarket");
 const authRoutes = require("./routes/auth");
 const jdRoutes = require("./routes/jd");
+const githubRoutes = require("./routes/github");
+const coursesRoutes = require("./routes/courses");
 
 const app = express();
 
@@ -31,12 +32,13 @@ app.use("/api/home", homeRoutes);
 app.use("/api", searchRoutes);
 app.use("/api/achievements", achievementsRoutes);
 app.use("/api/leaderboard", leaderboardRoutes);
-app.use("/api/opportunities", opportunitiesRoutes);
 app.use("/api", recQuizRoutes);
 app.use("/api/students", studentRoutes);
 app.use("/api/skills-market", skillsMarketRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/jd", jdRoutes);
+app.use("/api/github", githubRoutes);
+app.use("/api/courses", coursesRoutes);
 
 // Serve frontend build from /dist
 const frontendPath = path.join(__dirname, "dist");

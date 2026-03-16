@@ -154,7 +154,6 @@ function dedupeSkills(skills) {
 function collectInternalEvidence(db) {
   const users = db.get("users").value() || [];
   const achievements = db.get("achievements").value() || [];
-  const opportunities = db.get("opportunities").value() || [];
 
   const studentProfiles = users
     .filter((user) => user.role === "student")
@@ -170,16 +169,9 @@ function collectInternalEvidence(db) {
     domain: achievement.domain || "",
   }));
 
-  const opportunitySignals = opportunities.map((opportunity) => ({
-    title: opportunity.title || "",
-    description: opportunity.description || "",
-    company: opportunity.company || "",
-  }));
-
   return {
     studentProfiles,
     achievementSignals,
-    opportunitySignals,
   };
 }
 
@@ -201,14 +193,12 @@ function summarizeEvidence(evidence) {
     studentCount: evidence.studentProfiles.length,
     branches: [...new Set(evidence.studentProfiles.map((profile) => profile.branch).filter(Boolean))],
     departments: [...new Set(evidence.studentProfiles.map((profile) => profile.department).filter(Boolean))],
-    opportunityCount: evidence.opportunitySignals.length,
     achievementCount: evidence.achievementSignals.length,
     topAchievementTerms: [...topAchievementTerms.entries()]
       .sort((a, b) => b[1] - a[1])
       .slice(0, 40)
       .map(([term, count]) => ({ term, count })),
     recentAchievements: evidence.achievementSignals.slice(-20),
-    recentOpportunities: evidence.opportunitySignals.slice(-15),
   };
 }
 
@@ -216,7 +206,6 @@ function deriveDiscoveryTargets(evidence, referenceCount) {
   const evidenceVolume =
     evidence.studentProfiles.length +
     evidence.achievementSignals.length * 2 +
-    evidence.opportunitySignals.length * 2 +
     referenceCount * 3;
 
   return {
