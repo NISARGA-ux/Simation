@@ -1,14 +1,7 @@
 // backend/routes/opportunities.js
 const express = require("express");
 const router = express.Router();
-const low = require("lowdb");
-const FileSync = require("lowdb/adapters/FileSync");
-
-const adapter = new FileSync("db.json");
-const db = low(adapter);
-
-// Ensure defaults
-db.defaults({ opportunities: [], students: [] }).write();
+const db = require("../utils/db");
 
 /**
  * Helper to normalize date + time into ISO string
@@ -34,6 +27,7 @@ function normalizeDate(date, time) {
  * Sorted by event date (latest first)
  */
 router.get("/", (req, res) => {
+  db.read();
   const opportunities = db.get("opportunities").value();
 
   const normalized = opportunities.map((opp) => {
@@ -58,6 +52,7 @@ router.get("/", (req, res) => {
  * POST new opportunity
  */
 router.post("/", (req, res) => {
+  db.read();
   const {
     title,
     description,
@@ -80,7 +75,10 @@ router.post("/", (req, res) => {
   // Auto fetch mentor name if mentorId is given
   let mentorName = postedBy || "Unknown Mentor";
   if (mentorId) {
-    const mentor = db.get("students").find({ id: mentorId }).value();
+    const mentor = db
+      .get("users")
+      .find((user) => user.id === mentorId && ["mentor", "faculty"].includes(user.role))
+      .value();
     if (mentor && mentor.name) {
       mentorName = mentor.name;
     }
