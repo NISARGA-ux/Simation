@@ -1,16 +1,97 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../context/AuthContext";
 
 export default function RecHome() {
-  return (
-    <div className="p-6">
-      <h1 className="text-3xl font-bold mb-4">Recruiter Dashboard</h1>
-      <p>Welcome, Recruiter! From here you can:</p>
+  const navigate = useNavigate();
+  const { user } = useAuth();
 
-      <ul className="list-disc ml-6 mt-3 space-y-2">
-        <li>Take the recruiter quiz (RecQuiz) to specify the skills you want.</li>
-        <li>Use filters / AI matching (coming soon) to find students.</li>
-        <li>View leaderboard and recruiter profile (logout).</li>
-      </ul>
+  const features = [
+    {
+      title: "JD Intelligence Engine",
+      description: "Paste any job description → AI extracts skills → instantly see ranked student matches with radar charts and match percentages.",
+      icon: "🔍",
+      color: "from-violet-50 to-violet-100 border-violet-200",
+      iconBg: "bg-violet-100",
+      action: () => navigate("/recjd"),
+      buttonText: "Analyze a JD",
+      primary: true,
+    },
+    {
+      title: "Recruiter Quiz Filter",
+      description: "Select departments, roles, and year preferences to browse matching students with their achievement portfolios.",
+      icon: "📝",
+      color: "from-blue-50 to-blue-100 border-blue-200",
+      iconBg: "bg-blue-100",
+      action: () => navigate("/recquiz"),
+      buttonText: "Take Quiz",
+    },
+    {
+      title: "Skills Leaderboard",
+      description: "View the top-performing students filtered by department, branch, and year. See who's leading in points.",
+      icon: "🏆",
+      color: "from-amber-50 to-amber-100 border-amber-200",
+      iconBg: "bg-amber-100",
+      action: () => navigate("/leaderboard"),
+      buttonText: "View Leaderboard",
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-gray-50 -m-6">
+      {/* Header */}
+      <div className="bg-white border-b">
+        <div className="max-w-5xl mx-auto px-6 py-8">
+          <p className="text-sm text-gray-500 font-medium">Welcome back,</p>
+          <h1 className="text-3xl font-bold text-gray-900 mt-1">
+            {user?.name || "Recruiter"}
+          </h1>
+          {user?.company && (
+            <p className="text-gray-500 mt-1">{user.company}</p>
+          )}
+        </div>
+      </div>
+
+      <div className="max-w-5xl mx-auto px-6 py-8">
+        {/* Feature cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          {features.map((f, i) => (
+            <div
+              key={i}
+              className={`bg-gradient-to-br ${f.color} border rounded-xl p-6 flex flex-col justify-between transition hover:shadow-md`}
+            >
+              <div>
+                <div className={`w-12 h-12 rounded-xl ${f.iconBg} flex items-center justify-center text-2xl mb-4`}>
+                  {f.icon}
+                </div>
+                <h2 className="text-lg font-bold text-gray-900">{f.title}</h2>
+                <p className="text-sm text-gray-600 mt-2">{f.description}</p>
+              </div>
+              <button
+                onClick={f.action}
+                className={`mt-5 w-full py-2.5 rounded-lg font-semibold text-sm transition ${
+                  f.primary
+                    ? "bg-gray-900 text-white hover:bg-gray-800 shadow-sm"
+                    : "bg-white text-gray-700 border border-gray-200 hover:bg-gray-50"
+                }`}
+              >
+                {f.buttonText}
+              </button>
+            </div>
+          ))}
+        </div>
+
+        {/* Quick tip */}
+        <div className="mt-8 bg-white border border-gray-200 rounded-xl p-5">
+          <h3 className="font-semibold text-gray-800 mb-2">💡 Pro Tip for Demo</h3>
+          <p className="text-sm text-gray-600">
+            Start with the <span className="font-semibold text-violet-600">JD Intelligence Engine</span>.
+            Paste a real job description from Google, Amazon, or Flipkart — the AI extracts
+            every skill, maps them against student portfolios, and shows ranked candidates
+            with radar charts in under 5 seconds. Try the sample JDs if you don&apos;t have one handy.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
