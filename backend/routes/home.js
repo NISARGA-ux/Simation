@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const { callVertexJSON } = require("../utils/vertex");
+const { callLLMJSON } = require("../utils/ai");
+const { searchTavily } = require("../utils/tavily");
+const { searchSerpApi } = require("../utils/serpapi");
 
 const suggestionSchema = {
   type: "object",
@@ -17,7 +19,7 @@ const suggestionSchema = {
           details: { type: "string" },
           link: { type: "string" },
         },
-        required: ["title", "category", "shortDescription", "details"],
+        required: ["title", "category", "shortDescription", "details", "link"],
         additionalProperties: false,
       },
     },
@@ -28,10 +30,27 @@ const suggestionSchema = {
 
 router.get("/", async (req, res) => {
   try {
+    const query =
+      "latest student opportunities in AI ML cybersecurity open source hackathons GSoC ICPC internships";
+
+    const [tavilyResults, serpResults] = await Promise.all([
+      searchTavily(query, Number(process.env.TAVILY_MAX_RESULTS || 5)),
+      searchSerpApi(query, Number(process.env.TAVILY_MAX_RESULTS || 5)),
+    ]);
+
+    const references = [...tavilyResults, ...serpResults]
+      .slice(0, 10)
+      .map((r, i) => `${i + 1}. ${r.title}\nURL: ${r.url}\nSnippet: ${r.snippet}`)
+      .join("\n\n");
+
     const prompt = `
-You are Zenith Cortex, a daily AI tech guide.
+You are Simation, a daily AI tech guide.
 Generate EXACTLY 15 suggestions for a CS/IT student. 
 Topics should include GSoC, ICPC, NLP, AI/ML, Cybersecurity, Hackathons, Open Source, and career tips.
+Ground your suggestions in the references if available.
+
+References:
+${references || "No live references available."}
 
 Rules:
 - Each suggestion must match the schema strictly.
@@ -43,14 +62,14 @@ Rules:
 
     let obj;
     try {
-      obj = await callVertexJSON({
+      obj = await callLLMJSON({
         prompt,
         schema: suggestionSchema,
         temperature: 0.5,
         maxOutputTokens: 2048, // keep smaller to avoid cut-off
       });
     } catch (err) {
-      console.error("Vertex JSON error (home):", err?.message || err);
+      console.error("LLM JSON error (home):", err?.message || err);
       return res.status(502).json({ error: "AI returned non-JSON or invalid schema output" });
     }
 

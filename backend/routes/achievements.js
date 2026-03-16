@@ -52,7 +52,7 @@ router.post("/add", upload.single("proofFile"), (req, res) => {
       title: title || "",
       description: description || "",
       proof: proofUrl,
-      points: 10, // placeholder; you'll integrate Vertex later
+      points: 10,
       createdAt: new Date().toISOString(),
     };
 
