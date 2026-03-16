@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
 export default function Sidebar({ isOpen, toggleSidebar }) {
-  const { user } = useAuth();
+  const { user, switchRole } = useAuth();
   const role = user?.role || null;
 
   return (
@@ -18,7 +18,45 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
         ❌
       </button>
 
-      <ul className="mt-10 space-y-6">
+      <div className="mt-10">
+        <p className="mb-3 text-xs uppercase tracking-[0.2em] text-gray-400">
+          Demo Mode
+        </p>
+        <div className="grid grid-cols-1 gap-2">
+          <button
+            type="button"
+            onClick={() => {
+              switchRole("student");
+              toggleSidebar();
+            }}
+            className="rounded border border-gray-700 px-3 py-2 text-left hover:bg-gray-700"
+          >
+            Student View
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              switchRole("recruiter");
+              toggleSidebar();
+            }}
+            className="rounded border border-gray-700 px-3 py-2 text-left hover:bg-gray-700"
+          >
+            Recruiter View
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              switchRole("faculty");
+              toggleSidebar();
+            }}
+            className="rounded border border-gray-700 px-3 py-2 text-left hover:bg-gray-700"
+          >
+            Faculty View
+          </button>
+        </div>
+      </div>
+
+      <ul className="mt-8 space-y-6">
         {/* STUDENT MENU */}
         {role === "student" && (
           <>

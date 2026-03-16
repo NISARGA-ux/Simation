@@ -23,19 +23,16 @@ import MentorOpportunities from "./pages/MentorOpportunities";
 import MentorProfile from "./pages/MentorProfile";
 
 
-// Shared
-import Login from "./pages/Login";
-
 // Role-protected wrappers (use inside AuthProvider)
 function ProtectedRoute({ children }) {
   const { user } = useAuth();
-  if (!user) return <Navigate to="/login" replace />;
+  if (!user) return <Navigate to="/" replace />;
   return children;
 }
 
 function RoleRoute({ allowedRoles = [], children }) {
   const { user } = useAuth();
-  if (!user) return <Navigate to="/login" replace />;
+  if (!user) return <Navigate to="/" replace />;
   // accept synonyms for mentor role: "mentor" or "faculty"
   const role = user.role;
   if (!allowedRoles.includes(role)) return <Navigate to="/" replace />;
@@ -45,7 +42,7 @@ function RoleRoute({ allowedRoles = [], children }) {
 // helper to redirect to role-appropriate default
 function DashboardRedirect() {
   const { user } = useAuth();
-  if (!user) return <Navigate to="/login" replace />;
+  if (!user) return <Navigate to="/" replace />;
   const role = user.role;
   if (role === "recruiter") return <Navigate to="/rechome" replace />;
   if (role === "student") return <Navigate to="/home" replace />;
@@ -58,8 +55,7 @@ export default function App() {
     <AuthProvider>
       <Router>
         <Routes>
-          {/* Public */}
-          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<Navigate to="/" replace />} />
 
           {/* Protected Layout */}
           <Route
