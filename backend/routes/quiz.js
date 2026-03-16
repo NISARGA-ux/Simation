@@ -3,7 +3,7 @@
 // backend/routes/quiz.js
 const express = require("express");
 const router = express.Router();
-const { callVertexJSON } = require("../utils/vertex");
+const { callLLMJSON } = require("../utils/ai");
 
 // Schema to enforce a stable shape
 const quizSchema = {
@@ -69,14 +69,14 @@ Rules:
 
     let obj;
     try {
-      obj = await callVertexJSON({
+      obj = await callLLMJSON({
         prompt,
         schema: quizSchema,
         temperature: 0,
         maxOutputTokens: 4096,
       });
     } catch (err) {
-      console.error("Vertex JSON error (quiz):", err?.message || err);
+      console.error("LLM JSON error (quiz):", err?.message || err);
       return res.status(502).json({ error: "AI returned non-JSON or invalid schema output" });
     }
 
