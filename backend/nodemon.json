@@ -1,0 +1,6 @@
+{
+  "watch": ["backend/routes", "backend/utils", "server.js"],
+  "ignore": ["backend/db.json"],
+  "ext": "js,json"
+}
+

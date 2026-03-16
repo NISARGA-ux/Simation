@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Which branch(es) are you hiring from?",
+    "type": "multi-select",
+    "options": [
+      "Computer Science (CSE)",
+      "Information Technology (IT)",
+      "Electronics and Communication (ECE)",
+      "Electrical Engineering (EE)",
+      "Mechanical Engineering (ME)",
+      "Civil Engineering (CE)",
+      "Other"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Which role(s) are you hiring for?",
+    "type": "multi-select",
+    "options": [
+      "Backend Developer",
+      "Frontend Developer",
+      "Full Stack Developer",
+      "AI/ML Engineer",
+      "Cybersecurity Engineer",
+      "Data Scientist",
+      "IoT Engineer",
+      "Embedded Systems Engineer",
+      "VLSI Engineer",
+      "Robotics Engineer",
+      "Automobile Engineer",
+      "Design Engineer (CAD/CAE)",
+      "Production Engineer",
+      "Other"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which year(s) of students are you interested in?",
+    "type": "multi-select",
+    "options": ["1st Year", "2nd Year", "3rd Year", "4th Year"]
+  },
+  {
+    "id": 4,
+    "question": "Are there any specific achievements/certifications you prefer?",
+    "type": "text",
+    "options": []
+  }
+]
+

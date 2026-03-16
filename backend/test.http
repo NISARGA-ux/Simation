@@ -1,0 +1,3 @@
+curl -X POST http://localhost:5000/api/recquiz/analyse \
+  -H "Content-Type: application/json" \
+  -d '{"answers":["aws"]}'
