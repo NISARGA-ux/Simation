@@ -13,6 +13,7 @@
     "@tailwindcss/vite": "^4.1.12",
     "axios": "^1.11.0",
     "framer-motion": "^12.23.12",
+    "groq-sdk": "^1.1.1",
     "mammoth": "^1.10.0",
     "pdf-parse": "^1.1.1",
     "pdfjs-dist": "^5.4.54",
@@ -32,6 +33,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
+    "puppeteer": "^24.39.1",
     "vite": "^7.1.2"
   }
 }
