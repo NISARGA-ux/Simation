@@ -282,6 +282,10 @@ function generateCourseReasoning(course, gap) {
   return reasons.length > 0 ? reasons.slice(0, 3).join(". ") + "." : null;
 }
 
+// ══════════════════════════════════════════════
+// AI-GENERATED TREND REASONS (per-skill)
+// ══════════════════════════════════════════════
+
 const trendReasonSchema = {
   type: "object",
   properties: {
@@ -314,28 +318,43 @@ const roadmapSchema = {
 };
 
 async function generateTrendReasons(gaps, track) {
-  const top = gaps.slice(0, 6);
+  const top = gaps.slice(0, 8);
   if (top.length === 0) return {};
 
   const prompt = `
-You are writing a concise "Why this skill is in demand" explanation for students.
-Track: ${track || "General"}
+You're explaining to a college student why specific skills matter right now in the job market.
+Track they're pursuing: ${track || "General software engineering"}
 
-For each skill below, write 2–3 short lines (max 2 sentences total, 35–55 words).
-Each reason must be UNIQUE to the skill, and reference at least one metric provided.
-Explicitly explain the demand driver (e.g., infra adoption, compliance, productionization, cost savings, scale).
-Do not repeat phrasing across skills. Do not mention "AI said" or "LLM". Return JSON only.
+For each skill below, write a sharp, honest, 2-3 sentence explanation of why it's in demand.
+Be specific — reference the actual numbers I'm giving you. Don't be vague or corporate.
+Talk like a senior engineer mentoring someone, not like a marketing brochure.
 
-Skills (use these metrics in your reasoning):
-${top.map((g) => `- ${g.skill} | demandScore=${g.demandScore} | changePercent=${g.changePercent} | jobCount=${g.jobCount || 0}`).join("\n")}
+Examples of good tone:
+- "Kubernetes isn't optional anymore — 42 live job postings mention it, and every cloud-native team expects you to at least deploy with it. The 12% demand spike tracks with companies moving off managed PaaS to self-hosted infra."
+- "FastAPI blew up because Python shops needed something faster than Flask without switching languages. With demand at 65/100 and growing, it's the default for ML model serving APIs now."
+- "Nobody's hiring junior devs who can't write SQL. It's boring but it's table stakes — 38 postings and a demand score of 71 tells you everything."
+
+Bad tone (avoid this):
+- "This skill is increasingly important in today's rapidly evolving technology landscape."
+- "Recruiters are actively prioritizing this skill because it closes real delivery gaps."
+
+Skills to explain (use the numbers in your reasoning):
+${top.map((g) => `- ${g.skill} | demandScore=${g.demandScore}/100 | trend=${g.changePercent > 0 ? "+" + g.changePercent.toFixed(1) + "% growth" : g.changePercent < 0 ? g.changePercent.toFixed(1) + "% dip" : "flat"} | ${g.jobCount || 0} active job listings`).join("\n")}
+
+Rules:
+- Each reason MUST reference at least one specific number from the data above.
+- Each reason MUST be unique — don't repeat the same framing across skills.
+- If demand is low but growing fast, say that. If it's high but flat, say that. Be honest.
+- Keep each reason between 35-70 words.
+- Return ONLY valid JSON matching the schema.
 `;
 
   try {
     const result = await callLLMJSON({
       prompt,
       schema: trendReasonSchema,
-      temperature: 0.4,
-      maxOutputTokens: 1200,
+      temperature: 0.5,
+      maxOutputTokens: 2000,
     });
     const map = {};
     (result.reasons || []).forEach((r) => {
@@ -352,23 +371,46 @@ async function generateRoadmap(gaps, track) {
   const top = gaps.slice(0, 6);
   if (top.length === 0) return null;
 
-  const prompt = `
-Create a 90-day learning roadmap (3 phases) for a student in the "${track || "General"}" track.
-The roadmap must be SPECIFIC and non-generic. Every item must reference the skill name explicitly.
-Use the provided metrics to prioritize and frame outcomes.
-Return JSON only with arrays: phase1, phase2, phase3. Each array should have 2–3 items.
-Each item must be a single sentence (18–28 words), include a concrete deliverable, and avoid fluff.
+  // Gather student's existing portfolio context
+  const achievements = db.get("achievements").value() || [];
+  const recentAchievements = achievements
+    .slice(-20)
+    .map((a) => `${a.title || ""} (${(a.skillTags || []).join(", ")})`)
+    .filter(Boolean)
+    .join("; ");
 
-Skills and metrics:
-${top.map((g) => `- ${g.skill} | demandScore=${g.demandScore} | changePercent=${g.changePercent} | jobCount=${g.jobCount || 0} | studentRating=${g.studentRating}`).join("\n")}
+  const prompt = `
+You're a senior engineer building a 90-day learning plan for a student in the "${track || "General"}" track.
+
+They just completed a skills assessment. Here are their biggest gaps — the skills where market demand outpaces their current ability:
+
+${top.map((g) => `- ${g.skill}: they rated ${g.studentRating}/5, market demand is ${g.demandScore}/100, ${g.jobCount || 0} job listings mention it${g.changePercent > 5 ? ", trending up " + g.changePercent.toFixed(0) + "%" : ""}`).join("\n")}
+
+${recentAchievements ? `\nTheir existing portfolio includes: ${recentAchievements.slice(0, 1500)}` : ""}
+
+Create a 3-phase plan. Each phase should have 2-3 action items.
+
+Phase 1 (Days 1-30): Foundation — get functional in the highest-priority gaps. Focus on the skills with the worst rating-to-demand ratio.
+Phase 2 (Days 31-60): Build — ship something real with these skills. Combine 2-3 gap skills into one project if possible.
+Phase 3 (Days 61-90): Prove — make the work visible. Deploy, write about it, contribute to OSS, or present it.
+
+Rules:
+- Every item must name a SPECIFIC skill from the gap list. No generic "learn the basics" items.
+- Each item should be a single actionable sentence with a concrete deliverable (a repo, a deployment, a PR, a blog post, etc).
+- Reference the student's portfolio where relevant — build on what they already have.
+- If a skill has very high demand (70+), prioritize it in Phase 1.
+- If two skills pair well (e.g., Docker + Kubernetes, or FastAPI + PostgreSQL), combine them in one item.
+- Write like you're talking to the student directly. "Set up X" not "The student should set up X".
+- Each item: 20-40 words. Be specific, not fluffy.
+- Return ONLY valid JSON with arrays: phase1, phase2, phase3.
 `;
 
   try {
     const result = await callLLMJSON({
       prompt,
       schema: roadmapSchema,
-      temperature: 0.45,
-      maxOutputTokens: 1200,
+      temperature: 0.55,
+      maxOutputTokens: 1500,
     });
     return result;
   } catch (err) {
@@ -376,6 +418,7 @@ ${top.map((g) => `- ${g.skill} | demandScore=${g.demandScore} | changePercent=${
     return null;
   }
 }
+
 // ══════════════════════════════════════════════
 // PORTFOLIO CROSS-REFERENCE
 // ══════════════════════════════════════════════
@@ -414,35 +457,17 @@ function crossReferencePortfolio(userId, skills) {
 // ══════════════════════════════════════════════
 // FIXED GAP CALCULATION
 // ══════════════════════════════════════════════
-//
-// OLD BUG: gapScore = max(0, demandScore - studentScore)
-//   TensorFlow rated 1/5 → studentScore=20, demand=24 → gap=4 → classified as "strength" ❌
-//
-// NEW: if you rated ≤2 on any skill with real demand, it's a gap. Period.
-//   gapScore reflects both how weak you are AND how much market wants it.
-//
+
 function computeGapScore(studentRating, demandScore) {
-  const studentScore = studentRating * 20; // 0-100
-
-  // How far below "competent" (3/5 = 60%) is the student?
-  const proficiencyDeficit = Math.max(0, 60 - studentScore); // 0-60
-
-  // Demand amplifier (minimum 20 to avoid divide-by-zero-ish behavior)
+  const studentScore = studentRating * 20;
+  const proficiencyDeficit = Math.max(0, 60 - studentScore);
   const demandFactor = Math.max(demandScore, 20) / 100;
-
-  // Combined: deficit * demand, with a floor that makes low-rated skills always visible
   const raw = proficiencyDeficit * demandFactor * 1.5 + (studentRating <= 1 ? 15 : 0);
-
   return Math.round(Math.min(raw, 100));
 }
 
 function classifySkill(studentRating, demandScore) {
   const gapScore = computeGapScore(studentRating, demandScore);
-
-  // Simple rules:
-  // - Rated 0-2 on anything with demand ≥10 → gap (you can't build with it)
-  // - Rated 3+ AND gapScore still high → gap (demand far exceeds your level)
-  // - Rated 4-5 → almost always a strength
   if (studentRating <= 2 && demandScore >= 10) return { type: "gap", gapScore };
   if (studentRating >= 4) return { type: "strength", gapScore: 0 };
   if (gapScore >= 12) return { type: "gap", gapScore };
@@ -538,7 +563,7 @@ router.post("/skill-gaps", async (req, res) => {
     gaps.sort((a, b) => b.gapScore - a.gapScore);
     strengths.sort((a, b) => b.studentScore - a.studentScore);
 
-    // Marketability: per-skill coverage capped at 1.0, then averaged
+    // Marketability
     const marketability = Math.round(
       ratings.reduce((sum, r) => {
         const market = marketSkills.find(
@@ -564,7 +589,7 @@ router.post("/skill-gaps", async (req, res) => {
       await new Promise((r) => setTimeout(r, 300));
     }
 
-    // AI trend reasons for top gaps
+    // AI trend reasons for ALL gaps (not just top 6)
     const trendReasons = await generateTrendReasons(gaps, track);
 
     gaps.forEach((g) => {

@@ -205,7 +205,7 @@ function GapSeverity({ score }) {
 }
 
 // ── Roadmap item ──
-function RoadmapItem({ phase, weeks, items, color }) {
+function RoadmapItem({ phase, label, items, color }) {
   const dotColor = color === "emerald" ? "bg-emerald-500" : color === "amber" ? "bg-amber-500" : "bg-violet-500";
   const lineColor = color === "emerald" ? "bg-emerald-200" : color === "amber" ? "bg-amber-200" : "bg-violet-200";
   return (
@@ -213,7 +213,7 @@ function RoadmapItem({ phase, weeks, items, color }) {
       <div className={`absolute left-3 top-0 bottom-0 w-px ${lineColor}`} />
       <div className={`absolute left-1 top-1 w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold text-white ${dotColor}`}>{phase}</div>
       <div className="pb-6">
-        <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-1">{weeks}</p>
+        <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-1">{label}</p>
         <div className="space-y-1.5">
           {items.map((item, i) => (
             <div key={i} className="flex items-start gap-2">
@@ -227,14 +227,83 @@ function RoadmapItem({ phase, weeks, items, color }) {
   );
 }
 
-// ═══════════════════════════════════════════
+// ── Trend reason display — AI-only, no hardcoded fallback ──
+function TrendReasonBlock({ gap }) {
+  if (gap.trendReason) {
+    return (
+      <div className="mb-4">
+        <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Why This Matters Right Now</p>
+        <p className="text-sm text-gray-600 leading-relaxed mb-3">{gap.trendReason}</p>
+        <div className="flex flex-wrap gap-2">
+          <span className="text-xs bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full">
+            Demand: {gap.demandScore}/100
+          </span>
+          {gap.changePercent > 5 && (
+            <span className="text-xs bg-emerald-50 text-emerald-700 border border-emerald-200 px-2.5 py-1 rounded-full">
+              ↑ {gap.changePercent.toFixed(0)}% growth
+            </span>
+          )}
+          {gap.changePercent < -5 && (
+            <span className="text-xs bg-amber-50 text-amber-700 border border-amber-200 px-2.5 py-1 rounded-full">
+              ↓ {Math.abs(gap.changePercent).toFixed(0)}% dip
+            </span>
+          )}
+          {gap.changePercent >= -5 && gap.changePercent <= 5 && (
+            <span className="text-xs bg-blue-50 text-blue-700 border border-blue-200 px-2.5 py-1 rounded-full">
+              Steady demand
+            </span>
+          )}
+          {gap.jobCount > 0 && (
+            <span className="text-xs bg-violet-50 text-violet-700 border border-violet-200 px-2.5 py-1 rounded-full">
+              {gap.jobCount} job listings
+            </span>
+          )}
+        </div>
+      </div>
+    );
+  }
+
+  // No AI reason available — show the raw data chips only, no fake prose
+  return (
+    <div className="mb-4">
+      <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Market Signal</p>
+      <div className="flex flex-wrap gap-2">
+        <span className="text-xs bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full">
+          Demand: {gap.demandScore}/100
+        </span>
+        {gap.jobCount > 0 && (
+          <span className="text-xs bg-violet-50 text-violet-700 border border-violet-200 px-2.5 py-1 rounded-full">
+            {gap.jobCount} active job listings
+          </span>
+        )}
+        {gap.changePercent > 5 && (
+          <span className="text-xs bg-emerald-50 text-emerald-700 border border-emerald-200 px-2.5 py-1 rounded-full">
+            ↑ {gap.changePercent.toFixed(0)}% trending up
+          </span>
+        )}
+        {gap.changePercent < -5 && (
+          <span className="text-xs bg-amber-50 text-amber-700 border border-amber-200 px-2.5 py-1 rounded-full">
+            ↓ {Math.abs(gap.changePercent).toFixed(0)}% cooling off
+          </span>
+        )}
+        {gap.topCompanies?.length > 0 && (
+          <span className="text-xs bg-gray-50 text-gray-600 px-2.5 py-1 rounded-full">
+            Hiring at: {gap.topCompanies.slice(0, 3).join(", ")}
+          </span>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════
 // MAIN COMPONENT
-// ═══════════════════════════════════════════
+// ══════════════════════════════════════════════
 export default function Quiz() {
   const { user } = useAuth();
   const [phase, setPhase] = useState("track");
   const [selectedTrack, setSelectedTrack] = useState(null);
-  const [trackSkills, setTrackSkills] = useState([]); // AI-generated
+  const [trackSkills, setTrackSkills] = useState([]);
   const [loadingSkills, setLoadingSkills] = useState(false);
   const [ratings, setRatings] = useState({});
   const [result, setResult] = useState(null);
@@ -401,7 +470,7 @@ export default function Quiz() {
           <div className="space-y-2 text-sm text-gray-500">
             <p className="flex items-center justify-center gap-2"><span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />Computing gap scores...</p>
             <p className="flex items-center justify-center gap-2"><span className="w-2 h-2 bg-violet-400 rounded-full animate-pulse" style={{ animationDelay: "0.3s" }} />Searching for targeted courses...</p>
-            <p className="flex items-center justify-center gap-2"><span className="w-2 h-2 bg-blue-400 rounded-full animate-pulse" style={{ animationDelay: "0.6s" }} />Building your learning roadmap...</p>
+            <p className="flex items-center justify-center gap-2"><span className="w-2 h-2 bg-blue-400 rounded-full animate-pulse" style={{ animationDelay: "0.6s" }} />AI is writing your personalized roadmap...</p>
           </div>
         </div>
       </div>
@@ -425,14 +494,16 @@ export default function Quiz() {
     }));
 
     const topGaps = (result.gaps || []).slice(0, 6);
-    const roadmap = result.roadmap || {
-      phase1: [],
-      phase2: [],
-      phase3: [],
-    };
+    const roadmap = result.roadmap || { phase1: [], phase2: [], phase3: [] };
     const roadmapHasItems = (roadmap.phase1.length + roadmap.phase2.length + roadmap.phase3.length) > 0;
 
     const portfolioMatches = trackSkills.filter((s) => portfolioSkills.has(s.name)).map((s) => s.name);
+
+    // Build dynamic career impact text based on actual data
+    const gapCount = result.gaps?.length || 0;
+    const strengthCount = result.strengths?.length || 0;
+    const mkt = result.marketability || 0;
+    const projectedMkt = Math.min(100, mkt + topGaps.slice(0, 3).reduce((s, g) => s + Math.round(g.gapScore / 4), 0));
 
     return (
       <div className="min-h-screen bg-gray-50 -m-6">
@@ -461,15 +532,15 @@ export default function Quiz() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="bg-white rounded-xl border border-gray-200 p-5 text-center">
               <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">Marketability</p>
-              <MarketabilityRing score={result.marketability || 0} />
+              <MarketabilityRing score={mkt} />
             </div>
             <div className="bg-emerald-50 rounded-xl border border-emerald-200 p-5 flex flex-col items-center justify-center">
-              <p className="text-4xl font-bold text-emerald-700 font-mono">{result.strengths?.length || 0}</p>
+              <p className="text-4xl font-bold text-emerald-700 font-mono">{strengthCount}</p>
               <p className="text-sm font-medium text-emerald-600 mt-1">Strengths</p>
               <p className="text-xs text-emerald-500 mt-1">At or above market demand</p>
             </div>
             <div className="bg-rose-50 rounded-xl border border-rose-200 p-5 flex flex-col items-center justify-center">
-              <p className="text-4xl font-bold text-rose-700 font-mono">{result.gaps?.length || 0}</p>
+              <p className="text-4xl font-bold text-rose-700 font-mono">{gapCount}</p>
               <p className="text-sm font-medium text-rose-600 mt-1">Gaps</p>
               <p className="text-xs text-rose-500 mt-1">Below market demand</p>
             </div>
@@ -521,7 +592,7 @@ export default function Quiz() {
                       <XAxis type="number" domain={[0, 100]} tick={{ fontSize: 11 }} />
                       <YAxis type="category" dataKey="skill" width={100} tick={{ fontSize: 11 }} />
                       <Tooltip contentStyle={{ borderRadius: 8, fontSize: 12 }} />
-                      <Bar dataKey="yours" name="You" radius={[0, 4, 4, 0]}><Cell fill="#8b5cf6" />{gapChartData.map((_, i) => <Cell key={i} fill="#8b5cf6" />)}</Bar>
+                      <Bar dataKey="yours" name="You" radius={[0, 4, 4, 0]}>{gapChartData.map((_, i) => <Cell key={i} fill="#8b5cf6" />)}</Bar>
                       <Bar dataKey="demand" name="Market" radius={[0, 4, 4, 0]}>{gapChartData.map((_, i) => <Cell key={i} fill="#f43f5e" fillOpacity={0.35} />)}</Bar>
                       <Legend wrapperStyle={{ fontSize: 12 }} />
                     </BarChart>
@@ -558,63 +629,29 @@ export default function Quiz() {
                             </div>
                           </div>
                         </div>
-                      <div className="mt-3 grid grid-cols-2 gap-4">
-                        <div>
-                          <div className="flex justify-between text-[10px] text-gray-400 mb-1"><span>Your proficiency</span><span>{gap.studentScore}%</span></div>
-                          <div className="h-2 bg-gray-200 rounded-full overflow-hidden"><div className="h-full bg-violet-500 rounded-full transition-all duration-700" style={{ width: `${gap.studentScore}%` }} /></div>
-                        </div>
-                        <div>
-                          <div className="flex justify-between text-[10px] text-gray-400 mb-1"><span>Market demand</span><span>{gap.demandScore}%</span></div>
-                          <div className="h-2 bg-gray-200 rounded-full overflow-hidden"><div className="h-full bg-rose-400 rounded-full transition-all duration-700" style={{ width: `${gap.demandScore}%` }} /></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="p-5">
-                      <div className="mb-4">
-                        <p className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Why This Skill Is Trending</p>
-                        <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                          {gap.trendReason || (
-                            <>
-                              Recruiters are actively prioritizing {gap.skill} because it closes real delivery gaps: higher market demand
-                              and visible hiring signals indicate teams need engineers who can ship with it today, not later.
-                              {gap.jobCount > 0 ? ` With ${gap.jobCount} active listings mentioning it, this is a direct employability lever.` : " It's consistently mentioned across role requirements."}
-                            </>
-                          )}
-                        </p>
-                        <div className="flex flex-wrap gap-2">
-                          <span className="text-xs bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full">
-                            Market demand: {gap.demandScore}/100
-                          </span>
-                          {gap.changePercent > 5 && (
-                            <span className="text-xs bg-emerald-50 text-emerald-700 border border-emerald-200 px-2.5 py-1 rounded-full">
-                              Demand up {gap.changePercent}% recently
-                            </span>
-                          )}
-                          {gap.changePercent < -5 && (
-                            <span className="text-xs bg-amber-50 text-amber-700 border border-amber-200 px-2.5 py-1 rounded-full">
-                              Demand dipped {Math.abs(gap.changePercent)}% recently
-                            </span>
-                          )}
-                          {gap.changePercent >= -5 && gap.changePercent <= 5 && (
-                            <span className="text-xs bg-blue-50 text-blue-700 border border-blue-200 px-2.5 py-1 rounded-full">
-                              Demand steady, consistently required
-                            </span>
-                          )}
-                          {gap.jobCount > 0 && (
-                            <span className="text-xs bg-violet-50 text-violet-700 border border-violet-200 px-2.5 py-1 rounded-full">
-                              {gap.jobCount} active job listings mention it
-                            </span>
-                          )}
-                        </div>
-                      </div>
-                      {courses.length > 0 ? (
-                        <>
-                          <p className="text-xs font-bold uppercase tracking-wider text-emerald-600 mb-3">Recommended Resources</p>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                            {courses.slice(0, 4).map((c, i) => <CourseCard key={i} course={c} />)}
+                        <div className="mt-3 grid grid-cols-2 gap-4">
+                          <div>
+                            <div className="flex justify-between text-[10px] text-gray-400 mb-1"><span>Your proficiency</span><span>{gap.studentScore}%</span></div>
+                            <div className="h-2 bg-gray-200 rounded-full overflow-hidden"><div className="h-full bg-violet-500 rounded-full transition-all duration-700" style={{ width: `${gap.studentScore}%` }} /></div>
                           </div>
-                        </>
-                      ) : (
+                          <div>
+                            <div className="flex justify-between text-[10px] text-gray-400 mb-1"><span>Market demand</span><span>{gap.demandScore}%</span></div>
+                            <div className="h-2 bg-gray-200 rounded-full overflow-hidden"><div className="h-full bg-rose-400 rounded-full transition-all duration-700" style={{ width: `${gap.demandScore}%` }} /></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="p-5">
+                        {/* AI-generated trend reason — no hardcoded fallback */}
+                        <TrendReasonBlock gap={gap} />
+
+                        {courses.length > 0 ? (
+                          <>
+                            <p className="text-xs font-bold uppercase tracking-wider text-emerald-600 mb-3">Recommended Resources</p>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                              {courses.slice(0, 4).map((c, i) => <CourseCard key={i} course={c} />)}
+                            </div>
+                          </>
+                        ) : (
                           <p className="text-sm text-gray-400">No courses found. Search for "{gap.skill} beginner tutorial 2026" to get started.</p>
                         )}
                       </div>
@@ -625,15 +662,15 @@ export default function Quiz() {
             </div>
           )}
 
-          {/* 30/60/90 Roadmap */}
+          {/* 30/60/90 Roadmap — AI-generated */}
           {topGaps.length > 0 && roadmapHasItems && (
             <div className="bg-white rounded-xl border border-gray-200 p-6">
-              <h2 className="text-sm font-bold uppercase tracking-wider text-gray-400 mb-1">90-Day Learning Roadmap</h2>
-              <p className="text-xs text-gray-400 mb-6">Close your top gaps with this structured plan</p>
+              <h2 className="text-sm font-bold uppercase tracking-wider text-gray-400 mb-1">Your 90-Day Plan</h2>
+              <p className="text-xs text-gray-400 mb-6">AI-generated based on your {topGaps.length} highest-priority gaps and existing portfolio</p>
               <div className="ml-2">
-                <RoadmapItem phase={1} weeks="Days 1–30 · Foundation" items={roadmap.phase1} color="emerald" />
-                <RoadmapItem phase={2} weeks="Days 31–60 · Build" items={roadmap.phase2} color="amber" />
-                <RoadmapItem phase={3} weeks="Days 61–90 · Prove" items={roadmap.phase3} color="violet" />
+                <RoadmapItem phase={1} label="Days 1–30 · Get Functional" items={roadmap.phase1} color="emerald" />
+                <RoadmapItem phase={2} label="Days 31–60 · Ship Something Real" items={roadmap.phase2} color="amber" />
+                <RoadmapItem phase={3} label="Days 61–90 · Make It Visible" items={roadmap.phase3} color="violet" />
               </div>
             </div>
           )}
@@ -656,27 +693,40 @@ export default function Quiz() {
             </div>
           )}
 
-          {/* Career impact */}
+          {/* Career impact — dynamic, not template */}
           <div className="bg-gray-900 rounded-xl p-6 text-white">
-            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-400 mb-3">What This Means for Your Career</h2>
+            <h2 className="text-sm font-bold uppercase tracking-wider text-gray-400 mb-3">What This Means</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
               <div>
-                <p className="text-gray-400 mb-1">Current standing</p>
-                <p>{result.marketability >= 70 ? `You're well-positioned for ${result.track} roles. Deepen your expertise in your strongest areas.`
-                  : result.marketability >= 40 ? `Solid foundation, but ${result.gaps?.length || 0} gaps are holding you back from competitive ${result.track} roles.`
-                  : `You're early in your ${result.track} journey. The roadmap above will get you interview-ready in 90 days.`}</p>
+                <p className="text-gray-400 mb-1">Where you stand</p>
+                <p>
+                  {mkt >= 70
+                    ? `At ${mkt}/100 marketability, you're in solid shape for ${result.track} roles. ${strengthCount} skills are already at or above what companies ask for. Focus on deepening, not broadening.`
+                    : mkt >= 40
+                    ? `${mkt}/100 marketability — you've got a real foundation (${strengthCount} strengths), but ${gapCount} gaps are the difference between "maybe" and "interview" for ${result.track} positions.`
+                    : `${mkt}/100 means you're early in your ${result.track} journey, which is fine — that's what this assessment is for. ${gapCount} gaps to work on, and the roadmap above is your fastest path forward.`
+                  }
+                </p>
               </div>
               <div>
-                <p className="text-gray-400 mb-1">Impact of closing gaps</p>
-                <p>Closing your top {Math.min(topGaps.length, 3)} gaps could raise your marketability to ~{Math.min(100, (result.marketability || 0) + topGaps.slice(0, 3).reduce((s, g) => s + Math.round(g.gapScore / 4), 0))}/100.</p>
+                <p className="text-gray-400 mb-1">If you close your top gaps</p>
+                <p>
+                  {topGaps.length > 0
+                    ? `Closing ${topGaps.slice(0, 3).map((g) => g.skill).join(", ")} would push your marketability from ${mkt} to roughly ${projectedMkt}/100. ${topGaps[0]?.jobCount > 0 ? `${topGaps[0].skill} alone has ${topGaps[0].jobCount} live postings — that's low-hanging fruit.` : "These are the skills that show up most in job descriptions for your track."}`
+                    : "No significant gaps detected — you're ahead of most candidates at your level."
+                  }
+                </p>
               </div>
               <div>
-                <p className="text-gray-400 mb-1">Target roles</p>
+                <p className="text-gray-400 mb-1">Roles you'd target</p>
                 <div className="flex flex-wrap gap-1.5 mt-1">
                   {(result.trackData?.roles || []).map((role) => (
                     <span key={role} className="text-xs bg-white/10 text-white/80 px-2 py-0.5 rounded-full">{role}</span>
                   ))}
                 </div>
+                {mkt >= 60 && (
+                  <p className="text-gray-500 mt-2 text-xs">Your profile is strong enough to start applying for internships in these roles today.</p>
+                )}
               </div>
             </div>
           </div>
