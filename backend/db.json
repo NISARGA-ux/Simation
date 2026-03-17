@@ -18,6 +18,18 @@
       "skillAssessment": {
         "ratings": [
           {
+            "skill": "JavaScript",
+            "rating": 5
+          },
+          {
+            "skill": "HTML",
+            "rating": 5
+          },
+          {
+            "skill": "CSS",
+            "rating": 5
+          },
+          {
             "skill": "React",
             "rating": 5
           },
@@ -26,16 +38,12 @@
             "rating": 5
           },
           {
-            "skill": "TypeScript",
-            "rating": 1
+            "skill": "PostgreSQL",
+            "rating": 5
           },
           {
-            "skill": "SQL",
-            "rating": 1
-          },
-          {
-            "skill": "MongoDB",
-            "rating": 3
+            "skill": "Git",
+            "rating": 5
           },
           {
             "skill": "Docker",
@@ -43,18 +51,49 @@
           },
           {
             "skill": "AWS",
+            "rating": 3
+          },
+          {
+            "skill": "FastAPI",
+            "rating": 5
+          },
+          {
+            "skill": "TypeScript",
+            "rating": 3
+          },
+          {
+            "skill": "Redis",
+            "rating": 3
+          },
+          {
+            "skill": "LangChain",
+            "rating": 3
+          },
+          {
+            "skill": "Rust",
             "rating": 2
           },
           {
+            "skill": "Temporal",
+            "rating": 0
+          },
+          {
+            "skill": "dbt",
+            "rating": 0
+          },
+          {
             "skill": "Next.js",
-            "rating": 2
+            "rating": 3
           }
         ],
-        "marketability": 89,
+        "track": "Web Development",
+        "marketability": 84,
         "topGaps": [
-          "AWS"
+          "Temporal",
+          "dbt",
+          "Rust"
         ],
-        "assessedAt": "2026-03-16T20:27:24.172Z"
+        "assessedAt": "2026-03-17T04:42:46.516Z"
       }
     },
     {
@@ -111,7 +150,87 @@
       "department": "CSE",
       "branch": "IOT",
       "avatar": "dog.jpg",
-      "totalPoints": 50
+      "totalPoints": 50,
+      "skillAssessment": {
+        "ratings": [
+          {
+            "skill": "JavaScript",
+            "rating": 5
+          },
+          {
+            "skill": "HTML",
+            "rating": 5
+          },
+          {
+            "skill": "CSS",
+            "rating": 5
+          },
+          {
+            "skill": "React",
+            "rating": 5
+          },
+          {
+            "skill": "Node.js",
+            "rating": 5
+          },
+          {
+            "skill": "PostgreSQL",
+            "rating": 5
+          },
+          {
+            "skill": "Git",
+            "rating": 5
+          },
+          {
+            "skill": "Docker",
+            "rating": 5
+          },
+          {
+            "skill": "AWS",
+            "rating": 5
+          },
+          {
+            "skill": "FastAPI",
+            "rating": 5
+          },
+          {
+            "skill": "TypeScript",
+            "rating": 0
+          },
+          {
+            "skill": "Redis",
+            "rating": 3
+          },
+          {
+            "skill": "LangChain",
+            "rating": 3
+          },
+          {
+            "skill": "Rust",
+            "rating": 3
+          },
+          {
+            "skill": "Temporal",
+            "rating": 1
+          },
+          {
+            "skill": "dbt",
+            "rating": 1
+          },
+          {
+            "skill": "Next.js",
+            "rating": 4
+          }
+        ],
+        "track": "Web Development",
+        "marketability": 87,
+        "topGaps": [
+          "TypeScript",
+          "Temporal",
+          "dbt"
+        ],
+        "assessedAt": "2026-03-17T04:34:09.736Z"
+      }
     },
     {
       "id": 6,
