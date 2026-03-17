@@ -19,27 +19,27 @@
         "ratings": [
           {
             "skill": "JavaScript",
-            "rating": 5
+            "rating": 3
           },
           {
             "skill": "HTML",
-            "rating": 5
+            "rating": 3
           },
           {
             "skill": "CSS",
-            "rating": 5
+            "rating": 2
           },
           {
             "skill": "React",
-            "rating": 5
+            "rating": 3
           },
           {
             "skill": "Node.js",
-            "rating": 5
+            "rating": 3
           },
           {
             "skill": "PostgreSQL",
-            "rating": 5
+            "rating": 3
           },
           {
             "skill": "Git",
@@ -54,20 +54,20 @@
             "rating": 3
           },
           {
-            "skill": "FastAPI",
-            "rating": 5
-          },
-          {
             "skill": "TypeScript",
             "rating": 3
           },
           {
-            "skill": "Redis",
+            "skill": "Express.js",
+            "rating": 3
+          },
+          {
+            "skill": "MongoDB",
             "rating": 3
           },
           {
             "skill": "LangChain",
-            "rating": 3
+            "rating": 5
           },
           {
             "skill": "Rust",
@@ -80,20 +80,17 @@
           {
             "skill": "dbt",
             "rating": 0
-          },
-          {
-            "skill": "Next.js",
-            "rating": 3
           }
         ],
         "track": "Web Development",
-        "marketability": 84,
+        "marketability": 78,
         "topGaps": [
           "Temporal",
           "dbt",
+          "CSS",
           "Rust"
         ],
-        "assessedAt": "2026-03-17T04:42:46.516Z"
+        "assessedAt": "2026-03-17T05:12:42.733Z"
       }
     },
     {
