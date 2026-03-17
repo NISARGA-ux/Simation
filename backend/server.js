@@ -33,6 +33,7 @@ app.use("/api/jd", jdRoutes);
 app.use("/api/github", githubRoutes);
 app.use("/api/courses", coursesRoutes);
 app.use("/api/notifications", notificationsRoutes);
+app.use("/api/debug", require("./routes/debug"));
 
 // Serve frontend build from /dist
 const frontendPath = path.join(__dirname, "dist");
